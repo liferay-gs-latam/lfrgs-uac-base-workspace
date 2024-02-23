@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<license>
+	<account-name>Liferay, Inc.</account-name>
+	<owner>Andre Fabbro</owner>
+	<description>Liferay, Inc. Developer Activation Keys</description>
+	<product-name>Portal Development</product-name>
+	<product-version>6.2 EE</product-version>
+	<license-name>Portal Developer</license-name>
+	<license-type>developer</license-type>
+	<license-version>4</license-version>
+	<start-date>Thursday, November 25, 2021 9:10:19 PM GMT</start-date>
+	<expiration-date>Saturday, November 1, 2121 9:10:19 PM GMT</expiration-date>
+	<max-http-sessions>5</max-http-sessions>
+	<key>10f659ac96915ceebed8e0220358cacef0e17dcdde968f1d2af41ddae7c5463625b8c74dc420f03ffad652446f779dee97659d0350fe387d791f565a78d01f31c87e7b21bfcd1953516e2cde640abc80a4fc90173acc8378a1983ab36cf79ef6c50557857db19f5d07eb76d79c8c9353b9397a805d85d1e9215621ae1fb0fb484797ee87</key>
+</license>

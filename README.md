@@ -1,4 +1,6 @@
-# Banco Central do Chile - Public Portal
+# Liferay 7.1 DXP
+
+Liferay DXP 7.1 running on docker compose.
 
 ## Requirements
 
