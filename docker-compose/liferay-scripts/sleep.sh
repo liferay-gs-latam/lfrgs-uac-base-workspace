@@ -1,4 +1,4 @@
 #!/bin/bash
 
-exec "Hello World"
+echo "Hello World"
 

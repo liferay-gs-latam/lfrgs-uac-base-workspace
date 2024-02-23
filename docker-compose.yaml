@@ -14,7 +14,7 @@ services:
       - "3306:3306"
 
   liferay:
-    image: liferay/portal:7.4.13-u102
+    image: liferay/dxp:7.4.13-u102
     environment:
       - LIFERAY_JVM_OPTS=-Xms3g -Xmx4g
       - LIFERAY_JDBC_PERIOD_DEFAULT_PERIOD_DRIVER_UPPERCASEC_LASS_UPPERCASEN_AME=com.mysql.cj.jdbc.Driver
