@@ -18,7 +18,7 @@ services:
       - "3306:3306"
 
   liferay:
-    image: liferay/dxp:7.1.10-dxp-28
+    image: liferay/dxp:7.0.10-sp17
     environment:
       - LIFERAY_JVM_OPTS=-Xms3g -Xmx4g
       - LIFERAY_JDBC_PERIOD_DEFAULT_PERIOD_DRIVER_UPPERCASEC_LASS_UPPERCASEN_AME=com.mysql.cj.jdbc.Driver
@@ -44,15 +44,3 @@ services:
       - ./bundles/data/document_library:/opt/liferay/data/document_library
     depends_on:
       - database
-      - search
-
-  search:
-    image: baseline/elasticsearch
-    build: ./docker-compose/elasticsearch/
-    environment:
-      - cluster.name=LiferayElasticsearchCluster
-      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
-      - "discovery.type=single-node"
-      - "node.name=es-node1"
-    volumes:
-      - ./bundles/data/elasticsearch-data:/usr/share/elasticsearch/data
