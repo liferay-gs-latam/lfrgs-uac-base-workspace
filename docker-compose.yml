@@ -1,0 +1,41 @@
+version: '3.9'
+
+services:
+
+  database:
+    image: mysql:5.5
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=lportal
+    command: --character-set-server=utf8 --collation-server=utf8_general_ci --lower-case-table-names=0
+    volumes:
+       - ./mysql-dump:/docker-entrypoint-initdb.d
+    ports:
+      - "3306:3306"
+    healthcheck:
+      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
+      timeout: 20s
+      interval: 10s
+      retries: 10
+
+  liferay:
+    image: liferay/portal:6.2.10.21
+    environment:
+      - JAVA_VERSION=zulu8
+      - LIFERAY_JVM_OPTS=-Xms4g -Xmx4g
+      - LIFERAY_RETRY_PERIOD_JDBC_PERIOD_ON_PERIOD_STARTUP_PERIOD_DELAY=20
+      - LIFERAY_RETRY_PERIOD_JDBC_PERIOD_ON_PERIOD_STARTUP_PERIOD_MAX_PERIOD_RETRIES=5
+    ports:
+      - "8080:8080"
+      - "8000:8000"
+    volumes:
+      - ./liferay-deploy:/mnt/liferay/deploy
+      - ./liferay-files:/mnt/liferay/files
+      - ./liferay-document-library:/opt/liferay/data/document_library
+    depends_on:
+      database:
+        condition: service_healthy

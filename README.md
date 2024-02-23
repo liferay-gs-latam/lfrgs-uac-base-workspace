@@ -1,41 +1,29 @@
-# Banco Central do Chile - Public Portal
+# Liferay 6.2 portal
 
-## Requirements
-
-* Blade (version >=4.1.2)
-* Java JDK 8
-* Docker and Docker Compose (CE edition) - version 24.0.2
+Liferay portal 6.2-EE running on docker compose.
 
 ## Database DUMP
 
 Download the Database backup from: link_to_backup
 
-Move the to the ```docker-compose/database-dump``` folder.
+Move the to the ```database-dump/``` folder.
 
-## Document Library
+# Document Library
 
 Download the document library from: link_to_document_library
 
-Move to the ```bundles/data/document_library/``` folder.
+Move to the ```liferay-document-library/``` folder.
 
-## Deploy Modules and Themes
+# Start up
 
-```
-blade gw deploy
-```
-
-## Start the environment
+Get a license for 6.2-EE and put into the ```liferay-files/deploy``` folder. Then run:
 
 ```
 docker compose up --build -d
 ```
 
-## Get logs:
+# Logs
 
 ```
 docker compose logs -f liferay
 ```
-
-## Access
-
-Access http://localhost:8080/ and login with [USER] and [PASSWORD]
