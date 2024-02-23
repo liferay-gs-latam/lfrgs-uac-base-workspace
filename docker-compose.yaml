@@ -3,7 +3,11 @@ version: '3.9'
 services:
 
   database:
-    image: mysql:8.0.33
+    image: mysql:5.7.44
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
     environment:
       - MYSQL_ROOT_PASSWORD=root
       - MYSQL_DATABASE=lportal
