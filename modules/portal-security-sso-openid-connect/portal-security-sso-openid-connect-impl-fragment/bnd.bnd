@@ -1,0 +1,5 @@
+Bundle-Name: CMIC Portal Security SSO OpenID Connect Implementation Fragment
+Bundle-SymbolicName: com.churchmutual.portal.security.sso.openid.connect.impl.fragment
+Bundle-Version: 1.0.2
+Export-Package: com.liferay.portal.security.sso.openid.connect.internal
+Fragment-Host: com.liferay.portal.security.sso.openid.connect.impl

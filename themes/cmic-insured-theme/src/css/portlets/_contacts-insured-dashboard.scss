@@ -1,0 +1,66 @@
+.contact-insured-dashboard-portlet {
+
+	@include media-breakpoint-down(xs) {
+		margin: 0 -1rem;
+	}
+
+	.card {
+		border-radius: .5rem;
+		margin-bottom: 4.5rem;
+		padding: 2rem 1.5rem;
+	}
+
+	.contact-information-container {
+		display: flex;
+		flex-direction: column;
+
+		@include media-breakpoint-between(sm, md) {
+			justify-content: space-between;
+			flex-direction: row;
+		}
+	}
+
+	.contact-support-information {
+		min-width: 0;
+
+		div {
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+	}
+
+	.my-contacts-information {
+		margin-top: 2.5rem;
+
+		@include media-breakpoint-between(sm, md) {
+			margin-top: 0;
+			padding-left: 1rem;
+			width: 50%;
+
+			.col-md-6 {
+				max-width: 100%;
+			}
+		}
+	}
+
+	.well {
+		background-color: $gray-100;
+
+		&-lg {
+			padding: 2rem;
+
+			@include media-breakpoint-between(sm, md) {
+				padding: 2.25rem;
+			}
+
+			@include media-breakpoint-down(xs) {
+				padding: 1.5rem;
+			}
+		}
+	}
+
+	.user-card {
+		margin-bottom: 0px;
+	}
+}

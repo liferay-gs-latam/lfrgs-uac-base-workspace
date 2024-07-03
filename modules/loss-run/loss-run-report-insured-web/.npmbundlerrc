@@ -1,0 +1,25 @@
+{
+	"create-jar": {
+		"output-dir": "dist",
+		"features": {
+			"js-extender": true,
+			"web-context": "/loss-run-report-insured-web",
+			"localization": "features/localization/Language"
+		}
+	},
+	"config": {
+		"imports": {
+			"com.churchmutual.commons.web": {
+				"/": ">=1.0.0",
+				"react": "16.8.6",
+				"react-dom": "16.8.6",
+				"@clayui/alert": "^3.3.0",
+				"@clayui/button": "^3.3.0",
+				"@clayui/modal": "^3.4.0",
+				"@clayui/form": "^3.6.0",
+				"@clayui/icon": "3.0.4"
+			}
+		}
+	},
+	"sources": ["src"]
+}

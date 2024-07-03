@@ -1,0 +1,15 @@
+$custom-control-indicator-checked-color-custom:        $white !default;
+$custom-radio-indicator-icon-checked-custom:           str-replace(url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='#{$custom-control-indicator-checked-color-custom}'/%3e%3c/svg%3e"), "#", "%23") !default;
+
+.custom-radio {
+  .custom-control-input {
+    &:checked ~ .custom-control-label::before {
+      background-color: $red;
+      border-color: $red;
+    }
+
+    &:checked ~ .custom-control-label::after {
+      background-image: $custom-radio-indicator-icon-checked-custom !important;
+    }
+  }
+}

@@ -1,0 +1,385 @@
+[
+  {
+    "partnerName": "aedsuperstore",
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "info-text": {
+          "defaultValue": "<h3>Exclusive AED pricing for Church Mutual policyholders</h3><p>AED Superstore is offering discounted prices for your organization. With this special pricing, you can get cutting edge AED technology and compliance assistance starting at <b>$999.00!</b></p><br><br><h3>State compliance assistance</h3><p>Church Mutual and AED Superstore want to help you stay compliant with state laws and regulations. ARCH is AED Superstore's proprietary AED medical direction and program management tool. This tool can help reduce your organization's exposure to liability.</p><br><p><a href='https://youtu.be/egh3w2i2_t4' rel='noopener noreferrer' target='_blank'>Click here to learn more about ARCH</a></p><br><br><h3>Discounted training and safety supplies</h3><p>AED Superstore offers training for CPR, AEDs, and First Aid. They also offer a wide variety of safety supplies including first aid kits, bleed control kits, CPR barrier masks, and more, all at a discount to Church Mutual policyholders.</p><br><p><a href='http://churchmutual.aeds.com/' rel='noopener noreferrer' target='_blank'>Click here to view training and supplies</a></p><br><br><h3>Expertise and Resources</h3><p>With Church Mutual and AED Superstore, you have a team of experts ready to help you safely and responsibly implement an AED program at your organization.</p><br><p><a href='https://www.aedsuperstore.com/aedlaws' rel='noopener noreferrer' target='_blank'>State Law Legal Analysis</a></p><br><br><p>To learn more about AED training courses and compliance standards, contact AED Superstore at <a href='tel:800-991-6581'>800-991-6584</a>.</p><br><p>Contact Risk Control Central at <a href='mailto:riskconsulting@churchmutual.com'>riskconsulting@churchmutual.com</a> or <a href='tel:800-554-2642'>800-554-2642</a>, option 4, x5213 to speak with a Church Mutual Risk Control Consultant.</p>",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "alice",
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "info-text": {
+          "defaultValue": "<h3>Additional Seminar Videos</h3><ul><li><a href='https://youtu.be/kIRnawiq_tc' rel='noopener noreferrer' target='_blank'>Preparing for an Armed Intruder seminar series: ALERT</a></li><li><a href='https://youtu.be/7blhNVsKtNI' rel='noopener noreferrer' target='_blank'>Preparing for an Armed Intruder seminar series: LOCKDOWN</a></li><li><a href='https://youtu.be/AT-EqcJCU4A' rel='noopener noreferrer' target='_blank'>Preparing for an Armed Intruder seminar series: INFORM</a></li><li><a href='https://youtu.be/js2ziJmAwTg' rel='noopener noreferrer' target='_blank'>Preparing for an Armed Intruder seminar series: COUNTER</a></li><li><a href='https://youtu.be/pLPQtOyVMEg' rel='noopener noreferrer' target='_blank'>Preparing for an Armed Intruder seminar series: EVACUATE</a></li></ul><br><h3>ALICE Training will help you to:</h3><ul><li><b>Maximize Survival</b> of congregants, students, residents, visitors, staff, volunteers and leadership.</li><li><b>Provide Accountability</b> by documenting completed training and preparation.</li><li><b>Reduce Liability</b> by aligning with state and federal standards of care for violent intruder events and helping to fulfil your duty to protect your people from danger.</li></ul><br><span class='font-weight-bold'>Learn more at <a href='https://www.alicetraining.com/'>alicetraining.com</a></span></p><br><p class='mb-2'>Contact Risk Control Central at <a href='mailto:riskconsulting@churchmutual.com'>riskconsulting@churchmutual.com</a> or<br><p><a href='tel:800-554-2642'>800-554-2642</a>, option 4, x5213 to speak with a Church Mutual Risk Control Consultant.</p>",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "beazley",
+    "configuration": {
+      "fieldSets": [
+        {
+          "fields": [
+            {
+              "name": "showCallToAction",
+              "label": "show-call-to-action",
+              "dataType": "string",
+              "defaultValue": "false",
+              "type": "select",
+              "typeOptions": {
+                "validValues": [
+                  {
+                    "value": "true"
+                  },
+                  {
+                    "value": "false"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "showSeparator",
+              "label": "show-separator",
+              "dataType": "string",
+              "defaultValue": "false",
+              "type": "select",
+              "typeOptions": {
+                "validValues": [
+                  {
+                    "value": "true"
+                  },
+                  {
+                    "value": "false"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "info-text": {
+          "defaultValue": "<p>Church Mutual now provides cyber liability coverage under your multi-peril policy. We offer affordable, extensive coverage when the personal and private information your organization stores on computers is compromised or stolen. Claims are managed by Beazley's award winning claims team.</p><br><p>Both Church Mutual and Beazley are rated A (Excellent) by A.M. Best, the industry's leading analyst.<sup>i</sup> Church Mutual is the leading insurer of religious institutions, insuring nearly twice as many religious institutions as its closest competitor. Beazley is an industry leader in privacy and security coverage. We are confident that this partnership will continue bringing you the excellent service from Church Mutual that you have come to expect.</p><br><h3>Beazley Breach Response (BBR) Services</h3><h4>A data breach isn't always a disaster. Mishandling it is.</h4>When your organization suffers a data breach, our first concern is to handle the breach in a way that upholds your confidence. Beazley pioneered data breach insurance that focuses first and foremost on response and has a dedicated in-house business unit that focuses exclusively on helping you manage data breaches effectively.</p><br><p>The BBR Services team focuses on coordination of expert forensic, legal, notification and credit monitoring services that you need to satisfy data and privacy legal requirements and reassure your organization. In addition, the policy covers certain loss arising from a regulatory proceeding, the risk of which may be reduced by a well-coordinated breach response but can never be completely eliminated. Besides coordinating data breach response, BBR Services is responsible for maintaining and developing Beazley's suite of risk management services, designed to minimize the risk of a data breach occurring.</p><br><p>Beazley invented this comprehensive approach and has helped more than 12,000 clients manage data breaches swiftly and successfully.</p><br><h3>Think data breach can't happen to you? Think again.</h3><p>Just take a look at the following examples to learn why everyone should have appropriate coverage.</p><br><p class='mb-2'><span class='font-weight-bold'>Data breach at an assisted living facility</span><br><p>The United States Secret Service identified a potential HIPAA breach that may have compromised data for 100 residents. As a result, an experienced team of dedicated cyber claims specialists quickly engaged a breach coach and a forensic investigator. Knowledgeable partners helped ensure the incident was properly handled and reported to the state regulatory agencies.</p><br><p class='mb-2'><span class='font-weight-bold'>A pastor's laptop - stolen</span><br><p>A pastor's laptop containing members' private financial information was stolen from his home. As a result, members sued the church for damages resulting from alleged failure to protect their private financial information.</p><br><p class='mb-2'><span class='font-weight-bold'>A malware data breach at a conference center</span><br><p>A conference center's computer system was compromised when a third party sent a malware program via email to a number of employees. The invasive software allowed the third party to access the system and capture the names, addresses and credit card numbers of more than 500 guests.</p><br><p class='mb-2'><span class='font-weight-bold'>Theft by an employee</span><br><p>A private school secretary stole a donor's credit card information, resulting in a forensic investigation, a lawsuit and a Payment Card Industry (PCI) fine. The total cost of investigation, fine and settlement approached $50,000.</p><br><p class='mb-2'><span class='font-weight-bold'>A costly mistake</span><br><p>A staff member at an assisted living facility commented on a resident's health matter on a social media site. The HIPAA violation and resulting legal expenses exceeded $250,000.</p><br><p class='mb-2'><span class='font-weight-bold'>An online bookstore hacked</span><br><p>An online religious bookstore had its transaction processing system hacked. Thieves collected credit card data over the course of one year before the Secret Service notified the retailer's manager. A credit card company issued thousands of dollars of PCI-related contractual fines and penalties to the payment processor who, in turn, contractually passed the obligation to the bookstore.</p><br><p class='mb-2'><span class='font-weight-bold'>Paper records stolen</span><br><p>A lockbox containing employee and direct deposit information was stolen from the main office. As a result, current and former employees' personally identifiable information including social security numbers was taken. Legal obligations may include notifications and credit monitoring for current and former employees</p><br><h3>How to file a claim</h3><p>If you feel your organization has experienced a cyber-related concern such as one of those noted above, reach out to our Claims Center at <a href='tel:800-554-2642'>(800) 554-2642</a> and select Option 2, or <a href='https://integration.churchmutual.com/online-claims-reporting/report' rel='noopener noreferrer' target='_blank'>click the link to file an online report</a>.</p><br><h3>We're here for you</h3><p>Our liability insurance and protection services focus on your protection and include prevention education, coverage for data loss or theft, identity theft related to a cyber loss and post-loss data recovery. For assistance, visit churchmutual.com or contact our Risk Control Consulting and Research Center at <a href='tel:800-554-2642'>(800) 554-2642</a>, ext. 5213, or <a href='mailto:riskconsulting@churchmutual.com'>riskconsulting@churchmutual.com</a>.</p><br><p><sup>i</sup> Additional information concerning AM Best ratings can be found at ambest.com</p><br><p><i>Claims handling and breach response services are provided by Beazley USA Services, a member of Beazley Group. Beazley USA Services does not underwrite insurance for Church Mutual Insurance Company. Policies purchased through Church Mutual Insurance Company are subject to Church Mutual Insurance Company’s underwriting processes.</i></p>",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "concentra",
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "info-text": {
+          "defaultValue": "<h3>Online treatment and physical therapy for minor injuries</h3>Employees can use telemedicine to seek treatment for the following injuries:<ul><li>Grade I/II upper/lower extremity strains/sprains</li><li>Minor neck and back strains/sprains</li><li>Bruises/contusions</li><li>Minor burns</li><li>Abrasions/scrapes</li><li>Contact dermatitis/rashes</li><li>Tendonitis/repetitive-use injuries</li></ul>They can also undergo virtual physical therapy to treat sprains and strains and repetitive use injuries.</p><br><h3>Easy access for employees</h3><p>If a telemedicine patient requires in-person care, they can continue treatment at a nearby Concentra medical facility with minimal delay. They receive the benefit of telemedicine without giving up the option of hands-on care. In this age of COVID-19 return-to-work evaluations, employees also have the convenience of resuming their normal activities without needing to wait in a long line.</p><br><p><sup>1</sup>Concentra Telemed® is an independent company, unaffiliated with Church Mutual Insurance Company, S.I. Any contracts between you and Concentra are solely between you and Concentra and are not contracts for services with Church Mutual Insurance Company, S.I.</p><br><p>Concentra Telemed is currently available in all states EXCEPT Alabama, Arkansas, Idaho, Mississippi, Montana, Nevada, New York, North Dakota, South Dakota, Washington, and Wyoming.</p>",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "ibhs",
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "info-text": {
+          "defaultValue": "<p class='mb-2'>Together, we offer resources to help protect your organization from severe weather and natural disasters, such as:</p><p class='mb-2'><a href='https://disastersafety.org/flood/' rel='noopener noreferrer' target='_blank'>Flooding</a></p><p class='mb-2'><a href='https://disastersafety.org/hail/' rel='noopener noreferrer' target='_blank'>Hailstorms</a></p><p class='mb-2'><a href='https://disastersafety.org/hurricane/' rel='noopener noreferrer' target='_blank'>Hurricanes</a></p><p class='mb-2'><a href='https://disastersafety.org/wildfire/' rel='noopener noreferrer' target='_blank'>Wildfires</a></p><p class='mb-2'><a href='https://disastersafety.org/maintenance/how-to-inspect-and-maintain-your-commercial-roof/' rel='noopener noreferrer' target='_blank'>Roofing problems</a></p><p class='mb-2'><a href='https://disastersafety.org/rain/' rel='noopener noreferrer' target='_blank'>Thunderstorms</a></p><p class='mb-2'><a href='https://disastersafety.org/rain/' rel='noopener noreferrer' target='_blank'>Tornadoes</a></p><p class='mb-2'><a href='https://disastersafety.org/winter-weather/' rel='noopener noreferrer' target='_blank'>Winter weather events</a><br><br><br><h3>EZ-PREP: Severe weather emergency preparedness and response planning</h3><p>Being prepared for emergencies is your first line of defense and needs to be one of your greatest priorities. We have worked with our partners at IBHS to offer a customizable guide, called EZ-PREP, to help your organization plan for severe weather and develop a response planning toolkit.</p><br><br><h3>About the IBHS Research Center</h3><p>IBHS is the only lab in the world that can test full-scale one- and two-story residential and commercial buildings in a controlled, repeatable fashion for highly realistic windstorms, wind-driven rain, hailstorms and wildfire ember storms.</p><br><br><h3>Research Tools</h3><ul><li><a href='https://vimeo.com/138085476' rel='noopener noreferrer' target='_blank'>Wind tunnel</a></li><li><a href='https://vimeo.com/79340385' rel='noopener noreferrer' target='_blank'>Wildfire ember generator</a></li><li><a href='https://vimeo.com/122671817' rel='noopener noreferrer' target='_blank'>Rain system</a></li><li><a href='https://vimeo.com/160381773' rel='noopener noreferrer' target='_blank'>Roof aging farm</a></li><li><a href='https://vimeo.com/191164726' rel='noopener noreferrer' target='_blank'>Hail cannons</a></li></ul><br><h3>Questions?</h3><p>If you have additional questions or need help with identifying ways to protect your organization from natural disasters, contact our Risk Control Central team:</p><br><p class='mb-2'>Call: <a href='tel:800-554-2642'>(800) 554-2642</a>, ext. 5213<br><p>Email: <a href='mailto:riskconsulting@churchmutual.com'>riskconsulting@churchmutual.com</a></p>",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "insightww",
+    "configuration": {
+      "fieldSets": [
+        {
+          "fields": [
+            {
+              "name": "showCallToAction",
+              "label": "show-call-to-action",
+              "dataType": "string",
+              "defaultValue": "false",
+              "type": "select",
+              "typeOptions": {
+                "validValues": [
+                  {
+                    "value": "true"
+                  },
+                  {
+                    "value": "false"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "showSeparator",
+              "label": "show-separator",
+              "dataType": "string",
+              "defaultValue": "false",
+              "type": "select",
+              "typeOptions": {
+                "validValues": [
+                  {
+                    "value": "true"
+                  },
+                  {
+                    "value": "false"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "info-text": {
+          "defaultValue": "<p>Compatible with Applicant Tracking System (ATS) and online job application forms, Insight Worldwide’s online prescreening assessment is Equal Employment Opportunity Commission (EEOC) and Americans with Disabilities Act (ADA) compliant and takes just 30 minutes to complete on any Internet-ready computer, tablet or smartphone. Immediate results address attributes, such as compassion, trust, honesty, respect, dedication, dependability and patience, as well as identify those who admit to employee theft, illegal drug use and workplace violence.</p><br><p>Make better hiring decisions that will help protect your organization. For more information, contact Insight Worldwide via <a href='mailto:info@insightww.com'>email</a> or call <a href='tel:888-314-8908'>(888) 314-8908</a>.</p><br><h3>Hire the Best Employees with Integrity Plus</h3><p>Insight Worldwide offers a variety of assessment programs, including Integrity Plus. spaning even deeper to reveal additional moral and behavioral details that might not come out in standard interviews, this program is suitable for prescreening job applicants at houses of worship, schools, camps and conference centers and other types of business.</p><br><h3>Special Information for Senior Living Facilities</h3><p>For more information on the assessment, including attributes measured, compliance and pricing, download our fact sheet today.</p>",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "medcor",
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "info-text": {
+          "defaultValue": "<h3>What the hotline can do for your employees</h3><p>Even in the safest of workplace environments, injuries can happen. Supervisors, who usually aren’t trained medical professionals, often don’t know how to properly deal with an injury. As a result, employees with minor injuries are often sent for unnecessary and expensive off-site care when first aid would have sufficed. Conversely, employees with more serious injuries might not get the care they need.</p><br><p>Our no-cost Nurse Hotline provides you with 24/7 access to medical professionals who can help you appropriately manage work-related injuries.</p><br>You and your employees will benefit from:<ul><li>Sound clinically based decisions about when first aid is appropriate and when outside care referrals are necessary</li><li>Consistent treatment decisions and documentation of injuries</li><li>Off-site referrals to preselected providers</li><li>Lower frequency and severity of workers’ compensation claims</li><li>Potential for reduced experience modification</li><li>Greater confidence on the part of employees and less confusion for the employer</li></ul>In addition to getting your employees the treatment they need in a timely manner, the Nurse Hotline also helps ensure that if you need to file a claim, you do so in a timely manner, which helps reduce costs, confusion and, potentially, litigation.</p><br><h3>Nurse Hotline, powered by Medcor — the leader in injury triage services</h3><p class='mb-2'>Church Mutual chooses all of its partners very carefully, and Medcor is no exception.</p><p class='mb-2'>Medcor provides injury triage services from coast to coast, giving injured employees instant access to specially trained medical professionals and state-of-the-art triage protocols. As a result, employees experience better health outcomes and employers benefit from greater productivity, minimized frequency and reduced severity of workers’ compensation claims.</p><p class='mb-2'>In fact, Medcor’s services have shown to prevent 35 percent to 50 percent of injuries from becoming a workers’ compensation claim, which can help reduce the experience modification.</p><p class='mb-2'>Medcor pioneered telephone triage in 1997 and continues to set the standard for performance. Its call center is staffed by registered nurses who are specially trained in responding to workplace injuries, operating under the supervision of a staff physician. They have unparalleled experience and reliability with regularly updated clinical algorithms that are designed specifically for workplace injuries. A commitment to continuous improvement helps ensure they are providing the best care available. Plus, Medcor is accredited by URAC, the preeminent independent nonprofit healthcare standards organization, and has earned four U.S. patents, with more pending.</p><br><h3>Here’s how it works</h3><p class='mb-2'><span class='font-weight-bold'>Step one: Make the call at the time of injury</span><p class='mb-2'>Employees should be trained to notify their supervisor immediately in the case of an injury. At that time, the supervisor will make the call to the Church Mutual Nurse Hotline <a href='tel:844-322-4662'>(844) 322-4662</a>. Once the supervisor provides the nurse on call with pertinent facts, the injured employee will get on the phone so the nurse can ascertain the severity of his or her injuries. If the supervisor is not available, the injured employee can make the call directly.</p><br><p class='mb-2'><span class='font-weight-bold'>Step two: The nurse recommendation</span><p class='mb-2'>The nurse on call will provide the employee and supervisor with next steps for treating the injury. This could be anything from going to the emergency room, to making an appointment with a specialist to simple first aid. If the employee will self-treat, the nurse will forward patient follow-up care instructions in writing, directly to the employee.</p><br><p class='mb-2'><span class='font-weight-bold'>Step three: Debrief with manager, if present</span><p class='mb-2'>The nurse will confirm the treatment plan with the manager.</p><p class='mb-2'>If self-care/first-aid is all that is needed, the nurse will advise the manager of this, and also will explain the specific recommendations provided to the employee. The nurse will fax or email follow-up instructions to the employee to reinforce the recommended steps for self-care/first-aid.</p><p class='mb-2'>If outside care is recommended or sought, the nurse also will notify the manager of this (if available), along with the name of any specific provider for possible evaluation and treatment.</p><br><p class='mb-2'><span class='font-weight-bold'>Step four: Timely record distribution</span><p class='mb-2'>All calls will be documented in some way.</p><p class='mb-2'>If self-care/first-aid is all that is needed, the nurse will provide Church Mutual Claims an incident report, but no formal claim will be established within the claims system, and the incident will not appear on any loss runs.</p><p>If outside care is recommended or sought, the nurse will send a report to the Claim Reporting Center, and a formal claim will be created within the claims system, and an appropriate claim handler will be assigned to manage the file. The claim will appear on loss runs.</p><br><p class='mb-2'><span class='font-weight-bold'>If an injury is serious or life threatening, call 911</span></p>These include, but aren’t limited to, the following conditions:<ul><li>Choking</li><li>Unconsciousness or severe disorientation</li><li>Severe bleeding</li><li>Lack of balance or inability to walk</li><li>Hot, dry skin</li><li>Seizures or convulsions</li><li>Difficulty breathing</li><li>Chest pain or discomfort</li><li>Profuse sweating</li><li>Severe abdominal pain</li><li>Any other problem you feel might be an emergency</li></ul><h3>Frequently asked questions</h3><p class='mb-2'><span class='font-weight-bold'>What is the average length of call to the Church Mutual Nurse Hotline?</span></p><p class='mb-2'>In total, 15 minutes.</p><br><p class='mb-2'><span class='font-weight-bold'>How is the call center staffed?</span></p><p class='mb-2'>The call center is staffed with registered nurses, 24 hours a day, seven days a week, under the direction of Medcor’s full-time medical director. The Medcor Injury Triage medical director is board certified in emergency medicine.</p><br><p class='mb-2'><span class='font-weight-bold'>Do your nurses speak any other language besides English?</span></p><p class='mb-2'>If a language barrier exists, a translation service is quickly brought into the call. More than 200 languages are available.</p><br><p class='mb-2'><span class='font-weight-bold'>When nurses recommend self-care, can employees still request to see their own doctor?</span></p><p class='mb-2'>Absolutely. The service does not deny employees their right to medical care; however, it is intended to provide employees with expert information to aid them in making the best decision for their medical care.</p><br><p class='mb-2'><span class='font-weight-bold'>If a referral is made to a designated medical facility, what information do employees need to take with them?</span></p><p class='mb-2'>No further information is necessary unless your organization requires specific paperwork. The Medcor nurse will automatically fax or email an injury alert form to the designated clinic prior to the injured employee’s arrival.</p><br><p class='mb-2'><span class='font-weight-bold'>Is the hotline nurse our workers’ compensation claims examiner?</span></p><p class='mb-2'>No. The Nurse Hotline is a telephonic injury management service. If appropriate, the nurse will fax or email the necessary information to Church Mutual’s claims department.</p><br><p class='mb-2'><span class='font-weight-bold'>What do we do if the injured employee is a minor?</span></p><p class='mb-2'>Each employer should follow its own procedures for managing injured employees who are minors. Medcor does not require parental consent for triage, but medical providers at off-site facilities might require parental consent before treating employees who are minors.</p><br><p class='mb-2'><span class='font-weight-bold'>Are the calls recorded?</span></p><p class='mb-2'>All calls are digitally recorded for quality assurance and to accurately document the facts of the injury. Callers are notified that the call is recorded and they consent to the recording by participating in the call.</p><br><p class='mb-2'><span class='font-weight-bold'>Is the service available for non-work-related injuries?</span></p><p class='mb-2'>No. You should follow your organization’s guidelines for non-work injuries.</p><br><p class='mb-2'><span class='font-weight-bold'>Should we call the Nurse Hotline if a guest is injured at our location?</span></p><p class='mb-2'>No. You should follow your organization’s guidelines if a guest is injured at your location.</p><br><p class='mb-2'><span class='font-weight-bold'>Should I call the Nurse Hotline with billing, payment, insurance or authorization questions?</span></p><p class='mb-2'>No. The Nurse Hotline is not able to answer these types of questions. Please follow your organization’s guidelines.</p><br><h3>Train your employees</h3><p class='mb-2'>Make sure all of your employees are aware of the Church Mutual Nurse Hotline and how to use it. Then, post the hotline number in a place where it is highly visible. We have posters and other items available that you can share with your staff.</p><p>For more information on the Church Mutual Nurse Hotline, powered by Medcor, talk to your Church Mutual representative, agent or broker.</p>",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "ministrysafe",
+    "configuration": {
+      "fieldSets": [
+        {
+          "fields": [
+            {
+              "name": "showCallToAction",
+              "label": "show-call-to-action",
+              "dataType": "string",
+              "defaultValue": "true",
+              "type": "select",
+              "typeOptions": {
+                "validValues": [
+                  {
+                    "value": "true"
+                  },
+                  {
+                    "value": "false"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "showSeparator",
+              "label": "show-separator",
+              "dataType": "string",
+              "defaultValue": "false",
+              "type": "select",
+              "typeOptions": {
+                "validValues": [
+                  {
+                    "value": "true"
+                  },
+                  {
+                    "value": "false"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "info-text": {
+          "defaultValue": "<h3>MinistrySafe | Abuse Prevention Systems has filmed a condensed version of their child abuse prevention workshop, so it can be viewed online at no cost.</h3><br>The condensed online workshop is two hours, rather than the typical four and a half and is broken down into eight segments:<ul><li>Introduction – WHY a Child Safety Workshop</li><li>Facts v. Misconceptions (Part 1)</li><li>Facts v. Misconceptions (Part 2)</li><li>The Grooming Process (Part 1)</li><li>The Grooming Process (Part 2)</li><li>The WHAT – An Effective Safety System</li><li>The HOW – Implementing Specific Elements</li><li>Conclusion</li></ul><a href='https://ministrysafe.com/childsafety/' rel='noopener noreferrer' target='_blank'>Click here</a> to access the free workshop.</p><br><h3>MinistrySafe</h3>Meets the unique needs of faith-based organizations, including:<ul><li>Houses of worship</li><li>Camps</li><li>Schools</li><li>Mission organizations</li><li>Other ministry programming</li></ul><a href='https://ministrysafe.com/churchmutual/' rel='noopener noreferrer' target='_blank'>Click here</a> to learn more about MinistrySafe.</p><br><h3>Abuse Prevention Systems (APS)</h3>Covers a wide variety of organizations that serve children, such as:<ul><li>Nonprofits</li><li>Day care centers</li><li>Schools</li><li>Clubs</li><li>Youth sports organizations</li><li>Camps</li></ul><a href='https://www.abusepreventionsystems.com/churchmutual/' rel='noopener noreferrer' target='_blank'>Click here</a> to learn more about APS.</p><br><h3>How do I get started?</h3><ol><li>Sign up for an annual membership.</li><li>Gain access to online tools and resources.</li><li>Browse selection of online trainings and find the best fit for your staff and volunteers.</li><li>Deploy and manage trainings.</li></ol></p>",
+          "config": {}
+        },
+        "info-call-to-action-text": {
+          "defaultValue": "<div class='card-deck pt-6 pb-7'><div class='call-to-action-card card'><img src='/o/cmic-fragment-collection-contributor/images/logo/logo-ministrysafe-3.png' alt='logo' class='card-img-top'><h3 class='font-weight-bold'>Sign up with MinistrySafe today!</h3><a href='https://ministrysafe.com/churchmutual' target='_blank' role='button' class='mx-3 my-5 btn btn-outline-primary link-action'>MORE INFO</a></div><div></div><div class='call-to-action-card card'><img src='/o/cmic-fragment-collection-contributor/images/logo/logo-ministrysafe-4.png' class='card-img-top' alt='logo'><h3 class='font-weight-bold'>Sign up with Abuse Prevention Systems today!</h3><a href='https://www.abusepreventionsystems.com/churchmutual' target='_blank' role='button' class='mx-3 my-5 btn btn-outline-primary link-action'>MORE INFO</a></div></div>",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "relias",
+    "configuration": {
+      "fieldSets": [
+        {
+          "fields": [
+            {
+              "name": "showCallToAction",
+              "label": "show-call-to-action",
+              "dataType": "string",
+              "defaultValue": "false",
+              "type": "select",
+              "typeOptions": {
+                "validValues": [
+                  {
+                    "value": "true"
+                  },
+                  {
+                    "value": "false"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "showSeparator",
+              "label": "show-separator",
+              "dataType": "string",
+              "defaultValue": "false",
+              "type": "select",
+              "typeOptions": {
+                "validValues": [
+                  {
+                    "value": "true"
+                  },
+                  {
+                    "value": "false"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "info-text": {
+          "defaultValue": "<p>You can easily carry out safety and continuing education training for your employees through the Relias educational portal. This helps ensure consistent, position-specific training that can be completed by employees at their own pace, on their own schedule.</p><br><p>As a Church Mutual customer, you can use the power of Relias to improve quality care and resident health outcomes, all at a discounted price.</p><br><h3>Know More. Get Better.</h3><span class='font-weight-bold'>Combine analytics, assessments and learning tools to:</span><ul><li>Create personalized learning programs to improve performance</li><li>Pinpoint workforce and inspanidual knowledge gaps</li><li>Reduce variation by identifying critical issues</li></ul><span class='font-weight-bold'>Solutions:</span><ul class='mb-2'><li>Compliance training</li><li>Continued education</li><li>Hiring, onboarding & retention</li><li>Value-based payments</li><li>Population health management</li><li>Emergency department</li></ul><a href='https://www.relias.com/industry/assisted-living-senior-care'>Visit Relias</a> to learn more about solutions for assisted living and senior care communities.</p><br><h3>Improve your organization's ability to identify problems and drive positive outcomes.</h3><br><p class='mb-2'>Learn more about how Relias can help maximize your organization's performance and improve outcomes by contacting us.</p><p class='mb-2'><span class='font-weight-bold'>Call:</span> <a href='tel:800-554-2642'>(800) 554-2642</a>, ext. 5213</p><p class='mb-2'><span class='font-weight-bold'>Email:</span> <a href='mailto:riskconsulting@churchmutual.com'>riskconsulting@churchmutual.com</a></p>",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "roadmaster",
+    "configuration": {
+      "fieldSets": [
+        {
+          "fields": [
+            {
+              "name": "showCallToAction",
+              "label": "show-call-to-action",
+              "dataType": "string",
+              "defaultValue": "false",
+              "type": "select",
+              "typeOptions": {
+                "validValues": [
+                  {
+                    "value": "true"
+                  },
+                  {
+                    "value": "false"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "showSeparator",
+              "label": "show-separator",
+              "dataType": "string",
+              "defaultValue": "false",
+              "type": "select",
+              "typeOptions": {
+                "validValues": [
+                  {
+                    "value": "true"
+                  },
+                  {
+                    "value": "false"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "info-text": {
+          "defaultValue": "<h3>Order your Roadmaster Active Suspension kit today!</h3><p><span class='font-weight-bold'>The \"G\" Series RAS kits are only available directly from Roadmaster by calling <a href='tel:800-398-5036'>(800) 398-5036</a>. When you place your order, be sure to mention that you are a Church Mutual customer to receive your discount.</span></p><br><p><span class='font-weight-bold'>Note:</span> Although the Roadmaster Active Suspension kit is designed to make vehicles more stable, this product is not a substitute for using experienced and safe drivers, requiring all passengers to wear seat belts and adhering to a sound maintenance schedule.</p><br><h3>Here is what one church executive has to say about his experience with the Roadmaster kit:</h3><br><i>Having learned of the Roadmaster active suspension system through information provided by Church Mutual a few years ago, I was convinced to install it on two of the church's 15-passenger vans because of their very \"sloppy\" highway handling characteristics. The results were astounding! Both vans tracked better and had more driver responsive control and less rear spring sag and \"tail wag\" on the highway.</p><br><p>Because of the dramatic improvement, I installed a set on a smaller pickup truck which had experienced excessive axle \"wrap\" on acceleration and needed a bit of load improvement; same results. Axle \"wrap\" virtually stopped, and the truck's load capacity and control were significantly improved overnight.</p><br><p>Installation was a snap in all cases and accomplished with readily available simple tools in under an hour per vehicle.</p><br><p>Thanks to Roadmaster and Church Mutual for the advice and our improved safety!</p><br><p class='mb-2'>Ken Bruner</p><p class='mb-2'>Executive Operations director</p><p class='mb-2'>First United Methodist Church</p>Kerrville, TX</i>",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "safelyyou",
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "info-text": {
+          "defaultValue": "<h3>Reduce technology costs and long-term cost of insurance premiums</h3><p>As a Church Mutual Senior Living Professional Liability customer in good standing, you may be eligible for cost sharing for an initial pilot installation. We are confident that once you get to experience the technology in action, you will be interested in deploying it throughout your communities.</p><br><h3>Providing the best care</h3><p><a href='https://info.safely-you.com/churchmutualandsafelyyou' rel='noopener noreferrer' target='_blank'>Click here</a> to schedule a demo with a member of the SafelyYou team today!</p><p>Mention Church Mutual referred you to learn if your organization is eligible for the pilot installation cost sharing and SafelyYou service discount programs.</p><br><p><span class='font-weight-bold'><i>SafelyYou is an independent company, unaffiliated with Church Mutual Insurance Company, S.I. Any contracts between you and SafelyYou are solely between you and SafelyYou and are not contracts for services with Church Mutual Insurance Company, S.I.</i></span></p><p><sup>1</sup>There are certain eligibility guidelines for the program. For starters, you must be an existing Church Mutual Senior Living Professional Liability Insurance customer in good standing. If interested, contact your authorized Church Mutual agent or broker to determine whether you qualify.</p><p><sup>2</sup>The 10% discount will apply to new contracts for monitoring and consulting services for the term of the contract you sign with SafelyYou. This discount is being provided by SafelyYou. You must be a Church Mutual Senior Living Professional Liability Insurance customer at the time the contract is signed to qualify for this discount from SafelyYou.</p><p>Eligibility must be determined and approved prior to contracting with SafelyYou for installation. Certain rules apply including the need to be a Church Mutual Senior Living Professional Liability Insurance customer in good standing both when eligibility is approved and when the installation is completed and activated. The partial reimbursement (cost sharing) for installation costs will not be processed until Church Mutual Insurance Company, S.I. has confirmation that the technology has been both deployed and activated.</p>",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "sec",
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "info-text": {
+          "defaultValue": "<p>Church Mutual has partnered with Secure Education Consultants (SEC) to provide policyholders with resources to support their organizations before, during and after a crisis.</p><br><h3>Have you experienced a crisis?</h3><p>When things go wrong, the hours immediately following a crisis are critical in influencing the long-term effects of the event. Whether an active shooting has taken place, allegations of sexual misconduct have been reported, food poisoning has broken out after an event, or any other crisis has occurred, you must have a plan in place to respond and communicate accordingly.</p><br><p>Resources from SEC can help you to develop an effective communication plan and mitigate the effects of a crisis.</p><br><p>If you need additional help dealing with your crisis, Church Mutual policyholders can receive one hour of FREE crisis coaching from the SEC Crisis Team by calling (616) 528-4071.</p><br><h3>We're here to help!</h3><p>If you have additional questions, or need help with emergency or crisis planning and prevention, contact our Risk Control Central team.</p><br><p><span class='font-weight-bold'>Call:</span> <a href='tel:800-554-2642'>(800) 554-2642</a>, ext. 5213</p><br><span class='font-weight-bold'>Email:</span> <a href='mailto:riskconsulting@churchmutual.com'>riskconsulting@churchmutual.com</a>",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "trusted-employees",
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "info-text": {
+          "defaultValue": "<p>You need the right employees and volunteers to assist you in protecting the greater good. To help you select the best people for your team, Church Mutual is partnering with Trusted Employees to provide our customers with discounted pricing on background checks. Trusted Employees has been an industry leader in applicant background checks for more than 20 years. They have extensive experience working with religious organizations, schools, camps, senior living facilities and nonprofits. Trusted Employees offers a variety of affordable options to ensure you have comprehensive and trustworthy information available to guide your decisions.</p><br><h3>Discounted pricing for Church Mutual Customers!</h3><p><span class='font-weight-bold'>Call:</span> <a href='tel:800-554-2642' class='mr-3'>(888) 808-8350</a><span class='font-weight-bold'>Email: </span><a href='mailto:accountmanagement@trustedemployees.com'>accountmanagement@trustedemployees.com</a></p><br><h3>Questions?</h3><p class='mb-2'>If you have additional questions, or need help with background checks or assessment-related topics, contact our Risk Control Central team:</p><p class='mb-2'><span class='font-weight-bold'>Call:</span> <a href='tel:800-554-2642'>(800) 554-2642</a>, ext. 5213</p><p class='mb-2'><span class='font-weight-bold'>Email:</span> <a href='mailto:riskconsulting@churchmutual.com'>riskconsulting@churchmutual.com</a></p>",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  }
+]

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE layout-templates PUBLIC "-//Liferay//DTD Layout Templates 7.0.0//EN" "http://www.liferay.com/dtd/liferay-layout-templates_7_0_0.dtd">
+
+<layout-templates>
+	<custom>
+		<layout-template id="cmic_2_columns_25_75" name="CMIC 2 Columns 25 75">
+			<template-path>/layoutftl/custom/cmic_2_columns_25_75.ftl</template-path>
+			<thumbnail-path>/layoutftl/custom/cmic_2_columns_25_75.png</thumbnail-path>
+		</layout-template>
+		<layout-template id="cmic_2_columns_66_33" name="CMIC 2 Columns 66 33">
+			<template-path>/layoutftl/custom/cmic_2_columns_66_33.ftl</template-path>
+			<thumbnail-path>/layoutftl/custom/cmic_2_columns_66_33.png</thumbnail-path>
+		</layout-template>
+		<layout-template id="cmic_2_columns_75_25" name="CMIC 2 Columns 75 25">
+			<template-path>/layoutftl/custom/cmic_2_columns_75_25.ftl</template-path>
+			<thumbnail-path>/layoutftl/custom/cmic_2_columns_75_25.png</thumbnail-path>
+		</layout-template>
+	</custom>
+</layout-templates>

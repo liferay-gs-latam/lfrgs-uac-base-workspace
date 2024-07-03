@@ -1,0 +1,163 @@
+{
+	"nextColumnId": 15,
+	"nextRowId": 5,
+	"config": {},
+	"structure": [
+		{
+			"columns": [
+				{
+					"fragmentEntryLinkIds": [
+						"%alice%"
+					],
+					"size": "4",
+					"columnId": "0"
+				},
+				{
+					"fragmentEntryLinkIds": [
+						"%sec%"
+					],
+					"size": "4",
+					"columnId": "1"
+				},
+				{
+					"fragmentEntryLinkIds": [
+						"%insightww%"
+					],
+					"size": "4",
+					"columnId": "2"
+				}
+			],
+			"type": "1",
+			"config": {
+				"columnSpacing": true,
+				"paddingVertical": "3",
+				"paddingHorizontal": "3"
+			},
+			"rowId": "0"
+		},
+		{
+			"columns": [
+				{
+					"fragmentEntryLinkIds": [
+						"%ministrysafe%"
+					],
+					"size": "4",
+					"columnId": "3"
+				},
+				{
+					"fragmentEntryLinkIds": [
+						"%trusted-employees%"
+					],
+					"size": "4",
+					"columnId": "4"
+				},
+				{
+					"fragmentEntryLinkIds": [
+						"%relias%"
+					],
+					"size": "4",
+					"columnId": "5"
+				}
+			],
+			"type": "1",
+			"config": {
+				"columnSpacing": true,
+				"paddingVertical": "3",
+				"paddingHorizontal": "3"
+			},
+			"rowId": "1"
+		},
+		{
+			"columns": [
+				{
+					"fragmentEntryLinkIds": [
+						"%medcor%"
+					],
+					"size": "4",
+					"columnId": "6"
+				},
+				{
+					"fragmentEntryLinkIds": [
+						"%beazley%"
+					],
+					"size": "4",
+					"columnId": "7"
+				},
+				{
+					"fragmentEntryLinkIds": [
+						"%ibhs%"
+					],
+					"size": "4",
+					"columnId": "8"
+				}
+			],
+			"type": "1",
+			"config": {
+				"columnSpacing": true,
+				"paddingVertical": "3",
+				"paddingHorizontal": "3"
+			},
+			"rowId": "2"
+		},
+		{
+			"columns": [
+				{
+					"fragmentEntryLinkIds": [
+						"%roadmaster%"
+					],
+					"size": "4",
+					"columnId": "9"
+				},
+				{
+					"fragmentEntryLinkIds": [
+						"%aedsuperstore%"
+					],
+					"size": "4",
+					"columnId": "10"
+				},
+				{
+					"fragmentEntryLinkIds": [
+						"%safelyyou%"
+					],
+					"size": "4",
+					"columnId": "11"
+				}
+			],
+			"type": "1",
+			"config": {
+				"columnSpacing": true,
+				"paddingVertical": "3",
+				"paddingHorizontal": "3"
+			},
+			"rowId": "3"
+		},
+		{
+			"columns": [
+				{
+					"fragmentEntryLinkIds": [
+						"%concentra%"
+					],
+					"size": "4",
+					"columnId": "12"
+				},
+				{
+					"fragmentEntryLinkIds": [],
+					"size": "4",
+					"columnId": "13"
+				},
+				{
+					"fragmentEntryLinkIds": [],
+					"size": "4",
+					"columnId": "14"
+				}
+			],
+			"type": "1",
+			"config": {
+				"columnSpacing": true,
+				"paddingVertical": "3",
+				"paddingHorizontal": "3"
+			},
+			"rowId": "4"
+		}
+	]
+}

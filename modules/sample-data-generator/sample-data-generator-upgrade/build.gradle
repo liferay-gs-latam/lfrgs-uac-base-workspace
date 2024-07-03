@@ -1,0 +1,6 @@
+dependencies {
+	compileOnly group: "com.liferay", name: "com.liferay.portal.upgrade.api"
+	compileOnly project(":modules:cmic:cmic-core:cmic-core-api")
+	compileOnly project(":modules:commons:commons-util")
+	compileOnly project(":modules:content-setup")
+}

@@ -1,0 +1,56 @@
+.profile-portlet {
+
+	.card {
+
+		@include media-breakpoint-down(sm) {
+			margin-left: -$main-content-padding-x-sm;
+			margin-right: -$main-content-padding-x-sm;
+		}
+
+		@include media-breakpoint-only(md) {
+			margin-left: -$main-content-padding-x;
+			margin-right: -$main-content-padding-x;
+		}
+
+		@include media-breakpoint-down(md) {
+			margin-top: -1rem;
+			border-radius: 0;
+		}
+		
+		h4 {
+			opacity: .6;
+		}
+	}
+
+	.btn-user-avatar {
+		position: relative;
+
+		&:focus,
+		&.focus {
+			box-shadow: none;
+		}
+
+		.sticker-bottom-right {
+			right: 0;
+			bottom: 0;
+		}
+
+		&:hover .sticker-bottom-right{
+			color: theme-color("primary");
+			background-color: $white;
+		}
+		
+	}
+}
+
+.edit-profile-modal {
+	@include media-breakpoint-up(sm) {
+		.modal-md {
+			max-width: 536px;
+		}
+	}
+
+	.see-updates-text {
+		font-size: .875rem;
+	}
+}

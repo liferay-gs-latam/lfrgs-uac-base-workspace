@@ -1,0 +1,68 @@
+.notification-portlet {
+  
+  .notification-section {
+    padding-bottom: 2rem;
+
+    .notification-section-title {
+      font-size: 0.75rem;
+      font-weight: 800;
+      letter-spacing: 0.05em;
+      line-height: 16px;
+      padding: 0rem 2rem;
+      text-transform: uppercase;
+
+      &::after {
+        background-color: $red;
+        content: '';
+        display: block;
+        height: .063rem;
+        margin-top: 0.5rem;
+        position: absolute;
+        width: 1.438rem;
+      }
+    }
+
+    .notification-list {
+      .notification {
+        padding: 1rem 2rem;
+
+        .notification-remove {
+          left: 336px;
+          top: 11px;
+          position: relative;
+
+          @include media-breakpoint-down(sm) {
+            left: calc(100vw - 20.83%);
+          }
+
+          .lexicon-icon-times {
+            color: #BFBEBF;
+            height: 0.583rem;
+            width: 0.583rem;
+          }
+        }
+
+        .notification-header {
+          font-size: 0.75rem;
+          font-weight: 800;
+          letter-spacing: 0.05em;
+          padding-bottom: 0.25rem;
+          text-transform: uppercase;
+
+          .notification-unread {
+            color: $red;
+            padding-left: 0.5rem;
+          }
+        }
+
+        .notification-title {
+          color: $gray-900;
+          font-size: 1.125rem;
+          font-weight: 900;
+          line-height: 24px;
+          padding-bottom: .25rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+	"id": 1098,
+	"createdAt": "2020-07-24T10:58:24.993",
+	"updatedAt": "2020-10-22T14:34:04.686",
+	"uuid": "20d59fce-32ff-468e-89d5-0ad18d199f7d",
+	"userType": "Producer",
+	"registrationCode": "Bme7GIQ8",
+	"registrationExpirationDate": "2020-11-19",
+	"registrationStatus": "Registered",
+	"organizations": [
+		{
+			"id": 535,
+			"createdAt": "2020-10-20T11:27:18",
+			"updatedAt": "2020-10-22T15:27:55.163",
+			"producerId": 4159,
+			"divisionNumber": "35",
+			"agentNumber": "376",
+			"role": "owner"
+		}
+	],
+	"accounts": [],
+	"valid": true,
+	"registrationExpired": false
+}

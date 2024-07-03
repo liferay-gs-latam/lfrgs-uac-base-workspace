@@ -1,0 +1,46 @@
+@import 'liferay-font-awesome/scss/font-awesome';
+@import 'liferay-font-awesome/scss/glyphicons';
+
+@import 'partials/fonts';
+@import 'partials/functions';
+@import 'partials/variables';
+@import 'partials/variable-overwrites';
+@import 'partials/placeholders';
+@import 'partials/root';
+
+@import 'partials/alerts';
+@import 'partials/buttons';
+@import 'partials/card';
+@import 'partials/changes-feedback';
+@import 'partials/custom-forms';
+@import 'partials/dropdowns';
+@import 'partials/elevation';
+@import 'partials/forms';
+@import 'partials/input-groups';
+@import 'partials/links';
+@import 'partials/modal';
+@import 'partials/radio';
+@import 'partials/stickers';
+@import 'partials/tables';
+@import 'partials/tooltip';
+@import 'partials/utilities';
+@import 'partials/wells';
+
+@import 'partials/layout';
+@import 'partials/header';
+@import 'partials/navigation';
+@import 'partials/footer';
+
+@import 'portlets/account-list';
+@import 'portlets/business-profile-list';
+@import 'portlets/commission';
+@import 'portlets/deactivated';
+@import 'portlets/loss-run';
+@import 'portlets/notification';
+@import 'portlets/policy-list';
+@import 'portlets/profile';
+@import 'portlets/resources';
+@import 'portlets/self-provisioning';
+@import 'portlets/user-registration';
+
+@import 'custom-overwrites';

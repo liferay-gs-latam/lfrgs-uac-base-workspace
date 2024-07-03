@@ -1,0 +1,66 @@
+.self-provisioning-portlet {
+
+	button.nav-link {
+		color: $gray-500;
+		font-size: 1.5rem;
+		font-weight: 900;
+		letter-spacing: normal;
+		line-height: 1.5;
+		margin: 2rem;
+		text-transform: none;
+		padding: 0;
+
+		&.active {
+			color: $black;
+
+			&:after {
+				background-color: $red !important;
+				height: .063rem;
+				left: 0;
+				width: 23px;
+			}
+		}
+	}
+
+	.table .unsaved-changes {
+
+		&,
+		& > td,
+		& > th {
+			background-color: $warning-l4;
+		}
+	}
+
+	.table td > select {
+		min-width: 7rem;
+	}
+
+	.loading-icon {
+		&.loading-icon-save {
+			margin-left: 1.37rem;
+			margin-right: 1.37rem;
+		}
+
+		&.loading-icon-invite {
+			margin-left: 2rem;
+			margin-right: 2rem;
+		}
+	}
+
+	.no-account-name {
+		color: $gray-700;
+		font-style: italic;
+	}
+}
+
+.loss-runs-icon {
+	color: $blue;
+	min-height: 1.25rem;
+	min-width: 1.25rem;
+}
+
+.invite-member-icon {
+	color: $green;
+	min-height: 1.25rem;
+	min-width: 1.25rem;
+}

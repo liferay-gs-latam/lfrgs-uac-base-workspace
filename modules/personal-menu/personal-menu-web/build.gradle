@@ -1,0 +1,10 @@
+dependencies {
+	compile group: "com.liferay", name: "com.liferay.portal.template.soy.api"
+	compile group: "com.liferay", name: "com.liferay.portal.template.soy.context.contributor"
+	compile group: "com.liferay", name: "com.liferay.product.navigation.personal.menu.api"
+	compile group: "com.liferay", name: "com.liferay.product.navigation.taglib"
+
+	compileOnly group: "com.liferay", name: "com.liferay.frontend.taglib.clay"
+	compileOnly project(":modules:cmic:cmic-core:cmic-core-api")
+	compileOnly project(":modules:commons:commons-util")
+}

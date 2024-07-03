@@ -1,0 +1,3 @@
+Bundle-Name: CMIC WS Commons Client Impl
+Bundle-SymbolicName: com.churchmutual.portal.ws.commons.client.impl
+Bundle-Version: 1.0.0

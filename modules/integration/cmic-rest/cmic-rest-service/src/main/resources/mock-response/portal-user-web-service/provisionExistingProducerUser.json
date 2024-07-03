@@ -1,0 +1,23 @@
+{
+	"id": 556,
+	"createdAt": "2020-10-23T18:32:54.972",
+	"updatedAt": "2020-10-23T18:32:54.972",
+	"producerId": 4000,
+	"divisionNumber": "09",
+	"agentNumber": "998",
+	"role": "admin",
+	"users": [
+		{
+			"id": 1040,
+			"createdAt": "2020-05-19T13:36:51.041",
+			"updatedAt": "2020-10-23T18:30:52.058",
+			"uuid": "e60a190f-62a8-4fda-a90e-4cdc0e18e30e",
+			"userType": null,
+			"registrationCode": "Kjh9vTJC",
+			"registrationExpirationDate": "2020-11-22",
+			"registrationStatus": null,
+			"valid": false,
+			"registrationExpired": false
+		}
+	]
+}

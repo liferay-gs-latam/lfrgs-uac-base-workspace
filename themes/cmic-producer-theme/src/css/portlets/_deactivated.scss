@@ -1,0 +1,13 @@
+.deactivated-page {
+	margin: 0 auto;
+	max-width: 40rem;
+	padding-top: 8rem;
+
+	@include media-breakpoint-down(md) {
+		padding-top: 6.5rem;
+	}
+
+	@include media-breakpoint-down(xs) {
+		padding-top: 3.25rem;
+	}
+}

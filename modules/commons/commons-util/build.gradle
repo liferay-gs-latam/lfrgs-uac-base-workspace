@@ -1,0 +1,4 @@
+dependencies {
+	compileOnly group: "com.liferay", name: "com.liferay.dynamic.data.mapping.api"
+	compileOnly group: "com.liferay", name: "com.liferay.journal.api"
+}

@@ -1,0 +1,31 @@
+.pointer-events-all {
+	pointer-events: all;
+}
+
+.popover-custom {
+	&[class*='clay-popover-bottom'] .arrow:after {
+		border-bottom-color: $black;
+	}
+
+	&[class*='clay-popover-left'] .arrow:after {
+		border-left-color: $black;
+	}
+
+	&[class*='clay-popover-right'] .arrow:after {
+		border-right-color: $black;
+	}
+
+	&[class*='clay-popover-top'] .arrow:after {
+		border-top-color: $black;
+	}
+
+	.popover-body {
+		background-color: $black;
+		color: $white;
+	}
+}
+
+.tooltip-inner {
+	text-align: left;
+	white-space: pre-line;
+}

@@ -1,0 +1,28 @@
+[
+	{
+		"id": 1394,
+		"createdAt": "2020-10-23T18:38:14.969",
+		"updatedAt": "2020-10-23T18:38:14.969",
+		"uuid": null,
+		"userType": "Producer",
+		"registrationCode": "x1HlBId5",
+		"registrationExpirationDate": "2020-11-22",
+		"registrationStatus": null,
+		"emailId": "kayleen.lim@liferay.com",
+		"valid": false,
+		"registrationExpired": false
+	},
+	{
+		"id": 1395,
+		"createdAt": "2020-10-23T18:38:17.623",
+		"updatedAt": "2020-10-23T18:38:17.623",
+		"uuid": null,
+		"userType": "Producer",
+		"registrationCode": "nYPuHQv6",
+		"registrationExpirationDate": "2020-11-22",
+		"registrationStatus": null,
+		"emailId": "klim@churchmutual.com",
+		"valid": false,
+		"registrationExpired": false
+	}
+]

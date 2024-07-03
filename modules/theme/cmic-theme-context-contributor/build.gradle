@@ -1,0 +1,3 @@
+dependencies {
+	compileOnly project(":modules:cmic:cmic-core:cmic-core-api")
+}

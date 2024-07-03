@@ -1,0 +1,190 @@
+{
+	"availableLanguageIds": [
+		"en_US"
+	],
+	"defaultLanguageId": "en_US",
+	"fields": [
+		{
+			"dataType": "string",
+			"fieldNamespace": "",
+			"indexType": "keyword",
+			"label": {
+				"en_US": "Widen URL"
+			},
+			"localizable": true,
+			"name": "WidenURL",
+			"predefinedValue": {
+				"en_US": ""
+			},
+			"readOnly": false,
+			"repeatable": false,
+			"required": true,
+			"showLabel": true,
+			"tip": {
+				"en_US": ""
+			},
+			"type": "text"
+		},
+		{
+			"dataType": "string",
+			"fieldNamespace": "",
+			"indexType": "keyword",
+			"label": {
+				"en_US": "File Type"
+			},
+			"localizable": true,
+			"multiple": false,
+			"name": "FileType",
+			"options": [
+				{
+					"label": {
+						"en_US": "PDF"
+					},
+					"value": "pdf"
+				},
+				{
+					"label": {
+						"en_US": "DOC"
+					},
+					"value": "doc"
+				},
+				{
+					"label": {
+						"en_US": "PPT"
+					},
+					"value": "ppt"
+				},
+				{
+					"label": {
+						"en_US": "XLS"
+					},
+					"value": "xls"
+				}
+			],
+			"predefinedValue": {
+				"en_US": "[\"\"]"
+			},
+			"readOnly": false,
+			"repeatable": false,
+			"required": true,
+			"showLabel": true,
+			"tip": {
+				"en_US": ""
+			},
+			"type": "select"
+		},
+		{
+			"dataType": "string",
+			"fieldNamespace": "",
+			"indexType": "keyword",
+			"label": {
+				"en_US": "Partner Resource"
+			},
+			"localizable": true,
+			"multiple": false,
+			"name": "PartnerResource",
+			"options": [
+				{
+					"label": {
+						"en_US": "Insured - AEDSuperstore"
+					},
+					"value": "AEDSuperstore"
+				},
+				{
+					"label": {
+						"en_US": "Insured - Alice"
+					},
+					"value": "Alice"
+				},
+				{
+					"label": {
+						"en_US": "Insured - Beazley"
+					},
+					"value": "Beazley"
+				},
+				{
+					"label": {
+						"en_US": "Insured - Concentra"
+					},
+					"value": "Concentra"
+				},
+				{
+					"label": {
+						"en_US": "Insured - IBHS"
+					},
+					"value": "IBHS"
+				},
+				{
+					"label": {
+						"en_US": "Insured - Insight Worldwide"
+					},
+					"value": "Insight Worldwide"
+				},
+				{
+					"label": {
+						"en_US": "Insured - Medcor"
+					},
+					"value": "Medcor"
+				},
+				{
+					"label": {
+						"en_US": "Insured - MinistrySafe"
+					},
+					"value": "MinistrySafe"
+				},
+				{
+					"label": {
+						"en_US": "Insured - Relias"
+					},
+					"value": "Relias"
+				},
+				{
+					"label": {
+						"en_US": "Insured - Roadmaster"
+					},
+					"value": "Roadmaster"
+				},
+				{
+					"label": {
+						"en_US": "Insured - SafelyYou"
+					},
+					"value": "SafelyYou"
+				},
+				{
+					"label": {
+						"en_US": "Insured - SEC"
+					},
+					"value": "SEC"
+				},
+				{
+					"label": {
+						"en_US": "Insured - Trusted Employees"
+					},
+					"value": "Trusted Employees"
+				},
+				{
+					"label": {
+						"en_US": "Producer - General"
+					},
+					"value": "General"
+				}
+			],
+			"predefinedValue": {
+				"en_US": "[\"General\"]"
+			},
+			"readOnly": false,
+			"repeatable": false,
+			"required": true,
+			"showLabel": true,
+			"tip": {
+				"en_US": ""
+			},
+			"type": "select"
+		}
+	],
+	"successPage": {
+		"body": {},
+		"enabled": false,
+		"title": {}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"create-jar": {
+		"output-dir": "dist",
+		"features": {
+			"js-extender": true,
+			"web-context": "/loss-run-report-web",
+			"localization": "features/localization/Language"
+		}
+	},
+	"config": {
+		"imports": {
+			"com.churchmutual.commons.web": {
+				"/": ">=1.0.0",
+				"react": "16.8.6",
+				"react-dom": "16.8.6"
+			},
+			"com.churchmutual.loss.run.report.insured.web": {
+				"/": ">=1.0.0"
+			}
+		}
+	},
+	"sources": ["src"]
+}

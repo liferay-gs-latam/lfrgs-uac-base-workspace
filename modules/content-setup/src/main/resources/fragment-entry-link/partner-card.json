@@ -1,0 +1,561 @@
+[
+  {
+    "partnerName": "aedsuperstore",
+    "configuration": {
+      "fieldSets": []
+    },
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "partner-card-logo": {
+          "defaultValue": "/o/cmic-fragment-collection-contributor/images/logo/logo-aedsuperstore-2.png",
+          "config": {}
+        },
+        "partner-card-tagline": {
+          "defaultValue": "Provides AED discounts and compliance assistance.",
+          "config": {}
+        },
+        "partner-card-description": {
+          "defaultValue": "<div>Exclusive AED pricing for Church Mutual policyholders</div><div>State compliance assistance</div><div>Discounted training and safety supplies</div>",
+          "config": {}
+        },
+        "partner-card-link": {
+          "defaultValue": "LEARN MORE",
+          "config": {
+            "classPK": "",
+            "mapperType": "link",
+            "mappedField": "",
+            "href": "aedsuperstore",
+            "classNameId": "",
+            "fieldId": ""
+          }
+        },
+        "partner-card-tags-icon": {
+          "defaultValue": "/o/cmic-insured-theme/images/cmic/categories.svg",
+          "config": {}
+        },
+        "partner-card-tags-text": {
+          "defaultValue": "House of Worship, Schools, Camps, Senior Living Communities, Work Comp, Nonprofit & Human Service Organizations",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "alice",
+    "configuration": {
+      "fieldSets": []
+    },
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "partner-card-logo": {
+          "defaultValue": "/o/cmic-fragment-collection-contributor/images/logo/logo-alice-2.png",
+          "config": {}
+        },
+        "partner-card-tagline": {
+          "defaultValue": "Helps organizations prepare and plan to proactively respond to the threat of an active assailant.",
+          "config": {}
+        },
+        "partner-card-description": {
+          "defaultValue": "Resources, training and more designed to help prevent, mitigate, respond to and recover from a violent critical incident",
+          "config": {}
+        },
+        "partner-card-link": {
+          "defaultValue": "LEARN MORE",
+          "config": {
+            "classPK": "",
+            "mapperType": "link",
+            "mappedField": "",
+            "href": "alice",
+            "classNameId": "",
+            "fieldId": ""
+          }
+        },
+        "partner-card-tags-icon": {
+          "defaultValue": "/o/cmic-insured-theme/images/cmic/categories.svg",
+          "config": {}
+        },
+        "partner-card-tags-text": {
+          "defaultValue": "House of Worship, Schools, Camps, Senior Living Communities, Work Comp, Nonprofit & Human Service Organizations",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "beazley",
+    "configuration": {
+      "fieldSets": []
+    },
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "partner-card-logo": {
+          "defaultValue": "/o/cmic-fragment-collection-contributor/images/logo/logo-beazley-2.png",
+          "config": {}
+        },
+        "partner-card-tagline": {
+          "defaultValue": "Provides data privacy and cybersecurity coverage.",
+          "config": {}
+        },
+        "partner-card-description": {
+          "defaultValue": "<div>Cyber liability coverage provided under multi-peril policy</div><div>Affordable, extensive coverage offered when personal and private information your organization stores on computers is compromised or stolen</div><div>Policy covers certain loss arising from a regulatory proceeding</div>",
+          "config": {}
+        },
+        "partner-card-link": {
+          "defaultValue": "LEARN MORE",
+          "config": {
+            "classPK": "",
+            "mapperType": "link",
+            "mappedField": "",
+            "href": "beazley",
+            "classNameId": "",
+            "fieldId": ""
+          }
+        },
+        "partner-card-tags-icon": {
+          "defaultValue": "/o/cmic-insured-theme/images/cmic/categories.svg",
+          "config": {}
+        },
+        "partner-card-tags-text": {
+          "defaultValue": "House of Worship, Schools, Camps, Senior Living Communities, Work Comp, Nonprofit & Human Service Organizations",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "concentra",
+    "configuration": {
+      "fieldSets": []
+    },
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "partner-card-logo": {
+          "defaultValue": "/o/cmic-fragment-collection-contributor/images/logo/logo-concentra-2.png",
+          "config": {}
+        },
+        "partner-card-tagline": {
+          "defaultValue": "The first telemedicine product designed specifically for workers' compensation injuries.",
+          "config": {}
+        },
+        "partner-card-description": {
+          "defaultValue": "Employees can use their computers, tablets or smartphones to connect with providers via video conferencing for diagnosis and treatment of relatively minor injuries",
+          "config": {}
+        },
+        "partner-card-link": {
+          "defaultValue": "LEARN MORE",
+          "config": {
+            "classPK": "",
+            "mapperType": "link",
+            "mappedField": "",
+            "href": "concentra",
+            "classNameId": "",
+            "fieldId": ""
+          }
+        },
+        "partner-card-tags-icon": {
+          "defaultValue": "/o/cmic-insured-theme/images/cmic/categories.svg",
+          "config": {}
+        },
+        "partner-card-tags-text": {
+          "defaultValue": "House of Worship, Schools, Camps, Senior Living Communities, Work Comp, Nonprofit & Human Service Organizations",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "ibhs",
+    "configuration": {
+      "fieldSets": []
+    },
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "partner-card-logo": {
+          "defaultValue": "/o/cmic-fragment-collection-contributor/images/logo/logo-ibhs-2.png",
+          "config": {}
+        },
+        "partner-card-tagline": {
+          "defaultValue": "Real-world solutions for home and business owners to help create more resilient communities.",
+          "config": {}
+        },
+        "partner-card-description": {
+          "defaultValue": "Resources, tools and more to help protect your organization from severe weather and natural disasters, as well as other hazards your organization could encounter",
+          "config": {}
+        },
+        "partner-card-link": {
+          "defaultValue": "LEARN MORE",
+          "config": {
+            "classPK": "",
+            "mapperType": "link",
+            "mappedField": "",
+            "href": "ibhs",
+            "classNameId": "",
+            "fieldId": ""
+          }
+        },
+        "partner-card-tags-icon": {
+          "defaultValue": "/o/cmic-insured-theme/images/cmic/categories.svg",
+          "config": {}
+        },
+        "partner-card-tags-text": {
+          "defaultValue": "House of Worship, Schools, Camps, Senior Living Communities, Work Comp, Nonprofit & Human Service Organizations",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "insightww",
+    "configuration": {
+      "fieldSets": []
+    },
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "partner-card-logo": {
+          "defaultValue": "/o/cmic-fragment-collection-contributor/images/logo/logo-insightww-2.png",
+          "config": {}
+        },
+        "partner-card-tagline": {
+          "defaultValue": "Pre-employment screening to help you identify successful, long-term candidates.",
+          "config": {}
+        },
+        "partner-card-description": {
+          "defaultValue": "<div>Special discount pricing, including a 10% discount on subscription fees</div><div>All one-time, set up fees of $399 per location are waived</div>",
+          "config": {}
+        },
+        "partner-card-link": {
+          "defaultValue": "LEARN MORE",
+          "config": {
+            "classPK": "",
+            "mapperType": "link",
+            "mappedField": "",
+            "href": "insightww",
+            "classNameId": "",
+            "fieldId": ""
+          }
+        },
+        "partner-card-tags-icon": {
+          "defaultValue": "/o/cmic-insured-theme/images/cmic/categories.svg",
+          "config": {}
+        },
+        "partner-card-tags-text": {
+          "defaultValue": "House of Worship, Schools, Camps, Senior Living Communities, Work Comp, Nonprofit & Human Service Organizations",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "medcor",
+    "configuration": {
+      "fieldSets": []
+    },
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "partner-card-logo": {
+          "defaultValue": "/o/cmic-fragment-collection-contributor/images/logo/logo-medcor-2.png",
+          "config": {}
+        },
+        "partner-card-tagline": {
+          "defaultValue": "Offers free, immediate medical advice for employees following a workplace injury.",
+          "config": {}
+        },
+        "partner-card-description": {
+          "defaultValue": "FREE 24/7 access to medical professionals who can help you appropriately manage work-related injuries",
+          "config": {}
+        },
+        "partner-card-link": {
+          "defaultValue": "LEARN MORE",
+          "config": {
+            "classPK": "",
+            "mapperType": "link",
+            "mappedField": "",
+            "href": "medcor",
+            "classNameId": "",
+            "fieldId": ""
+          }
+        },
+        "partner-card-tags-icon": {
+          "defaultValue": "/o/cmic-insured-theme/images/cmic/categories.svg",
+          "config": {}
+        },
+        "partner-card-tags-text": {
+          "defaultValue": "House of Worship, Schools, Camps, Senior Living Communities, Work Comp, Nonprofit & Human Service Organizations",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "ministrysafe",
+    "configuration": {
+      "fieldSets": []
+    },
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "partner-card-logo": {
+          "defaultValue": "/o/cmic-fragment-collection-contributor/images/logo/logo-ministrysafe-2.png",
+          "config": {}
+        },
+        "partner-card-tagline": {
+          "defaultValue": "Resources and training to help proactively prevent child sexual abuse.",
+          "config": {}
+        },
+        "partner-card-description": {
+          "defaultValue": "<div>50% discount on an annual training membership</div><div>20% off all online trainings</div>",
+          "config": {}
+        },
+        "partner-card-link": {
+          "defaultValue": "LEARN MORE",
+          "config": {
+            "classPK": "",
+            "mapperType": "link",
+            "mappedField": "",
+            "href": "ministrysafe",
+            "classNameId": "",
+            "fieldId": ""
+          }
+        },
+        "partner-card-tags-icon": {
+          "defaultValue": "/o/cmic-insured-theme/images/cmic/categories.svg",
+          "config": {}
+        },
+        "partner-card-tags-text": {
+          "defaultValue": "House of Worship, Schools, Camps, Senior Living Communities, Work Comp, Nonprofit & Human Service Organizations",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "relias",
+    "configuration": {
+      "fieldSets": []
+    },
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "partner-card-logo": {
+          "defaultValue": "/o/cmic-fragment-collection-contributor/images/logo/logo-relias-2.png",
+          "config": {}
+        },
+        "partner-card-tagline": {
+          "defaultValue": "Specializes in employee training and learning management for health care organizations.",
+          "config": {}
+        },
+        "partner-card-description": {
+          "defaultValue": "Discounted pricing on Relias’ e-learning system designed to improve quality care and resident health outcomes",
+          "config": {}
+        },
+        "partner-card-link": {
+          "defaultValue": "LEARN MORE",
+          "config": {
+            "classPK": "",
+            "mapperType": "link",
+            "mappedField": "",
+            "href": "relias",
+            "classNameId": "",
+            "fieldId": ""
+          }
+        },
+        "partner-card-tags-icon": {
+          "defaultValue": "/o/cmic-insured-theme/images/cmic/categories.svg",
+          "config": {}
+        },
+        "partner-card-tags-text": {
+          "defaultValue": "Senior Living Communities",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "roadmaster",
+    "configuration": {
+      "fieldSets": []
+    },
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "partner-card-logo": {
+          "defaultValue": "/o/cmic-fragment-collection-contributor/images/logo/logo-roadmaster-2.png",
+          "config": {}
+        },
+        "partner-card-tagline": {
+          "defaultValue": "Industry leading suspension upgrade kit to stabilize passenger vans and commercial vehicles.",
+          "config": {}
+        },
+        "partner-card-description": {
+          "defaultValue": "The Roadmaster Active Suspension (RAS) kit is available for $375 plus shipping—a discounted price exclusively for Church Mutual customers",
+          "config": {}
+        },
+        "partner-card-link": {
+          "defaultValue": "LEARN MORE",
+          "config": {
+            "classPK": "",
+            "mapperType": "link",
+            "mappedField": "",
+            "href": "roadmaster",
+            "classNameId": "",
+            "fieldId": ""
+          }
+        },
+        "partner-card-tags-icon": {
+          "defaultValue": "/o/cmic-insured-theme/images/cmic/categories.svg",
+          "config": {}
+        },
+        "partner-card-tags-text": {
+          "defaultValue": "House of Worship, Schools, Camps, Senior Living Communities, Work Comp, Nonprofit & Human Service Organizations",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "safelyyou",
+    "configuration": {
+      "fieldSets": []
+    },
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "partner-card-logo": {
+          "defaultValue": "/o/cmic-fragment-collection-contributor/images/logo/logo-safelyyou-2.png",
+          "config": {}
+        },
+        "partner-card-tagline": {
+          "defaultValue": "Revolutionary fall prevention technology for memory care customers.",
+          "config": {}
+        },
+        "partner-card-description": {
+          "defaultValue": "<div>Eligible customers may receive: Reimbursement of installation costs, up to $200/bed, up to 50 beds</div><div>A matching cost share from SafelyYou, up to $200/bed</div><div>A 10% discount on monthly service charges to Church Mutual Senior Living Professional Liability customers</div>",
+          "config": {}
+        },
+        "partner-card-link": {
+          "defaultValue": "LEARN MORE",
+          "config": {
+            "classPK": "",
+            "mapperType": "link",
+            "mappedField": "",
+            "href": "safelyyou",
+            "classNameId": "",
+            "fieldId": ""
+          }
+        },
+        "partner-card-tags-icon": {
+          "defaultValue": "/o/cmic-insured-theme/images/cmic/categories.svg",
+          "config": {}
+        },
+        "partner-card-tags-text": {
+          "defaultValue": "Senior Living Communities",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "sec",
+    "configuration": {
+      "fieldSets": []
+    },
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "partner-card-logo": {
+          "defaultValue": "/o/cmic-fragment-collection-contributor/images/logo/logo-sec-2.png",
+          "config": {}
+        },
+        "partner-card-tagline": {
+          "defaultValue": "Equips and empowers organizations to create safer environments through tailored site assessments, emergency preparedness and more.",
+          "config": {}
+        },
+        "partner-card-description": {
+          "defaultValue": "<div>Resources to support your organization before, during and after a crisis</div><div>1 hour of FREE crisis coaching from the SEC Crisis Team</div>",
+          "config": {}
+        },
+        "partner-card-link": {
+          "defaultValue": "LEARN MORE",
+          "config": {
+            "classPK": "",
+            "mapperType": "link",
+            "mappedField": "",
+            "href": "sec",
+            "classNameId": "",
+            "fieldId": ""
+          }
+        },
+        "partner-card-tags-icon": {
+          "defaultValue": "/o/cmic-insured-theme/images/cmic/categories.svg",
+          "config": {}
+        },
+        "partner-card-tags-text": {
+          "defaultValue": "House of Worship, Schools, Camps, Senior Living Communities, Work Comp, Nonprofit & Human Service Organizations",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "trusted-employees",
+    "configuration": {
+      "fieldSets": []
+    },
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "partner-card-logo": {
+          "defaultValue": "/o/cmic-fragment-collection-contributor/images/logo/logo-trusted-employees-2.png",
+          "config": {}
+        },
+        "partner-card-tagline": {
+          "defaultValue": "Web-based tools to help you with employee and volunteer background checks.",
+          "config": {}
+        },
+        "partner-card-description": {
+          "defaultValue": "Discounted pricing on background checks",
+          "config": {}
+        },
+        "partner-card-link": {
+          "defaultValue": "LEARN MORE",
+          "config": {
+            "classPK": "",
+            "mapperType": "link",
+            "mappedField": "",
+            "href": "trusted-employees",
+            "classNameId": "",
+            "fieldId": ""
+          }
+        },
+        "partner-card-tags-icon": {
+          "defaultValue": "/o/cmic-insured-theme/images/cmic/categories.svg",
+          "config": {}
+        },
+        "partner-card-tags-text": {
+          "defaultValue": "House of Worship, Schools, Camps, Senior Living Communities, Work Comp, Nonprofit & Human Service Organizations",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  }
+]

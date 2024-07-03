@@ -1,0 +1,10 @@
+dependencies {
+	compileOnly group: "com.liferay", name: "com.liferay.petra.lang"
+	compileOnly group: "com.liferay", name: "com.liferay.petra.string"
+}
+
+if (gradle.liferayWorkspace.environment == 'dxpcloud') {
+	liferay {
+		deployDir = appServerLibGlobalDir
+	}
+}

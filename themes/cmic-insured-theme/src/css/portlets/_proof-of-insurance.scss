@@ -1,0 +1,382 @@
+.proof-of-insurance-portlet {
+
+  .proof-of-insurance-coi-form {
+    @media (min-width: 545px) {
+      width: max-content;
+    }
+  }
+
+  .proof-of-insurance-eop-form {
+    @media (min-width: 652px) {
+      width: max-content;
+    }
+  }
+
+  /* Components */
+
+  .request-a-certificate-btn {
+    padding: 0.6rem 0.75rem;
+
+    @include media-breakpoint-down(md) {
+      padding: 1rem .9rem;
+    }
+
+    div {
+      padding-top: .25rem;
+    }
+  }
+
+  .color-black {
+    color: $black;
+  }
+
+  .dropdown .dropdown-toggle {
+    align-items: center;
+    display: flex;
+    font-size: 1rem;
+    font-weight: normal;
+    height: 3rem;
+    justify-content: space-between;
+    letter-spacing: normal;
+    min-width: 0;
+    padding: 0.7125rem 1rem 0.7125rem 1rem;
+    text-transform: none;
+    width: 100%;
+
+    .lexicon-icon-caret-double-l {
+      height: 1rem;
+      margin-right: -.25rem;
+      width: 1rem;
+    }
+  }
+
+  select[id="Account #"], .dropdown {
+    max-width: 17.5rem;
+
+    @include media-breakpoint-down(xs) {
+      max-width: none;
+    }
+  }
+
+  select[id="location"] {
+    max-width: 480px;
+  }
+
+  select {
+    max-width: 400px;
+
+    @include media-breakpoint-down(xs) {
+      max-width: none;
+    }
+  }
+
+  input[value="evidence-of-property-insurance"] + .custom-control-label > .custom-control-label-text {
+    @include media-breakpoint-down(xs) {
+      padding: 0 .5rem;
+    }
+  }
+
+  .policy-selection-help-text {
+    @include media-breakpoint-down(xs) {
+      font-size: 16px;
+    }
+  }
+
+  .inline-scroller {
+    max-height: 500px;
+
+    @include media-breakpoint-down(md) {
+      max-height: 320px;
+    }
+  }
+
+  .modal-dialog {
+    margin: 1rem auto;
+
+    @include media-breakpoint-down(xs) {
+      margin: 0;
+    }
+  }
+
+  .modal-lg {
+    max-width: none;
+    width: fit-content;
+
+    @include media-breakpoint-down(xs) {
+      padding: 2rem 1rem;
+      width: auto;
+
+      &, .modal-content {
+        height: 100%;
+      }
+
+      .modal-body {
+        height: calc(100% - 8rem);
+        max-height: calc(100% - 8rem);
+        position: absolute;
+        width: 100%;
+      }
+
+      .modal-footer {
+        bottom: 0;
+        position: absolute;
+        right: 0;
+        width: calc(100% - 3rem);
+      }
+    }
+  }
+
+  &.modal-expanded .modal-lg {
+    @include media-breakpoint-down(xs) {
+      padding: 0;
+    }
+
+    .modal-body {
+      @include media-breakpoint-down(md) {
+        height: calc(100vh - 14rem);
+        max-height: none;
+      }
+
+      @include media-breakpoint-down(xs) {
+        height: calc(100% - 8rem);
+        position: absolute;
+      }
+    }
+  }
+
+  &.modal-shrink .modal-lg {
+    &, .modal-content {
+      height: auto;
+    }
+
+    .modal-body {
+      max-height: 500px;
+
+      @include media-breakpoint-down(md) {
+        max-height: 380px;
+      }
+
+      @include media-breakpoint-down(xs) {
+        height: calc(100vh - 12.5rem);
+        position: relative;
+      }
+    }
+  }
+
+  /* Proof of Insurance Modal */
+
+  .proof-of-insurance-type-select-wrapper {
+    padding-top: 1rem;
+
+    @include media-breakpoint-down(md) {
+      padding: 0;
+    }
+
+    @include media-breakpoint-down(xs) {
+      text-align: center;
+    }
+  }
+
+  .proof-of-insurance-type-select {
+    padding: 2rem 1rem;
+
+    @include media-breakpoint-down(md) {
+      padding: 1.5rem 0 0 0;
+    }
+
+    .proof-of-insurance-radio-group {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      @include media-breakpoint-down(md) {
+        justify-content: start;
+        flex-wrap: nowrap;
+      }
+
+      @include media-breakpoint-down(xs) {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    .custom-radio {
+      margin: 1rem;
+
+      @include media-breakpoint-down(md) {
+        margin: 0;
+
+        &:first-child {
+          margin-right: 1.5rem;
+
+          @include media-breakpoint-down(xs) {
+            margin-bottom: 2.5rem;
+            margin-right: 0;
+          }
+        }
+      }
+
+      > label {
+        margin: 2.75rem 0;
+      }
+
+      .custom-control-label {
+        border-radius: 4px;
+        border: 1px solid $secondary;
+        padding: 2.5rem 1.5rem;
+
+        &::after {
+          display: none !important;
+        }
+
+        &::before {
+          display: none !important;
+        }
+      }
+
+      .custom-control-input:checked + span {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom: $red;
+        border-bottom-style: solid;
+        border-bottom-width: 4px;
+        box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.2);
+        color: $black;
+        font-weight: 800;
+      }
+
+      .custom-control-label-text {
+        padding: 0;
+        white-space: nowrap;
+      }
+    }
+  }
+
+  .hide-it{
+	display: none;
+}	
+  .proof-of-insurance-help {
+    font-weight: 500;
+    font-size: 12px;
+    height: auto;
+    line-height: 155%;
+    padding-top: 1.5rem;
+    width: 447px;
+
+    &.eop-help-text-mobile {
+      display: none;
+    }
+
+    @include media-breakpoint-down(xs) {
+      width: auto;
+
+      &.eop-help-text-desktop {
+        display: none;
+      }
+
+      &.eop-help-text-mobile {
+        display: block;
+        margin-top: -.5rem;
+        padding-top: 0;
+        padding-bottom: 2.5rem;
+      }
+    }
+  }
+
+  .proof-of-insurance-question {
+    padding-bottom: 2rem;
+
+    .custom-control-label {
+      color: $black;
+      font-size: 14px;
+      font-weight: 800;
+      line-height: 20px;
+
+      &::after {
+        padding:  1.25rem 0;
+      }
+    }
+
+    .custom-radio {
+      padding: 0.75rem 0;
+    }
+
+    &__title {
+      font-size: 16px;
+      font-weight: 800;
+      line-height: 140%;
+    }
+
+    &__response {
+      margin-left: 1rem;
+
+      @include media-breakpoint-down(xs) {
+        margin-left: 0;
+      }
+
+      /* COI - Policy Selection labels */
+
+      @include media-breakpoint-down(xs) {
+        table {
+          td:nth-child(1), td:nth-child(3) {
+            font-size: 14px;
+          }
+
+          td:nth-child(2) {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+
+    &__help {
+      color: $secondary;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+    }
+
+    &__error {
+      color: $red;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 160%;
+      max-width: fit-content;
+      padding-left: 1rem;
+
+      @include media-breakpoint-down(xs) {
+        padding-left: 0;
+      }
+    }
+  }
+
+  .proof-of-insurance-coi-form .proof-of-insurance-question__error {
+    max-width: 478.95px;
+  }
+
+  .proof-of-insurance-eop-form .proof-of-insurance-question__error {
+    max-width: 585.35px;
+  }
+
+  .proof-of-insurance-subtitle {
+    font-size: 16px;
+
+    @include media-breakpoint-down(xs) {
+      padding-top: 2rem;
+    }
+  }
+
+  .certificate-holder-question {
+    max-width: 400px;
+
+    @include media-breakpoint-down(xs) {
+      max-width: none;
+    }
+
+    input#certificateHolderState {
+      margin-right: 1.5rem;
+      max-width: 139px;
+    }
+  }
+}

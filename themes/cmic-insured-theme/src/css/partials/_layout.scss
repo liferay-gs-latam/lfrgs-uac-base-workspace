@@ -1,0 +1,78 @@
+#wrapper {
+	overflow-x: hidden;
+	padding-top: $wrapper-padding-top;
+}
+
+#content {
+
+	@include media-breakpoint-down(md) {
+		padding-top: $header-height;
+	}
+
+	@include media-breakpoint-up(lg) {
+		padding-left: $content-padding-left-lg;
+	}
+}
+
+#footer {
+
+	@include media-breakpoint-down(sm) {
+		padding-bottom: $content-padding-bottom-sm;
+	}
+
+	@include media-breakpoint-up(lg) {
+		padding-left: $content-padding-left-lg;
+	}
+}
+
+#main-content {
+	max-width: $content-max-width;
+	margin: 0 auto;
+	@extend %content-spacing-x;
+}
+
+.cmic_2_columns_75_25 #column-2 .portlet-column-content {
+	> div:nth-child(2) {
+		display: none;
+	}
+
+	> div:nth-child(4) {
+		display: none;
+	}
+
+	@include media-breakpoint-down(xs) {
+		> div:first-child {
+			border-top: 1px solid $gray-300;
+		}
+
+		> div {
+			border-bottom: 1px solid $gray-300;
+		}
+	}
+
+	@include media-breakpoint-between(sm, md) {
+		border-top: 1px solid $gray-300;
+		border-bottom: 1px solid $gray-300;
+		column-gap: 2.5rem;
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		margin: 0 -1rem 2rem -1rem;
+		padding: 1rem 2.5rem;
+
+		> div {
+			&:nth-child(3) {
+				order: 4;
+			}
+
+			&:nth-child(4) {
+				order: 3;
+			}
+		}
+	}
+
+	@include media-breakpoint-up(lg) {
+		> div:not(:first-child) {
+			border-top: 1px solid $gray-300;
+		}
+	}
+}

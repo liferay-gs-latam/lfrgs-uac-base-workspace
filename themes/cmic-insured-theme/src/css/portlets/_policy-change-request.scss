@@ -1,0 +1,35 @@
+.policy-change-request {
+
+  .policy-change-request-step {
+    padding-top: .75rem;
+
+    &.first {
+      padding-top: 0;
+    }
+
+    .title {
+      font-weight: $font-weight-bolder;
+    }
+
+    .text {
+      color: $neutral-3;
+      padding-left: 1.25rem;
+
+      @include media-breakpoint-down(xs) {
+        padding-left: .25rem;
+      }
+    }
+  }
+
+  .disclaimer-text {
+    color: $neutral-4;
+    font-size: .75rem;
+    padding-top: 2.5rem;
+    max-width: 434px;
+
+    @include media-breakpoint-down(xs) {
+      max-width: none;
+    }
+  }
+
+}

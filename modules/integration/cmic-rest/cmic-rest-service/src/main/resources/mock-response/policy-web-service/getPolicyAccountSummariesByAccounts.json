@@ -1,0 +1,802 @@
+[
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00034794",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00035286",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00035349",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00035386",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00035404",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00035748",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00035749",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00036001",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00037022",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00041045",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00041096",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00042027",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00042662",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00043379",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00044046",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00044394",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00044560",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00044985",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00045127",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00047362",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00048843",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00049043",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00051343",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00051413",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00051834",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00052434",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00053337",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00053504",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00054236",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00054237",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00055447",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00055448",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00057800",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00058001",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00058190",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00059574",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00060175",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00060190",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00060538",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00060666",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00060667",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00060669",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00060671",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00060693",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00060744",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00060811",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00060813",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00060814",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00060860",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00060861",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00060965",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00060966",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00060973",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00061005",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00061006",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00061007",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00061294",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00061438",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00061442",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00061443",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00061445",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00061515",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00062085",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00062293",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00063084",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00063086",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00063273",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00063426",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00063894",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00063905",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00064161",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00064957",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00065049",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00065899",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00066119",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00066191",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00066767",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00066984",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00067068",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00067611",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00067612",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00067734",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00067769",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00067852",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00067891",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00068623",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00068685",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00068859",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00069200",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00070303",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00070381",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00070704",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00070851",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00071501",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00071791",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00071792",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00072109",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00072175",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00072176",
+		"numInForcePolicies": 350,
+		"numFuturePolicies": 102,
+		"numExpiredPolicies": 962,
+		"totalBilledPremium": 511467316.72
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"accountNumber": "00072286",
+		"numInForcePolicies": 5,
+		"numFuturePolicies": 0,
+		"numExpiredPolicies": 279,
+		"totalBilledPremium": 1632450.62
+	}
+]

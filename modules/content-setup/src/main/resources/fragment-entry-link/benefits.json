@@ -1,0 +1,1247 @@
+[
+	{
+		"partnerName": "aedsuperstore",
+		"configuration": {
+			"fieldSets": [
+				{
+					"fields": [
+						{
+							"name": "calloutBox",
+							"label": "callout-box",
+							"dataType": "string",
+							"defaultValue": "false",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "true"
+									},
+									{
+										"value": "false"
+									}
+								]
+							}
+						},
+						{
+							"name": "buttons",
+							"label": "buttons",
+							"dataType": "string",
+							"defaultValue": "1",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "0"
+									},
+									{
+										"value": "1"
+									},
+									{
+										"value": "2"
+									}
+								]
+							}
+						},
+						{
+							"name": "showSeparator",
+							"label": "show-separator",
+							"dataType": "string",
+							"defaultValue": "true",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "true"
+									},
+									{
+										"value": "false"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		"editableValues": {
+			"com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+			"com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+				"benefits-description": {
+					"defaultValue": "Exclusive AED pricing for Church Mutual policyholders.<br><br>State compliance assistance.<br><br>Discounted training and safety supplies.",
+					"config": {}
+				},
+				"benefits-btn-primary-help-text": {
+					"defaultValue": "",
+					"config": {}
+				},
+				"benefits-title": {
+					"defaultValue": "<h2>Benefits</h2>",
+					"config": {}
+				},
+				"benefits-btn-primary-link": {
+					"defaultValue": "PURCHASE AED",
+					"config": {
+						"classPK": "",
+						"mapperType": "link",
+						"mappedField": "",
+						"href": "http://churchmutual.aeds.com/",
+						"classNameId": "",
+						"fieldId": "",
+						"target": "_blank"
+					}
+				}
+			},
+			"com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+		}
+	},
+	{
+		"partnerName": "alice",
+		"configuration": {
+			"fieldSets": [
+				{
+					"fields": [
+						{
+							"name": "calloutBox",
+							"label": "callout-box",
+							"dataType": "string",
+							"defaultValue": "false",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "true"
+									},
+									{
+										"value": "false"
+									}
+								]
+							}
+						},
+						{
+							"name": "buttons",
+							"label": "buttons",
+							"dataType": "string",
+							"defaultValue": "1",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "0"
+									},
+									{
+										"value": "1"
+									},
+									{
+										"value": "2"
+									}
+								]
+							}
+						},
+						{
+							"name": "showSeparator",
+							"label": "show-separator",
+							"dataType": "string",
+							"defaultValue": "true",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "true"
+									},
+									{
+										"value": "false"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		"editableValues": {
+			"com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+			"com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+				"benefits-description": {
+					"defaultValue": "<p>Resources, training and more designed to help prevent, mitigate, respond to and recover from a violent critical incident.</p>",
+					"config": {}
+				},
+				"benefits-btn-primary-help-text": {
+					"defaultValue": "",
+					"config": {}
+				},
+				"benefits-title": {
+					"defaultValue": "<h2>Benefits</h2>",
+					"config": {}
+				},
+				"benefits-btn-primary-link": {
+					"defaultValue": "LEARN MORE",
+					"config": {
+						"classPK": "",
+						"mapperType": "link",
+						"mappedField": "",
+						"href": "https://www.alicetraining.com/",
+						"classNameId": "",
+						"fieldId": "",
+						"target": "_blank"
+					}
+				}
+			},
+			"com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+		}
+	},
+	{
+		"partnerName": "beazley",
+		"configuration": {
+			"fieldSets": [
+				{
+					"fields": [
+						{
+							"name": "calloutBox",
+							"label": "callout-box",
+							"dataType": "string",
+							"defaultValue": "false",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "true"
+									},
+									{
+										"value": "false"
+									}
+								]
+							}
+						},
+						{
+							"name": "buttons",
+							"label": "buttons",
+							"dataType": "string",
+							"defaultValue": "1",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "0"
+									},
+									{
+										"value": "1"
+									},
+									{
+										"value": "2"
+									}
+								]
+							}
+						},
+						{
+							"name": "showSeparator",
+							"label": "show-separator",
+							"dataType": "string",
+							"defaultValue": "true",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "true"
+									},
+									{
+										"value": "false"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		"editableValues": {
+			"com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+			"com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+				"benefits-description": {
+					"defaultValue": "Cyber liability coverage provided under multi-peril policy.<br><br>Affordable, extensive coverage offered when personal and private information your organization stores on computers is compromised or stolen.<br><br>Policy covers certain loss arising from a regulatory proceeding.",
+					"config": {}
+				},
+				"benefits-btn-primary-help-text": {
+					"defaultValue": "",
+					"config": {}
+				},
+				"benefits-title": {
+					"defaultValue": "<h2>Benefits</h2>",
+					"config": {}
+				},
+				"benefits-btn-primary-link": {
+					"defaultValue": "REQUEST A QUOTE",
+					"config": {
+						"classPK": "",
+						"mapperType": "link",
+						"mappedField": "",
+						"href": "https://www.churchmutual.com/19/Request-a-Quote",
+						"classNameId": "",
+						"fieldId": "",
+						"target": "_blank"
+					}
+				}
+			},
+			"com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+		}
+	},
+	{
+		"partnerName": "concentra",
+		"configuration": {
+			"fieldSets": [
+				{
+					"fields": [
+						{
+							"name": "calloutBox",
+							"label": "callout-box",
+							"dataType": "string",
+							"defaultValue": "true",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "true"
+									},
+									{
+										"value": "false"
+									}
+								]
+							}
+						},
+						{
+							"name": "buttons",
+							"label": "buttons",
+							"dataType": "string",
+							"defaultValue": "0",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "0"
+									},
+									{
+										"value": "1"
+									},
+									{
+										"value": "2"
+									}
+								]
+							}
+						},
+						{
+							"name": "showSeparator",
+							"label": "show-separator",
+							"dataType": "string",
+							"defaultValue": "true",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "true"
+									},
+									{
+										"value": "false"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		"editableValues": {
+			"com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+			"com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+				"benefits-description": {
+					"defaultValue": "Employees can use their computers, tablets or smartphones to connect with providers via video conferencing for diagnosis and treatment of relatively minor injuries.",
+					"config": {}
+				},
+				"benefits-title": {
+					"defaultValue": "<h2>Benefits</h2>",
+					"config": {}
+				},
+				"benefits-callout-text": {
+					"defaultValue": "Contact your Church Mutual representative for more information or to schedule a demonstration.",
+					"config": {}
+				}
+			},
+			"com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+		}
+	},
+	{
+		"partnerName": "ibhs",
+		"configuration": {
+			"fieldSets": [
+				{
+					"fields": [
+						{
+							"name": "calloutBox",
+							"label": "callout-box",
+							"dataType": "string",
+							"defaultValue": "false",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "true"
+									},
+									{
+										"value": "false"
+									}
+								]
+							}
+						},
+						{
+							"name": "buttons",
+							"label": "buttons",
+							"dataType": "string",
+							"defaultValue": "1",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "0"
+									},
+									{
+										"value": "1"
+									},
+									{
+										"value": "2"
+									}
+								]
+							}
+						},
+						{
+							"name": "showSeparator",
+							"label": "show-separator",
+							"dataType": "string",
+							"defaultValue": "true",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "true"
+									},
+									{
+										"value": "false"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		"editableValues": {
+			"com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+			"com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+				"benefits-description": {
+					"defaultValue": "Resources, tools and more to help protect your organization from severe weather and natural disasters, as well as other hazards your organization could encounter.",
+					"config": {}
+				},
+				"benefits-btn-primary-help-text": {
+					"defaultValue": "",
+					"config": {}
+				},
+				"benefits-title": {
+					"defaultValue": "<h2>Benefits</h2>",
+					"config": {}
+				},
+				"benefits-btn-primary-link": {
+					"defaultValue": "LEARN MORE",
+					"config": {
+						"classPK": "",
+						"mapperType": "link",
+						"mappedField": "",
+						"href": "https://disastersafety.org/",
+						"classNameId": "",
+						"fieldId": "",
+						"target": "_blank"
+					}
+				}
+			},
+			"com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+		}
+	},
+	{
+		"partnerName": "insightww",
+		"configuration": {
+			"fieldSets": [
+				{
+					"fields": [
+						{
+							"name": "calloutBox",
+							"label": "callout-box",
+							"dataType": "string",
+							"defaultValue": "false",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "true"
+									},
+									{
+										"value": "false"
+									}
+								]
+							}
+						},
+						{
+							"name": "buttons",
+							"label": "buttons",
+							"dataType": "string",
+							"defaultValue": "1",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "0"
+									},
+									{
+										"value": "1"
+									},
+									{
+										"value": "2"
+									}
+								]
+							}
+						},
+						{
+							"name": "showSeparator",
+							"label": "show-separator",
+							"dataType": "string",
+							"defaultValue": "true",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "true"
+									},
+									{
+										"value": "false"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		"editableValues": {
+			"com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+			"com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+				"benefits-description": {
+					"defaultValue": "Special discount pricing, including a 10% discount on subscription fees.<br><br>All one-time, set up fees of $399 per location are waived.",
+					"config": {}
+				},
+				"benefits-btn-primary-help-text": {
+					"defaultValue": "",
+					"config": {}
+				},
+				"benefits-title": {
+					"defaultValue": "<h2>Benefits</h2>",
+					"config": {}
+				},
+				"benefits-btn-primary-link": {
+					"defaultValue": "LEARN MORE",
+					"config": {
+						"classPK": "",
+						"mapperType": "link",
+						"mappedField": "",
+						"href": "http://insightww.com/",
+						"classNameId": "",
+						"fieldId": "",
+						"target": "_blank"
+					}
+				}
+			},
+			"com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+		}
+	},
+	{
+		"partnerName": "medcor",
+		"configuration": {
+			"fieldSets": [
+				{
+					"fields": [
+						{
+							"name": "calloutBox",
+							"label": "callout-box",
+							"dataType": "string",
+							"defaultValue": "true",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "true"
+									},
+									{
+										"value": "false"
+									}
+								]
+							}
+						},
+						{
+							"name": "buttons",
+							"label": "buttons",
+							"dataType": "string",
+							"defaultValue": "1",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "0"
+									},
+									{
+										"value": "1"
+									},
+									{
+										"value": "2"
+									}
+								]
+							}
+						},
+						{
+							"name": "showSeparator",
+							"label": "show-separator",
+							"dataType": "string",
+							"defaultValue": "true",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "true"
+									},
+									{
+										"value": "false"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		"editableValues": {
+			"com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+			"com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+				"benefits-description": {
+					"defaultValue": "FREE 24/7 access to medical professionals who can help you appropriately manage work-related injuries.",
+					"config": {}
+				},
+				"benefits-btn-primary-help-text": {
+					"defaultValue": "",
+					"config": {}
+				},
+				"benefits-title": {
+					"defaultValue": "<h2>Benefits</h2>",
+					"config": {}
+				},
+				"benefits-btn-primary-link": {
+					"defaultValue": "CALL (844) 322-4662",
+					"config": {
+						"classPK": "",
+						"mapperType": "link",
+						"mappedField": "",
+						"href": "tel:(844) 322-4662",
+						"classNameId": "",
+						"fieldId": ""
+					}
+				},
+				"benefits-callout-text": {
+					"defaultValue": "If a non-life-threatening injury occurs while you’re on the job, get a fast and free advice by calling the 24/7 Nurse Hotline.",
+					"config": {}
+				}
+			},
+			"com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+		}
+	},
+	{
+		"partnerName": "ministrysafe",
+		"configuration": {
+			"fieldSets": [
+				{
+					"fields": [
+						{
+							"name": "calloutBox",
+							"label": "callout-box",
+							"dataType": "string",
+							"defaultValue": "false",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "true"
+									},
+									{
+										"value": "false"
+									}
+								]
+							}
+						},
+						{
+							"name": "buttons",
+							"label": "buttons",
+							"dataType": "string",
+							"defaultValue": "1",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "0"
+									},
+									{
+										"value": "1"
+									},
+									{
+										"value": "2"
+									}
+								]
+							}
+						},
+						{
+							"name": "showSeparator",
+							"label": "show-separator",
+							"dataType": "string",
+							"defaultValue": "true",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "true"
+									},
+									{
+										"value": "false"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		"editableValues": {
+			"com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+			"com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+				"benefits-description": {
+					"defaultValue": "50% discount on an annual training membership.<br><br>20% off all online trainings.",
+					"config": {}
+				},
+				"benefits-btn-primary-help-text": {
+					"defaultValue": "",
+					"config": {}
+				},
+				"benefits-title": {
+					"defaultValue": "<h2>Benefits</h2>",
+					"config": {}
+				},
+				"benefits-btn-primary-link": {
+					"defaultValue": "LEARN MORE",
+					"config": {
+						"classPK": "",
+						"mapperType": "link",
+						"mappedField": "",
+						"href": "https://ministrysafe.com/churchmutual/",
+						"classNameId": "",
+						"fieldId": "",
+						"target": "_blank"
+					}
+				}
+			},
+			"com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+		}
+	},
+	{
+		"partnerName": "relias",
+		"configuration": {
+			"fieldSets": [
+				{
+					"fields": [
+						{
+							"name": "calloutBox",
+							"label": "callout-box",
+							"dataType": "string",
+							"defaultValue": "true",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "true"
+									},
+									{
+										"value": "false"
+									}
+								]
+							}
+						},
+						{
+							"name": "buttons",
+							"label": "buttons",
+							"dataType": "string",
+							"defaultValue": "2",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "0"
+									},
+									{
+										"value": "1"
+									},
+									{
+										"value": "2"
+									}
+								]
+							}
+						},
+						{
+							"name": "showSeparator",
+							"label": "show-separator",
+							"dataType": "string",
+							"defaultValue": "true",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "true"
+									},
+									{
+										"value": "false"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		"editableValues": {
+			"com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+			"com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+				"benefits-description": {
+					"defaultValue": "Discounted pricing on Relias’ e-learning system designed to improve quality care and resident health outcomes",
+					"config": {}
+				},
+				"benefits-title": {
+					"defaultValue": "<h2>Benefits</h2>",
+					"config": {}
+				},
+				"benefits-callout-text": {
+					"defaultValue": "Contact us to learn more about how Relias can help maximize your organization's performance and improve outcomes.",
+					"config": {}
+				},
+				"benefits-btn-primary-link": {
+					"defaultValue": "SEND EMAIL",
+					"config": {
+						"classPK": "",
+						"mapperType": "link",
+						"mappedField": "",
+						"href": "mailto:riskconsulting@churchmutual.com",
+						"classNameId": "",
+						"fieldId": "",
+						"target": "_blank"
+					}
+				},
+				"benefits-btn-primary-help-text": {
+					"defaultValue": "riskconsulting@churchmutual.com",
+					"config": {}
+				},
+				"benefits-btn-secondary-link": {
+					"defaultValue": "CALL (800) 554-2642",
+					"config": {
+						"classPK": "",
+						"mapperType": "link",
+						"mappedField": "",
+						"href": "tel:(800) 554-2642",
+						"classNameId": "",
+						"fieldId": ""
+					}
+				},
+				"benefits-btn-secondary-help-text": {
+					"defaultValue": "(Option 4) Ext. 5213",
+					"config": {}
+				}
+			},
+			"com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+		}
+	},
+	{
+		"partnerName": "roadmaster",
+		"configuration": {
+			"fieldSets": [
+				{
+					"fields": [
+						{
+							"name": "calloutBox",
+							"label": "callout-box",
+							"dataType": "string",
+							"defaultValue": "false",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "true"
+									},
+									{
+										"value": "false"
+									}
+								]
+							}
+						},
+						{
+							"name": "buttons",
+							"label": "buttons",
+							"dataType": "string",
+							"defaultValue": "1",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "0"
+									},
+									{
+										"value": "1"
+									},
+									{
+										"value": "2"
+									}
+								]
+							}
+						},
+						{
+							"name": "showSeparator",
+							"label": "show-separator",
+							"dataType": "string",
+							"defaultValue": "true",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "true"
+									},
+									{
+										"value": "false"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		"editableValues": {
+			"com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+			"com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+				"benefits-description": {
+					"defaultValue": "The Roadmaster Active Suspension (RAS) kit is available for $375 plus shipping - a discounted price exclusively for Church Mutual customers.",
+					"config": {}
+				},
+				"benefits-btn-primary-help-text": {
+					"defaultValue": "",
+					"config": {}
+				},
+				"benefits-title": {
+					"defaultValue": "<h2>Benefits</h2>",
+					"config": {}
+				},
+				"benefits-btn-primary-link": {
+					"defaultValue": "LEARN MORE",
+					"config": {
+						"classPK": "",
+						"mapperType": "link",
+						"mappedField": "",
+						"href": "https://activesuspension.com/",
+						"classNameId": "",
+						"fieldId": "",
+						"target": "_blank"
+					}
+				}
+			},
+			"com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+		}
+	},
+	{
+		"partnerName": "safelyyou",
+		"configuration": {
+			"fieldSets": [
+				{
+					"fields": [
+						{
+							"name": "calloutBox",
+							"label": "callout-box",
+							"dataType": "string",
+							"defaultValue": "false",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "true"
+									},
+									{
+										"value": "false"
+									}
+								]
+							}
+						},
+						{
+							"name": "buttons",
+							"label": "buttons",
+							"dataType": "string",
+							"defaultValue": "1",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "0"
+									},
+									{
+										"value": "1"
+									},
+									{
+										"value": "2"
+									}
+								]
+							}
+						},
+						{
+							"name": "showSeparator",
+							"label": "show-separator",
+							"dataType": "string",
+							"defaultValue": "true",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "true"
+									},
+									{
+										"value": "false"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		"editableValues": {
+			"com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+			"com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+				"benefits-description": {
+					"defaultValue": "Reimbursement of installation costs, up to $200/bed, up to 50 beds.<br><br>A matching cost share from SafelyYou, up to $200/bed.<br><br>A 10% discount on monthly service charges to Church Mutual Senior Living Professional Liability customers.",
+					"config": {}
+				},
+				"benefits-btn-primary-help-text": {
+					"defaultValue": "",
+					"config": {}
+				},
+				"benefits-title": {
+					"defaultValue": "<h2>Benefits</h2>",
+					"config": {}
+				},
+				"benefits-btn-primary-link": {
+					"defaultValue": "LEARN MORE",
+					"config": {
+						"classPK": "",
+						"mapperType": "link",
+						"mappedField": "",
+						"href": "https://info.safely-you.com/churchmutualandsafelyyou",
+						"classNameId": "",
+						"fieldId": "",
+						"target": "_blank"
+					}
+				}
+			},
+			"com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+		}
+	},
+	{
+		"partnerName": "sec",
+		"configuration": {
+			"fieldSets": [
+				{
+					"fields": [
+						{
+							"name": "calloutBox",
+							"label": "callout-box",
+							"dataType": "string",
+							"defaultValue": "false",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "true"
+									},
+									{
+										"value": "false"
+									}
+								]
+							}
+						},
+						{
+							"name": "buttons",
+							"label": "buttons",
+							"dataType": "string",
+							"defaultValue": "1",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "0"
+									},
+									{
+										"value": "1"
+									},
+									{
+										"value": "2"
+									}
+								]
+							}
+						},
+						{
+							"name": "showSeparator",
+							"label": "show-separator",
+							"dataType": "string",
+							"defaultValue": "true",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "true"
+									},
+									{
+										"value": "false"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		"editableValues": {
+			"com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+			"com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+				"benefits-description": {
+					"defaultValue": "Resources to support your organization before, during and after a crisis.<br><br>1 hour of FREE crisis coaching from the SEC Crisis Team.",
+					"config": {}
+				},
+				"benefits-btn-primary-help-text": {
+					"defaultValue": "",
+					"config": {}
+				},
+				"benefits-title": {
+					"defaultValue": "<h2>Benefits</h2>",
+					"config": {}
+				},
+				"benefits-btn-primary-link": {
+					"defaultValue": "LEARN MORE",
+					"config": {
+						"classPK": "",
+						"mapperType": "link",
+						"mappedField": "",
+						"href": "https://www.secureed.com/",
+						"classNameId": "",
+						"fieldId": "",
+						"target": "_blank"
+					}
+				}
+			},
+			"com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+		}
+	},
+	{
+		"partnerName": "trusted-employees",
+		"configuration": {
+			"fieldSets": [
+				{
+					"fields": [
+						{
+							"name": "calloutBox",
+							"label": "callout-box",
+							"dataType": "string",
+							"defaultValue": "false",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "true"
+									},
+									{
+										"value": "false"
+									}
+								]
+							}
+						},
+						{
+							"name": "buttons",
+							"label": "buttons",
+							"dataType": "string",
+							"defaultValue": "1",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "0"
+									},
+									{
+										"value": "1"
+									},
+									{
+										"value": "2"
+									}
+								]
+							}
+						},
+						{
+							"name": "showSeparator",
+							"label": "show-separator",
+							"dataType": "string",
+							"defaultValue": "true",
+							"type": "select",
+							"typeOptions": {
+								"validValues": [
+									{
+										"value": "true"
+									},
+									{
+										"value": "false"
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		},
+		"editableValues": {
+			"com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+			"com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+				"benefits-description": {
+					"defaultValue": "Discounted pricing on background checks.",
+					"config": {}
+				},
+				"benefits-btn-primary-help-text": {
+					"defaultValue": "",
+					"config": {}
+				},
+				"benefits-title": {
+					"defaultValue": "<h2>Benefits</h2>",
+					"config": {}
+				},
+				"benefits-btn-primary-link": {
+					"defaultValue": "START SCREENING",
+					"config": {
+						"classPK": "",
+						"mapperType": "link",
+						"mappedField": "",
+						"href": "https://www.trustedemployees.com/church-mutual-background-checks/",
+						"classNameId": "",
+						"fieldId": "",
+						"target": "_blank"
+					}
+				}
+			},
+			"com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+		}
+	}
+]

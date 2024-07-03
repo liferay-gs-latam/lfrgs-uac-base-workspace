@@ -1,0 +1,129 @@
+.page-header {
+	max-width: $content-max-width;
+	margin: 0 auto;
+	@extend %content-spacing-x, %content-spacing-y;
+}
+
+.lead-text {
+	font-size: $lead-font-size;
+}
+
+.bg-fade {
+	height: 7rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(180deg, rgba($white, 0) 0%, rgba($white, 0.921875) 72.4%, $white 100%);
+}
+
+.bg-primary-light {
+	background-color: $component-active-bg !important;
+}
+
+@each $type in $cursor-types {
+	.cursor-#{$type} {
+		cursor: $type;
+	}
+}
+
+.breadcrumb-text-truncate {
+	max-width: none;
+	white-space: normal;
+}
+
+.policy-insured-dashboard-portlet.policy-list-portlet {
+	margin-top: 0;
+}
+
+.policy-list-portlet, .transaction-list-portlet {
+	@include media-breakpoint-down(xs) {
+		margin-top: 6rem;
+	}
+}
+
+.transaction-list-portlet .text-truncate {
+	white-space: normal;
+}
+
+.fade-table {
+	@include media-breakpoint-down(lg) {
+		position: relative;
+
+		&:after {
+			background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+			bottom: 0;
+			content: '';
+			pointer-events: none;
+			position: absolute;
+			right: 0;
+			top: 0;
+			width: 3rem;
+		}
+
+		.policy-list-portlet &, .transaction-list-portlet & {
+			&:after {
+				bottom: 3rem;
+			}
+		}
+
+		.self-provisioning-portlet & {
+			&:after {
+				top: 2.75rem;
+			}
+		}
+	}
+
+	@media (min-width: 1200px) and (max-width: 1376px) {
+		.policy-list-portlet & {
+			&:after {
+				background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+				bottom: 3rem;
+				content: '';
+				pointer-events: none;
+				position: absolute;
+				right: 0;
+				top: 0;
+				width: 3rem;
+			}
+		}
+	}
+}
+
+.scrollable-table {
+	::-webkit-scrollbar {
+		-webkit-appearance: none;
+		height: 2px;
+		width: 4px;
+	}
+
+	::-webkit-scrollbar-thumb {
+		background-color: rgba(0, 0, 0, 0.5);
+		border-radius: 4px;
+		box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+	}
+}
+
+.filter-mobile-margin {
+	@include media-breakpoint-down(xs) {
+		margin-left: 0 !important;
+	}
+}
+
+.mobile-table-padding {
+	@include media-breakpoint-down(sm) {
+		padding: 0 !important;
+	}
+
+	@include media-breakpoint-down(md) {
+		margin-left: -1rem;
+		margin-right: -1rem;
+	}
+}
+
+.popover-inner-pre {
+	white-space: pre-wrap;
+}

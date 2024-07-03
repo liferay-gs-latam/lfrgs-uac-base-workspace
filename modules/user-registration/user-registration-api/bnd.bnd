@@ -1,0 +1,4 @@
+Bundle-Name: CMIC User Registration API
+Bundle-SymbolicName: com.churchmutual.user.registration.api
+Bundle-Version: 1.0.0
+Export-Package: com.churchmutual.user.registration.constants

@@ -1,0 +1,10 @@
+.file-a-claim-link {
+	.policy-insured-dashboard-portlet & {
+		position: absolute;
+		right: 0;
+
+		@media (max-width: 350px) {
+			top: -3rem;
+		}
+	}
+}

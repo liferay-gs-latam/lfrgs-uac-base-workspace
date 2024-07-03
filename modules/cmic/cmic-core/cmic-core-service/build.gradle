@@ -1,0 +1,24 @@
+dependencies {
+	compileOnly group: "com.liferay", name: "com.liferay.petra.io"
+	compileOnly group: "com.liferay", name: "com.liferay.petra.lang"
+	compileOnly group: "com.liferay", name: "com.liferay.petra.string"
+	compileOnly group: "com.liferay", name: "com.liferay.portal.aop.api"
+	compileOnly group: "com.liferay", name: "com.liferay.portal.dao.orm.custom.sql.api"
+	compileOnly group: "com.liferay", name: "com.liferay.portal.spring.extender.api"
+	compileOnly group: "com.liferay", name: "com.liferay.portal.upgrade.api"
+	compileOnly group: "com.liferay.portal", name: "com.liferay.portal.kernel"
+	compileOnly group: "commons-lang", name: "commons-lang", version: "2.6"
+	compileOnly group: "org.osgi", name: "org.osgi.annotation.versioning"
+	compileOnly group: "org.osgi", name: "org.osgi.core"
+	compileOnly group: "org.osgi", name: "org.osgi.service.component.annotations"
+	compileOnly project(":modules:cmic:cmic-core:cmic-core-api")
+	compileOnly project(":modules:commons:commons-util")
+	compileOnly project(":modules:integration:cmic-rest:cmic-rest-api")
+	compileOnly project(":modules:notification:notification-service")
+}
+
+buildService {
+	apiDir = "../cmic-core-api/src/main/java"
+}
+
+group = "cmic.core"

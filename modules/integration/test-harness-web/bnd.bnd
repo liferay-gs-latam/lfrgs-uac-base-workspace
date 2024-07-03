@@ -1,0 +1,5 @@
+Bundle-Name: CMIC Test Harness Web
+Bundle-SymbolicName: com.churchmutual.test.harness.web
+Bundle-Version: 1.0.0
+Web-ContextPath: /test-harness
+-includeresource: META-INF/resources=build/node/packageRunBuild/resources

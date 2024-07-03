@@ -1,0 +1,5 @@
+Bundle-Name: CMIC Fragment Collection Contributor
+Bundle-SymbolicName: com.churchmutual.fragment.collection.contributor
+Bundle-Version: 1.0.0
+Web-ContextPath: /cmic-fragment-collection-contributor
+-dsannotations-options: inherit

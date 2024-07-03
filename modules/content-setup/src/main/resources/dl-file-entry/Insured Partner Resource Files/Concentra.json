@@ -1,0 +1,20 @@
+[
+	{
+		"FileType": "[\"pdf\"]",
+		"Title": "About Concentra Telemed",
+		"WidenURL": "https://www.churchmutual.com/media/pdf/About%20Concentra%20Telemed-CMIC-DEPT-CM0459-2020%2011.pdf",
+		"PartnerResource": "[\"Concentra\"]"
+	},
+	{
+		"FileType": "[\"pdf\"]",
+		"Title": "Concentra Telemed FAQs",
+		"WidenURL": "https://www.churchmutual.com/media/pdf/Telemed%20Employer%20FAQ-CMIC-DEPT-CM0463-2020%2011.pdf",
+		"PartnerResource": "[\"Concentra\"]"
+	},
+	{
+		"FileType": "[\"pdf\"]",
+		"Title": "Concentra Telemed System Requirements",
+		"WidenURL": "https://www.churchmutual.com/media/pdf/Concentra%20Telemed%20System%20&%20Network%20Requirements-CMIC-DEPT-CM0461-2020%2011.pdf",
+		"PartnerResource": "[\"Concentra\"]"
+	}
+]

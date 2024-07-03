@@ -1,0 +1,62 @@
+{
+	"fieldSets": [
+		{
+			"fields": [
+				{
+					"name": "calloutBox",
+					"label": "callout-box",
+					"dataType": "string",
+					"defaultValue": "true",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"value": "true"
+							},
+							{
+								"value": "false"
+							}
+						]
+					}
+				},
+				{
+					"name": "buttons",
+					"label": "buttons",
+					"dataType": "string",
+					"defaultValue": "2",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"value": "0"
+							},
+							{
+								"value": "1"
+							},
+							{
+								"value": "2"
+							}
+						]
+					}
+				},
+				{
+					"name": "showSeparator",
+					"label": "show-separator",
+					"dataType": "string",
+					"defaultValue": "true",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"value": "true"
+							},
+							{
+								"value": "false"
+							}
+						]
+					}
+				}
+			]
+		}
+	]
+}

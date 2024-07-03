@@ -1,0 +1,24 @@
+.commission-portlet {
+
+	.btn {
+
+		@include media-breakpoint-down(sm) {
+			display: block;
+			width: 100%;
+		}
+
+		.lexicon-icon {
+			font-size: 1.3rem;
+		}
+	}
+
+	.danger {
+		color: $danger
+	}
+}
+
+.portlet-boundary_com_churchmutual_commission_web_portlet_CommissionWebPortlet_ {
+	.portlet-header {
+		margin-bottom: 0;
+	}
+}

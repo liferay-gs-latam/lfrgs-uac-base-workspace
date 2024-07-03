@@ -1,0 +1,17 @@
+.well {
+	padding: $well-padding-y $well-padding-x;
+	border-radius: $well-border-radius;
+	background-color: $well-bg;
+
+	&-lg {
+		padding: $well-padding-y-lg $well-padding-x-lg;
+	}
+
+	&-title {
+		@include clay-text-typography($well-title);
+	}
+
+	&-subtitle {
+		@include clay-text-typography($well-subtitle);
+	}
+}

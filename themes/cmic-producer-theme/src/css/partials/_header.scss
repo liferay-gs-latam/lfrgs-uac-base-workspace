@@ -1,0 +1,220 @@
+#header {
+	display: flex;
+	position: fixed;
+	justify-content: space-between;
+	background-color: $header-bg;
+	box-shadow: $header-box-shadow;
+	z-index: 980;
+
+	@include media-breakpoint-down(md) {
+		align-items: center;
+		height: $header-height-sm;
+		padding-left: $header-padding-x;
+		padding-right: $header-padding-x;
+		left: 0;
+		right: 0;
+	}
+
+	@include media-breakpoint-up(lg) {
+		width: $header-width-lg;
+		flex-direction: column;
+		padding-top: $header-padding-y;
+		padding-bottom: $header-padding-y;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		transition: width 0.5s ease;
+
+		&:hover {
+			width: $header-width-open-lg;
+		}
+
+		.has-control-menu & {
+			top: 57px;
+		}
+	}
+
+	.logo {
+
+		@include media-breakpoint-up(lg) {
+			margin-left: ($header-width-lg - $logo-width) / 2;
+		}
+	}
+
+	.logo-icon {
+		width: $logo-width;
+	}
+
+	.nav-user-bar {
+		display: flex;
+		align-items: center;
+
+		@include media-breakpoint-up(lg) {
+			align-items: normal;
+			flex-direction: column;
+			width: $header-width-lg;
+			text-align: center;
+		}
+	}
+
+	.notification-count {
+		align-items: center;
+		flex-direction: row;
+	}
+
+	.user-notification {
+		height: 50px;
+		position: relative;
+		width: 72px;
+
+		@include media-breakpoint-up(lg) {
+			&.open:after {
+				background-color: $red;
+				content: '';
+				display: block;
+				height: 1.5rem;
+				margin-top: 13px;
+				width: 0.188rem;
+			}
+		}
+
+		.lexicon-icon-bell-on {
+			position: absolute;
+			height: 24px;
+			width: 24px;
+			left: 33.33%;
+			right: 33.33%;
+			top: 26%;
+			bottom: 26%;
+			opacity: 0.6;
+		}
+
+		.badge-danger {
+			position: absolute;
+			width: 16px;
+			height: 16px;
+			left: 38px;
+			top: 5px;
+		}
+
+		.badge-item {
+			text-align: center;
+		}
+	}
+
+	.user-personal-bar {
+
+		.portlet {
+			margin-bottom: 0;
+		}
+
+		.sticker-primary {
+			background-color: $header-bg;
+		}
+	}
+
+	.badge-danger {
+		background-color: $red;
+	}
+
+	.page-header-notification-panel {
+		background: $white;
+		bottom: 0;
+		display: flex;
+		flex-direction: column;
+		height: 100vh;
+		overflow: hidden;
+		top: 0;
+		width: 416px;
+
+		@include media-breakpoint-up(lg) {
+			position: absolute;
+			right: calc(416px + 12.5rem);
+			margin-right: -416px;
+		}
+
+		@include media-breakpoint-down(md) {
+			position: fixed;
+			right: -416px;
+			transition: right 0.25s ease;
+		}
+
+		@include media-breakpoint-down(xs) {
+			border-top: 1px solid $gray-300;
+			height: calc(100vh - 4.5rem);
+			right: -100vw;
+			top: 4.5rem;
+			width: 100vw;
+		}
+
+		&.open {
+			box-shadow: 0px 13px 36px rgba(0, 0, 0, 0.22);
+			right: 0;
+
+			@include media-breakpoint-up(lg) {
+				border-left: 1px solid #D9D9D9;
+				box-shadow: 13px 0 36px -13px rgba(0, 0, 0, 0.22)
+			}
+
+			@include media-breakpoint-down(xs) {
+				box-shadow: none;
+			}
+		}
+
+		.sidebar-header {
+			padding: 0px;
+
+			.sidebar-header-text {
+				padding: 2rem;
+			}
+
+			.badge-danger {
+				font-size: 1rem;
+				height: 24px;
+				margin-left: 10px;
+				position: relative;
+				vertical-align: middle;
+				width: 24px;
+
+				.badge-item {
+					top: 1px;
+				}
+			}
+
+			.lexicon-icon-times {
+				height: 14px;
+				width: 14px;
+			}
+
+			.page-header-notification-close {
+				padding-right: 2rem;
+				padding-top: 2.5rem;
+			}
+		}
+
+		.sidebar-body {
+			display: flex;
+			flex-direction: column;
+			height: 100%;
+			padding: 0;
+
+			&::after {
+				background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, $white 100%);
+				bottom: 0rem;
+				content: '';
+				display: block;
+				height: 182px;
+				opacity: 0;
+				pointer-events: none;
+				position: absolute;
+				-webkit-transition: opacity 500ms linear;
+				transition: opacity 500ms linear;
+				width: 100%;
+			}
+
+			&.sidebar-fade::after {
+				opacity: 1;
+			}
+		}
+	}
+}

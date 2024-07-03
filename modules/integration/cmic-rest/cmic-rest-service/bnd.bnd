@@ -1,0 +1,3 @@
+Bundle-Name: CMIC REST Service
+Bundle-SymbolicName: com.churchmutual.rest.service
+Bundle-Version: 1.0.1

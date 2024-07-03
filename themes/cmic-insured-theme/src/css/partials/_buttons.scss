@@ -1,0 +1,23 @@
+.btn {
+	text-transform: uppercase;
+	letter-spacing: .08rem;
+}
+
+.btn-warning {
+	color: $white;
+}
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+	@include media-breakpoint-up($breakpoint) {
+		$infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+		.btn#{$infix}-block {
+			display: block;
+			width: 100%;
+
+			& + & {
+				margin-top: $btn-block-spacing-y;
+			}
+		}
+	}
+}

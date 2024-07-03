@@ -1,0 +1,32 @@
+[
+	{
+		"policyNumber": "0000015 85-123456",
+		"hasSexualMisconductLimits": false,
+		"hasHiredAndNonOwnedAutoLimits": false
+	},
+	{
+		"policyNumber": "0000015 25-000784",
+		"hasSexualMisconductLimits": true,
+		"hasHiredAndNonOwnedAutoLimits": false
+	},
+	{
+		"policyNumber": "0000015 25-123456",
+		"hasSexualMisconductLimits": false,
+		"hasHiredAndNonOwnedAutoLimits": false
+	},
+	{
+		"policyNumber": "0000015 09-123456",
+		"hasSexualMisconductLimits": false,
+		"hasHiredAndNonOwnedAutoLimits": false
+	},
+	{
+		"policyNumber": "0000015 08-123456",
+		"hasSexualMisconductLimits": false,
+		"hasHiredAndNonOwnedAutoLimits": false
+	},
+	{
+		"policyNumber": "0404008 25-000775",
+		"hasSexualMisconductLimits": false,
+		"hasHiredAndNonOwnedAutoLimits": true
+	}
+]

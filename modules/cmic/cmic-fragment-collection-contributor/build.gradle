@@ -1,0 +1,3 @@
+dependencies {
+	compileOnly group: "com.liferay", name: "com.liferay.fragment.api"
+}

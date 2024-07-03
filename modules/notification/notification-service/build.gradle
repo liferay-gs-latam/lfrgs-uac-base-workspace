@@ -1,0 +1,4 @@
+dependencies {
+	compileOnly group: "com.liferay", name: "com.liferay.portal.configuration.metatype.api"
+	compileOnly project(":modules:commons:commons-util")
+}

@@ -1,0 +1,19 @@
+{
+	"accountName": "LUTHERAN CHURCH OF THE RISEN SAVIOR",
+	"accountNumber": "00000015",
+	"companyNumber": "1",
+	"createdBy": "PUPH01PEB1",
+	"createdTimestamp": "1996-07-24T00:00:00",
+	"denomination": "01",
+	"geographicLocation": "00",
+	"id": 66433,
+	"placeCode": "01000",
+	"producerCode": "03253",
+	"religiousBody": "01",
+	"servicingProducerCode": null,
+	"sourceText": "ISERIES",
+	"updatedBy": "TESTUSR005",
+	"updatedTimestamp": "2020-01-29T08:09:37.05",
+	"wildfireEnrollmentStatus": "Not Eligible",
+	"wildfireEnrollmentTimestamp": null
+}

@@ -1,0 +1,11 @@
+Bundle-Name: CMIC Core API
+Bundle-SymbolicName: com.churchmutual.core.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.churchmutual.core.constants,\
+	com.churchmutual.core.exception,\
+	com.churchmutual.core.model,\
+	com.churchmutual.core.service,\
+	com.churchmutual.core.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../cmic-core-service/service.xml

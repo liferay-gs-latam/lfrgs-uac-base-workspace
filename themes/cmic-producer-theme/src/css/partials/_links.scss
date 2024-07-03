@@ -1,0 +1,14 @@
+.portlet-body, .modal-body {
+	a {
+		text-decoration: underline;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	.link-action {
+		letter-spacing: map-get($link-action, letter-spacing);
+		@include clay-link($link-action);
+	}
+}

@@ -1,0 +1,19 @@
+Bundle-Name: CMIC Portal Security SSO OpenID Connect Implementation
+Bundle-SymbolicName: com.churchmutual.portal.security.sso.openid.connect.impl
+Bundle-Version: 1.0.2
+Import-Package:\
+	!sun.security.util.*,\
+	\
+	!com.google.crypto.tink.*,\
+	\
+	!net.shibboleth.utilities.*,\
+	\
+	!org.bouncycastle.*,\
+	\
+	!org.cryptomator.siv.*,\
+	\
+	!org.joda.time.*,\
+	\
+	!org.opensaml.*,\
+	\
+	*

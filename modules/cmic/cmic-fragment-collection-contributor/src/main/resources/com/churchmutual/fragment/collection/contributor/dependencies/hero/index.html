@@ -1,0 +1,57 @@
+<div class="fragment hero-section">
+	<div class="d-none d-sm-flex row">
+		<div class="col-lg-1"></div>
+		<div class="col-lg-11 hero-breadcrumb">
+			<lfr-widget-breadcrumb id="desktopTabletBreadcrumb">
+			</lfr-widget-breadcrumb>
+		</div>
+	</div>
+	<div class="hero-content row">
+		<div class="col-lg-1"></div>
+		<div class="col-lg-5">
+			<div class="hero-breadcrumb mobile-only">
+				<lfr-widget-breadcrumb id="mobileBreadcrumb">
+				</lfr-widget-breadcrumb>
+			</div>
+			<div class="hero-logo-section">
+				<lfr-editable id="hero-logo" type="image">
+					<img alt="logo" src="/o/cmic-fragment-collection-contributor/images/image-placeholder.png" />
+				</lfr-editable>
+			</div>
+			<div class="hero-title-section">
+				<lfr-editable id="hero-title" type="rich-text">
+					<h2>Partner page title goes here and wraps on two lines</h2>
+				</lfr-editable>
+			</div>
+			<div class="hero-description-section">
+				<lfr-editable id="hero-description" type="rich-text">
+					This is the hero description area that can contain up to two small paragraphs. This is the hero description area that can contain up to two small paragraphs.<br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam sit velit ut ac. A pretium, facilisi fringilla nascetur. Sed suscipit nec nunc, nisl viverra nisl natoque metus. Sit lectus ut arcu, maecenas nullam libero, turpis faucibus tincidunt. Etiam euismod elementum sed blandit egestas quis at sed. Aenean proin massa.
+				</lfr-editable>
+			</div>
+		</div>
+		<div class="col-lg-6 hero-image-section">
+			[#if configuration.video == "true"]
+				<iframe class="hero-image-iframe" src="${configuration.sourceVideo}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+				<iframe class="hero-image-iframe hero-image-iframe-shadow" src="${configuration.sourceVideo}"></iframe>
+			[#else]
+				<img alt="image" src=${configuration.imageSrc} />
+				<img class="hero-image-shadow" alt="image" src=${configuration.imageSrc} />
+			[/#if]
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-1"></div>
+		<div class="col-lg-11 tags-wrapper">
+			<div class="icon-wrapper">
+				<lfr-editable id="hero-tags-icon" type="image">
+					<img class="hero-tags-icon icon" alt="tags:" src="/o/cmic-insured-theme/images/cmic/categories.svg" />
+				</lfr-editable>
+			</div>
+			<div class="tags-section">
+				<lfr-editable id="hero-tags" type="rich-text">
+					House Of Worship, Schools, Camps, Senior Living Communities, Work Comp, Nonprofit & Human Service Organizations
+				</lfr-editable>
+			</div>
+		</div>
+	</div>
+</div>

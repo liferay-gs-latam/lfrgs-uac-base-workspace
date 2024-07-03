@@ -1,0 +1,11 @@
+.input-group-inset {
+	clip-path: inset(-#{$input-btn-focus-width} 0 -#{$input-btn-focus-width} -#{$input-btn-focus-width});
+
+	&:focus {
+		box-shadow: $input-focus-box-shadow;
+
+		~ .input-group-inset-item {
+			box-shadow: $input-focus-box-shadow;
+		}
+	}
+}

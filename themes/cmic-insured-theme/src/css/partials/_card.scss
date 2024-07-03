@@ -1,0 +1,87 @@
+.card {
+	&:not(.card-insured) {
+		.card-header {
+			padding: 1.25rem 2rem 0 2rem;
+
+			@include media-breakpoint-down(md) {
+				padding: 0 0 1rem 0;
+			}
+		}
+
+		.card-title {
+			font-size: 2rem;
+		}
+
+		.card-body {
+			@include media-breakpoint-down(md) {
+				padding: 0;
+			}
+		}
+	}
+}
+
+.card-insured {
+	box-shadow: $card-box-shadow;
+
+	.card-title::after {
+		content: '';
+		width: 1.438rem;
+		height: .063rem;
+		display: block;
+		position: absolute;
+		background-color: theme-color("primary");
+	}
+}
+
+.user-card {
+	display: flex;
+	margin-bottom: $user-card-margin-bottom;
+
+	&-image {
+		margin-right: 1.5rem;
+	}
+
+	&-body {
+		min-width: 0;
+		-ms-flex: 1;
+	}
+
+	&-title {
+		@include clay-text-typography($user-card-title);
+	}
+
+	&-subtitle {
+		@include clay-text-typography($user-card-subtitle);
+	}
+
+	&-text {
+		@include clay-text-typography($user-card-text);
+		@include text-truncate;
+	}
+}
+
+.card-page-header {
+	position: relative;
+	min-width: 0;
+	display: flex;
+	flex-direction: column;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	margin-bottom: $card-margin-bottom;
+	word-wrap: break-word;
+	background-color: $card-bg;
+	border: $card-border-width solid $card-border-color;
+	border-radius: 0;
+	box-shadow: $card-box-shadow;
+	@extend %content-spacing-x;
+
+	#main-content & {
+		@extend %content-spacing-subtract-x;
+	}
+
+	@include media-breakpoint-up(sm) {
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+	}
+}

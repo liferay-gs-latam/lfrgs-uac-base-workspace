@@ -1,0 +1,20 @@
+.policy-insured-dashboard-portlet {
+  .card {
+    .card-header {
+      padding: 1.25rem 2rem 0 0;
+
+      @include media-breakpoint-down(md) {
+        padding: 1.25rem 0 1rem 0;
+      }
+    }
+
+    .card-body {
+      padding: 1.25rem 1.25rem 1.25rem 0;
+      margin: 0 -.75rem;
+
+      @include media-breakpoint-down(md) {
+        margin: 0 -1rem;
+      }
+    }
+  }
+}

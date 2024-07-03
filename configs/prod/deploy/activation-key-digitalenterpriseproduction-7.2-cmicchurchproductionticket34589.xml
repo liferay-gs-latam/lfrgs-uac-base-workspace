@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<license>
+	<account-name>CMIC - Customer Portal and Websites</account-name>
+	<owner>CMIC - CHURCH - 7.2 Production - Ticket 34589</owner>
+	<description>Generated for CMIC Customer Portal and Websites on 11-5-2020</description>
+	<product-name>Digital Enterprise Production</product-name>
+	<product-version>7.2</product-version>
+	<license-name>Digital Enterprise Production</license-name>
+	<license-type>production</license-type>
+	<license-version>6</license-version>
+	<start-date>Sunday, December 29, 2019 12:00:00 AM GMT</start-date>
+	<expiration-date>Tuesday, December 5, 2119 12:00:00 AM GMT</expiration-date>
+	<max-servers>2</max-servers>
+	<instance-size>Sizing 1</instance-size>
+	<servers>
+		<server>
+			<host-names>
+				<host-name>win-lr-t-01-97</host-name>
+			</host-names>
+			<ip-addresses>
+				<ip-address>172.16.97.6</ip-address>
+			</ip-addresses>
+			<mac-addresses/>
+		</server>
+		<server>
+			<host-names>
+				<host-name>win-lr-t-02-97</host-name>
+			</host-names>
+			<ip-addresses>
+				<ip-address>172.16.97.12</ip-address>
+			</ip-addresses>
+			<mac-addresses/>
+		</server>
+	</servers>
+	<key>ab654faddceacdb67d00bb2819c488d39a4d751fd9a55d05be8f80dcf48ff393d4b9d6f4f04d86af28774768638d1f653cd7738c0c657605fa08f60470957343dd1d52fd9e39bd83443374a78bfb8d3ddf751244ae7f9ff7172a338e5e5e8af81f891f59cdb6ef9c6bbe3885b619ce1e13c53209cfbb5861cfef25e5b8e701fd26756a7c</key>
+</license>

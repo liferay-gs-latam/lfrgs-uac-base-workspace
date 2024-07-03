@@ -1,0 +1,42 @@
+{
+	"fieldSets": [
+		{
+			"fields": [
+				{
+					"name": "showCallToAction",
+					"label": "show-call-to-action",
+					"dataType": "string",
+					"defaultValue": "false",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"value": "true"
+							},
+							{
+								"value": "false"
+							}
+						]
+					}
+				},
+				{
+					"name": "showSeparator",
+					"label": "show-separator",
+					"dataType": "string",
+					"defaultValue": "true",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"value": "true"
+							},
+							{
+								"value": "false"
+							}
+						]
+					}
+				}
+			]
+		}
+	]
+}

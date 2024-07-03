@@ -1,0 +1,14 @@
+dependencies {
+	compileOnly group: "com.liferay", name: "com.liferay.announcements.api"
+	compileOnly group: "com.liferay", name: "com.liferay.asset.publisher.api"
+	compileOnly group: "com.liferay", name: "com.liferay.document.library.api"
+	compileOnly group: "com.liferay", name: "com.liferay.dynamic.data.mapping.api"
+	compileOnly group: "com.liferay", name: "com.liferay.fragment.api"
+	compileOnly group: "com.liferay", name: "com.liferay.journal.api"
+	compileOnly group: "com.liferay", name: "com.liferay.layout.page.template.api"
+	compileOnly group: "com.liferay", name: "com.liferay.portal.upgrade.api"
+	compileOnly group: "com.liferay", name: "com.liferay.portlet.display.template.api"
+	compileOnly project(":modules:cmic:cmic-core:cmic-core-api")
+	compileOnly project(":modules:commons:commons-util")
+	compileOnly project(":modules:user-registration:user-registration-api")
+}

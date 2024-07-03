@@ -1,0 +1,26 @@
+[
+	{
+		"sourceSystem": "QSCMIC",
+		"name": "Loss payee - WI",
+		"type": "LOSPAY",
+		"addressLine1": "9876 test",
+		"addressLine2": null,
+		"city": "Abbotsford",
+		"state": "WI",
+		"county": null,
+		"postalCode": "54405",
+		"postalCodeExtension": null
+	},
+	{
+		"sourceSystem": "QSCMIC",
+		"name": "Mortgagee - WI",
+		"type": "LIEN",
+		"addressLine1": "7634 test",
+		"addressLine2": null,
+		"city": "Ashippun",
+		"state": "WI",
+		"county": null,
+		"postalCode": "53003",
+		"postalCodeExtension": null
+	}
+]

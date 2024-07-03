@@ -1,0 +1,44 @@
+[
+	{
+		"accountNumber": "0000015",
+		"cancelDate": null,
+		"currentSequenceNumber": 1,
+		"expiredPolicy": true,
+		"futurePolicy": false,
+		"inForcePolicy": false,
+		"policyEffectiveDate": "2018-11-01",
+		"policyExpirationDate": "2019-11-01",
+		"policyNumber": "008765",
+		"policyType": "06",
+		"sourceSystem": "QSCMIC",
+		"totalBilledPremium": 853.0000
+	},
+	{
+		"accountNumber": "0000015",
+		"cancelDate": "2018-12-01",
+		"currentSequenceNumber": 6,
+		"expiredPolicy": true,
+		"futurePolicy": false,
+		"inForcePolicy": false,
+		"policyEffectiveDate": "2018-12-01",
+		"policyExpirationDate": "2019-12-01",
+		"policyNumber": "000054",
+		"policyType": "07",
+		"sourceSystem": "QSCMIC",
+		"totalBilledPremium": 34791.0000
+	},
+	{
+		"accountNumber": "0000015",
+		"cancelDate": null,
+		"currentSequenceNumber": 1,
+		"expiredPolicy": true,
+		"futurePolicy": false,
+		"inForcePolicy": false,
+		"policyEffectiveDate": "2018-12-01",
+		"policyExpirationDate": "2019-12-01",
+		"policyNumber": "000055",
+		"policyType": "07",
+		"sourceSystem": "QSCMIC",
+		"totalBilledPremium": 58411.0000
+	}
+]

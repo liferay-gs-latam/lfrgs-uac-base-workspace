@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.churchmutual.core.model.CMICPermission">
+		<field name="userId" type="long" />
+		<field name="cmicBusinessKey" type="String" />
+		<field name="actionId" type="String" />
+	</model>
+	<model name="com.churchmutual.core.model.CMICUser">
+		<field name="cmicUserId" type="long" />
+		<field name="userId" type="long" />
+	</model>
+</model-hints>

@@ -1,0 +1,62 @@
+.tag {
+	font-weight: bold; margin-right: 1em;
+}
+
+.value {
+	font-family: monospace;
+}
+
+.pre {
+	font-family: monospace; white-space: pre;
+}
+
+//
+// Input.js
+//
+
+.floating-label {
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+	margin: 0 !important;
+	padding: 0 !important;
+	position: relative !important;
+	transform: none !important;
+}
+
+.floating-label + .floating-label {
+	margin-top: 0.5rem;
+}
+
+.floating-label input:focus + span, .floating-label input.filled + span,
+.floating-label.floating span {
+	font-size: 0.875rem;
+	padding: 0 4px;
+	margin-top: -12px;
+	margin-left: 14px;
+	z-index: 10;
+	background-color: #fff;
+}
+
+.floating-label {
+	.label-text {
+		box-sizing: border-box;
+		font-size: 1rem;
+		left: 0;
+		padding: 13px 16px;
+		pointer-events: none;
+		position: absolute;
+		top: 0;
+		transition: font-size 100ms, padding 100ms;
+		z-index: 1;
+	}
+}
+
+.floating-label + .form-feedback-group {
+	.form-feedback-item {
+		.has-error & {
+			background-position: top .5625rem left 1rem;
+			background-size: .875rem .875rem;
+		}
+	}
+}

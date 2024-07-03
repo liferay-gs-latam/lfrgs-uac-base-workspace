@@ -1,0 +1,6 @@
+Bundle-Name: notification-service
+Bundle-SymbolicName: com.churchmutual.notification.service
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.churchmutual.notification,\
+	com.churchmutual.notification.constants

@@ -1,0 +1,40 @@
+.table,
+.table-list {
+
+	thead {
+
+		th,
+		td {
+
+			&,
+			&:first-child,
+			&:last-child,
+			&:only-child {
+				box-shadow: inset 0 .0625rem $table-list-border-color, inset 0 -.0625rem $table-list-border-color;
+
+				@include media-breakpoint-down(md) {
+					padding-left: 1rem;
+					padding-right: 1rem;
+				}
+			}
+		}
+	}
+
+	tbody {
+
+		td {
+
+			&,
+			&:first-child,
+			&:last-child,
+			&:only-child {
+				@include media-breakpoint-down(md) {
+					padding-left: 1rem;
+					padding-right: 1rem;
+				}
+			}
+		}
+	}
+}
+
+.table-sticky {}

@@ -1,0 +1,41 @@
+[
+	{
+		"addressLine1": "555 S LA CANADA DR",
+		"addressLine2": null,
+		"buildingNumber": "001",
+		"city": "Merrill",
+		"county": "Lincoln",
+		"description": null,
+		"locationPremisesNumber": "001",
+		"postalCode": "54452",
+		"postalCodeExtension": "12ND",
+		"sourceSystem": "QSCMIC",
+		"state": "WI"
+	},
+	{
+		"addressLine1": "555 S LA CANADA DR",
+		"addressLine2": null,
+		"buildingNumber": "002",
+		"city": "Merrill",
+		"county": "Lincoln",
+		"description": null,
+		"locationPremisesNumber": "001",
+		"postalCode": "54452",
+		"postalCodeExtension": "12ND",
+		"sourceSystem": "QSCMIC",
+		"state": "WI"
+	},
+	{
+		"addressLine1": "555 S LA CANADA DR",
+		"addressLine2": null,
+		"buildingNumber": "001",
+		"city": "Merrill",
+		"county": "Lincoln",
+		"description": null,
+		"locationPremisesNumber": "002",
+		"postalCode": "54452",
+		"postalCodeExtension": "12ND",
+		"sourceSystem": "QSCMIC",
+		"state": "WI"
+	}
+]

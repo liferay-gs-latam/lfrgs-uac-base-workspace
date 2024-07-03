@@ -1,0 +1,21 @@
+.changes-feedback {
+	display: inline-flex;
+	align-items: center;
+}
+
+.indicator-feedback {
+	width: $changes-feedback-indicator-size;
+	height: $changes-feedback-indicator-size;
+	display: block;
+	margin-right: .5rem;
+	border-radius: 50%;
+	background-color: $changes-feedback-indicator-bg;
+
+	.unsaved-changes & {
+		background-color: $changes-feedback-indicator-unsaved-bg;
+	}
+}
+
+.text-feedback {
+	font-size: $changes-feedback-text-font-size;
+}

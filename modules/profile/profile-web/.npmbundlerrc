@@ -1,0 +1,23 @@
+{
+	"create-jar": {
+		"output-dir": "dist",
+		"features": {
+			"js-extender": true,
+			"web-context": "/profile-web",
+			"localization": "features/localization/Language"
+		}
+	},
+	"config": {
+		"imports": {
+            "com.churchmutual.commons.web": {
+                "/": ">=1.0.0",
+                "react": "16.8.6",
+                "react-dom": "16.8.6",
+                "@clayui/button": "^3.3.0",
+                "@clayui/modal": "^3.4.0",
+                "@clayui/form": "^3.6.0"
+            }
+		}
+	},
+	"dump-report": true
+}

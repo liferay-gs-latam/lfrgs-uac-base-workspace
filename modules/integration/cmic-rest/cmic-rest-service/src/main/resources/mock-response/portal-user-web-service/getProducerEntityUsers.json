@@ -1,0 +1,35 @@
+[
+	{
+		"createdAt": "2020-05-19T18:36:51.041+0000",
+		"id": 1037,
+		"registrationCode": "Kjh9vTJU",
+		"registrationExpirationDate": "2020-06-19",
+		"registrationStatus": null,
+		"updatedAt": null,
+		"userRole": "owner",
+		"uuid": "e7575932-9235-4829-8399-88d08d4c7542",
+		"valid": false
+	},
+	{
+		"createdAt": "2020-05-19T18:36:51.041+0000",
+		"id": 1080,
+		"registrationCode": "Kjh9vTJL",
+		"registrationExpirationDate": "2020-08-19",
+		"registrationStatus": null,
+		"updatedAt": "2020-06-19T18:36:51.041+0000",
+		"userRole": "admin",
+		"uuid": "8b6899dd-4f4d-4536-bf5f-780ebdb7701d",
+		"valid": false
+	},
+	{
+		"createdAt": "2020-05-19T18:36:51.041+0000",
+		"id": 1082,
+		"registrationCode": "Kjh9vTJM",
+		"registrationExpirationDate": "2020-08-19",
+		"registrationStatus": null,
+		"updatedAt": "2020-06-19T18:36:51.041+0000",
+		"userRole": "member",
+		"uuid": "77985eaa-6dd4-4a5c-8004-17bde0a5bd73",
+		"valid": false
+	}
+]

@@ -1,0 +1,27 @@
+<div class="fragment">
+	<div class="row info-section">
+		<div class="col-lg-1"></div>
+		<div class="col-lg-11">
+			<lfr-editable id="info-text" type="rich-text">
+				<h2>Additional information section title goes here</h2>
+				<p>This is the description area to provide any additional information. This can be used to add any kind of text as well as different headings as well.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh massa bibendum faucibus aliquet imperdiet massa accumsan tellus dolor. A at vestibulum lacus viverra tempus et placerat nisi. Nisl, dignissim varius adipiscing nec sit. Dictum vel, tempor feugiat fames velit lacus, id habitasse morbi. Quam viverra mauris tortor, diam interdum neque, facilisi. Ultrices convallis egestas rhoncus morbi eget quis suscipit iaculis nulla. Eget lobortis tincidunt ac morbi nisi, eget. Lectus scelerisque lectus lacus lobortis augue.</p>
+				<p>Purus fusce proin orci pulvinar a arcu, sed aenean varius. Cursus lectus lectus viverra neque tristique egestas tortor pretium. Tincidunt placerat lobortis pellentesque vulputate sed. Vel sollicitudin risus augue imperdiet nullam dignissim.</p>
+				<p>Et cras justo duis nunc vulputate. Sed fringilla suscipit est eu, habitant porttitor bibendum risus viverra. Ornare id ut vulputate etiam faucibus. Condimentum quis urna consequat arcu ullamcorper massa. Eget mi eget senectus viverra viverra velit at sit. Viverra non aliquet tempor in lectus sagittis. At lacus mauris purus tortor tortor amet.</p>
+			</lfr-editable>
+		</div>
+	</div>
+	[#if configuration.showCallToAction == "true"]
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="info-call-to-action-section">
+					<lfr-editable id="info-call-to-action-text" type="rich-text">
+					</lfr-editable>
+				</div>
+			</div>
+		</div>
+	[/#if]
+	[#if configuration.showSeparator == "true"]
+		<hr>
+	[/#if]
+</div>

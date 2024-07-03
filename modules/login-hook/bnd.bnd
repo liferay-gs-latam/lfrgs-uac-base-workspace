@@ -1,0 +1,4 @@
+Bundle-Name: CMIC Login Hook
+Bundle-SymbolicName: com.churchmutual.login.hook
+Bundle-Version: 1.0.0
+Export-Package: com.churchmutual.login.hook

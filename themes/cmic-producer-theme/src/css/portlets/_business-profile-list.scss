@@ -1,0 +1,53 @@
+.account-profile-portlet, .organization-profile-portlet {
+
+	.well {
+		margin-bottom: map-get($spacers, 4);
+
+		@include media-breakpoint-up(md) {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			> :first-child {
+				max-width: calc(50% - 1rem);
+			}
+
+			> :last-child {
+				position: relative;
+				min-width: 25%;
+				max-width: calc(50% - 3rem);
+			}
+		}
+
+		> :last-child::before {
+			content: '';
+			display: block;
+			width: 2rem;
+			height: .063rem;
+			margin: map-get($spacers, 3) 0;
+			background-color: $gray-300;
+
+			@include media-breakpoint-up(md) {
+				width: 1px;
+				height: 2rem;
+				margin: 0;
+				position: absolute;
+				top: 50%;
+				left: -2rem;
+				transform: translateY(-50%);
+			}
+		}
+
+		.empty-state {
+			max-width: none;
+
+			&::before {
+				content: none;
+			}
+
+			@include media-breakpoint-up(md) {
+				text-align: center;
+			}
+		}
+	}
+}

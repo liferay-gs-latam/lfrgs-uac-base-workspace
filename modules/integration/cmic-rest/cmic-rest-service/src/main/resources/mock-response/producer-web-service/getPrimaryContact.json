@@ -1,0 +1,27 @@
+{
+	"addressLine1": "1212 main street",
+	"addressLine2": "apt 20",
+	"assignments": [
+		{
+			"contactId": 2897,
+			"id": 21289,
+			"responsibility": null,
+			"version": 2
+		}
+	],
+	"city": "merrill",
+	"country": "USA",
+	"department": null,
+	"email": "jdoe@churchmutual.com",
+	"fax": null,
+	"firstName": "John",
+	"id": 2897,
+	"lastName": "Doe",
+	"middleName": null,
+	"otherPhoneNumber": null,
+	"phoneNumber": "(546) 845-7453",
+	"postalCode": "48152",
+	"state": "WI",
+	"suffix": null,
+	"version": 3
+}

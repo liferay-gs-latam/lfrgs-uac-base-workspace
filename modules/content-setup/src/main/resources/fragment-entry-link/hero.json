@@ -1,0 +1,886 @@
+[
+  {
+    "partnerName": "aedsuperstore",
+    "configuration": {
+      "fieldSets": [
+        {
+          "fields": [
+            {
+              "name": "video",
+              "label": "video",
+              "dataType": "string",
+              "defaultValue": "true",
+              "type": "select",
+              "typeOptions": {
+                "validValues": [
+                  {
+                    "value": "true"
+                  },
+                  {
+                    "value": "false"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "sourceVideo",
+              "label": "source-video-embed-url",
+              "type": "text",
+              "dataType": "string",
+              "defaultValue": "https://www.youtube.com/embed/0H_CvVgCt4E"
+            },
+            {
+              "name": "imageSrc",
+              "label": "image-src",
+              "type": "text",
+              "dataType": "string",
+              "defaultValue": ""
+            }
+          ]
+        }
+      ]
+    },
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "hero-tags-icon": {
+          "defaultValue": "/o/cmic-insured-theme/images/cmic/categories.svg",
+          "config": {}
+        },
+        "hero-title": {
+          "defaultValue": "<h2>Are you prepared for a medical emergency?</h2>",
+          "config": {}
+        },
+        "hero-tags": {
+          "defaultValue": "House of Worship, Schools, Camps, Senior Living Communities, Work Comp, Nonprofit & Human Service Organizations",
+          "config": {}
+        },
+        "hero-logo": {
+          "defaultValue": "/o/cmic-fragment-collection-contributor/images/logo/logo-aedsuperstore.png",
+          "config": {}
+        },
+        "hero-description": {
+          "defaultValue": "We have partnered with AED Superstore to bring AED discounts and compliance assistance to you.<br><br>Automated external defibrillators (AEDs) have the potential to save lives. However, AED equipment can be costly. AEDs can also result in liability when not properly managed, maintained, or used correctly. For these reasons, Church Mutual has partnered with AED Superstore to provide policyholders across the country with valuable AED equipment discounts and compliance assistance.",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "alice",
+    "configuration": {
+      "fieldSets": [
+        {
+          "fields": [
+            {
+              "name": "video",
+              "label": "video",
+              "dataType": "string",
+              "defaultValue": "true",
+              "type": "select",
+              "typeOptions": {
+                "validValues": [
+                  {
+                    "value": "true"
+                  },
+                  {
+                    "value": "false"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "sourceVideo",
+              "label": "source-video-embed-url",
+              "type": "text",
+              "dataType": "string",
+              "defaultValue": "https://www.youtube.com/embed/r42mcD4AuFM"
+            },
+            {
+              "name": "imageSrc",
+              "label": "image-src",
+              "type": "text",
+              "dataType": "string",
+              "defaultValue": ""
+            }
+          ]
+        }
+      ]
+    },
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "hero-tags-icon": {
+          "defaultValue": "/o/cmic-insured-theme/images/cmic/categories.svg",
+          "config": {}
+        },
+        "hero-title": {
+          "defaultValue": "<h2>Prepare to protect</h2>",
+          "config": {}
+        },
+        "hero-tags": {
+          "defaultValue": "House of Worship, Schools, Camps, Senior Living Communities, Work Comp, Nonprofit & Human Service Organizations",
+          "config": {}
+        },
+        "hero-logo": {
+          "defaultValue": "/o/cmic-fragment-collection-contributor/images/logo/logo-alice.png",
+          "config": {}
+        },
+        "hero-description": {
+          "defaultValue": "Violence can happen anywhere. Houses of worship, schools, camps, senior living facilities, and any other organization serving the greater good has the potential to be threatened by an act of violence. Are you and your organization prepared to take action and save lives?<br><br>ALICE Training® is a leading active shooter training organization, and is Church Mutual's recommended source for the information you need to protect your people. Church Mutual is proud to partner with ALICE Training to help your organization act in the face of violence and save lives.<br><br>Through preparation and planning, individuals and organizations are empowered To more proactively handle the threat of an aggressive intruder or active shooter event. ALICE Training option-based tactics have become the accepted response over traditional \"lockdown only\" approaches.",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "beazley",
+    "configuration": {
+      "fieldSets": [
+        {
+          "fields": [
+            {
+              "name": "video",
+              "label": "video",
+              "dataType": "string",
+              "defaultValue": "false",
+              "type": "select",
+              "typeOptions": {
+                "validValues": [
+                  {
+                    "value": "true"
+                  },
+                  {
+                    "value": "false"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "sourceVideo",
+              "label": "source-video-embed-url",
+              "type": "text",
+              "dataType": "string",
+              "defaultValue": ""
+            },
+            {
+              "name": "imageSrc",
+              "label": "image-src",
+              "type": "text",
+              "dataType": "string",
+              "defaultValue": "/o/cmic-fragment-collection-contributor/images/hero-image/hero-image-beazley.png"
+            }
+          ]
+        }
+      ]
+    },
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "hero-tags-icon": {
+          "defaultValue": "/o/cmic-insured-theme/images/cmic/categories.svg",
+          "config": {}
+        },
+        "hero-title": {
+          "defaultValue": "<h2>Cyber Liability Protection</h2>",
+          "config": {}
+        },
+        "hero-tags": {
+          "defaultValue": "House of Worship, Schools, Camps, Senior Living Communities, Work Comp, Nonprofit & Human Service Organizations",
+          "config": {}
+        },
+        "hero-logo": {
+          "defaultValue": "/o/cmic-fragment-collection-contributor/images/logo/logo-beazley.png",
+          "config": {}
+        },
+        "hero-description": {
+          "defaultValue": "As a leader of an organization, you may have files full of confidential papers or a computer folder that houses credit card numbers or other personal information. Unfortunately, it is becoming all too common these days for hackers to retrieve that information through computer systems or files to end up in the wrong hands. Church Mutual has recognized the need to protect their customers from any potential data breaches and has the relevant coverage in place to protect your most important files.",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "concentra",
+    "configuration": {
+      "fieldSets": [
+        {
+          "fields": [
+            {
+              "name": "video",
+              "label": "video",
+              "dataType": "string",
+              "defaultValue": "true",
+              "type": "select",
+              "typeOptions": {
+                "validValues": [
+                  {
+                    "value": "true"
+                  },
+                  {
+                    "value": "false"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "sourceVideo",
+              "label": "source-video-embed-url",
+              "type": "text",
+              "dataType": "string",
+              "defaultValue": "https://www.youtube.com/embed/WLPEf1B5xSk"
+            },
+            {
+              "name": "imageSrc",
+              "label": "image-src",
+              "type": "text",
+              "dataType": "string",
+              "defaultValue": ""
+            }
+          ]
+        }
+      ]
+    },
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "hero-tags-icon": {
+          "defaultValue": "/o/cmic-insured-theme/images/cmic/categories.svg",
+          "config": {}
+        },
+        "hero-title": {
+          "defaultValue": "<h2>The first telemedicine product for workers' compensation injuries.</h2>",
+          "config": {}
+        },
+        "hero-tags": {
+          "defaultValue": "House of Worship, Schools, Camps, Senior Living Communities, Work Comp, Nonprofit & Human Service Organizations",
+          "config": {}
+        },
+        "hero-logo": {
+          "defaultValue": "/o/cmic-fragment-collection-contributor/images/logo/logo-concentra.png",
+          "config": {}
+        },
+        "hero-description": {
+          "defaultValue": "As the world has adjusted to changes during the coronavirus (COVID-19) pandemic, employers are handling workers’ compensation claims differently. Rather than risking exposure through a doctor’s office visit, employees want to connect with health care professionals from the privacy of their own homes.<br><br>Church Mutual is pleased to partner with Concentra Telemed®<sup>1</sup> in bringing you the first telemedicine product designed specifically for workers’ compensation injuries. Employees can use their computers, tablets or smartphones to connect with providers via video conferencing for diagnosis and treatment of relatively minor injuries. The program gives them immediate access to occupational health specialists without forcing them to sit in a waiting room crowded with other patients.",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "ibhs",
+    "configuration": {
+      "fieldSets": [
+        {
+          "fields": [
+            {
+              "name": "video",
+              "label": "video",
+              "dataType": "string",
+              "defaultValue": "true",
+              "type": "select",
+              "typeOptions": {
+                "validValues": [
+                  {
+                    "value": "true"
+                  },
+                  {
+                    "value": "false"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "sourceVideo",
+              "label": "source-video-embed-url",
+              "type": "text",
+              "dataType": "string",
+              "defaultValue": "https://player.vimeo.com/video/110255984?title=0&byline=0&portrait=0"
+            },
+            {
+              "name": "imageSrc",
+              "label": "image-src",
+              "type": "text",
+              "dataType": "string",
+              "defaultValue": ""
+            }
+          ]
+        }
+      ]
+    },
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "hero-tags-icon": {
+          "defaultValue": "/o/cmic-insured-theme/images/cmic/categories.svg",
+          "config": {}
+        },
+        "hero-title": {
+          "defaultValue": "",
+          "config": {}
+        },
+        "hero-tags": {
+          "defaultValue": "House of Worship, Schools, Camps, Senior Living Communities, Work Comp, Nonprofit & Human Service Organizations",
+          "config": {}
+        },
+        "hero-logo": {
+          "defaultValue": "/o/cmic-fragment-collection-contributor/images/logo/logo-ibhs.png",
+          "config": {}
+        },
+        "hero-description": {
+          "defaultValue": "Church Mutual Insurance Company, S.I. has partnered with the Insurance Institute for Business & Home Safety (IBHS) to help protect your organization from natural disasters and offer industry-leading research to ensure the safety of your people.",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "insightww",
+    "configuration": {
+      "fieldSets": [
+        {
+          "fields": [
+            {
+              "name": "video",
+              "label": "video",
+              "dataType": "string",
+              "defaultValue": "false",
+              "type": "select",
+              "typeOptions": {
+                "validValues": [
+                  {
+                    "value": "true"
+                  },
+                  {
+                    "value": "false"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "sourceVideo",
+              "label": "source-video-embed-url",
+              "type": "text",
+              "dataType": "string",
+              "defaultValue": ""
+            },
+            {
+              "name": "imageSrc",
+              "label": "image-src",
+              "type": "text",
+              "dataType": "string",
+              "defaultValue": "/o/cmic-fragment-collection-contributor/images/hero-image/hero-image-insightww.png"
+            }
+          ]
+        }
+      ]
+    },
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "hero-tags-icon": {
+          "defaultValue": "/o/cmic-insured-theme/images/cmic/categories.svg",
+          "config": {}
+        },
+        "hero-title": {
+          "defaultValue": "<h2>Better Insight.  Better Employees.</h2>",
+          "config": {}
+        },
+        "hero-tags": {
+          "defaultValue": "House of Worship, Schools, Camps, Senior Living Communities, Work Comp, Nonprofit & Human Service Organizations",
+          "config": {}
+        },
+        "hero-logo": {
+          "defaultValue": "/o/cmic-fragment-collection-contributor/images/logo/logo-insightww.png",
+          "config": {}
+        },
+        "hero-description": {
+          "defaultValue": "Today’s hire could be one of the best decisions you’ve ever made. Church Mutual has partnered with Insight Worldwide to offer pre-employment screening assessments for your organization. These tests can help you identify candidates who are more likely to stay on the job and succeed, leading to reduced turnover, fewer workers’ compensation claims, and reduced employee theft and abuse.",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "medcor",
+    "configuration": {
+      "fieldSets": [
+        {
+          "fields": [
+            {
+              "name": "video",
+              "label": "video",
+              "dataType": "string",
+              "defaultValue": "true",
+              "type": "select",
+              "typeOptions": {
+                "validValues": [
+                  {
+                    "value": "true"
+                  },
+                  {
+                    "value": "false"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "sourceVideo",
+              "label": "source-video-embed-url",
+              "type": "text",
+              "dataType": "string",
+              "defaultValue": "https://www.youtube.com/embed/6Nt-5WrPPj4"
+            },
+            {
+              "name": "imageSrc",
+              "label": "image-src",
+              "type": "text",
+              "dataType": "string",
+              "defaultValue": ""
+            }
+          ]
+        }
+      ]
+    },
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "hero-tags-icon": {
+          "defaultValue": "/o/cmic-insured-theme/images/cmic/categories.svg",
+          "config": {}
+        },
+        "hero-title": {
+          "defaultValue": "<h2>Nurse Hotline</h2>",
+          "config": {}
+        },
+        "hero-tags": {
+          "defaultValue": "House of Worship, Schools, Camps, Senior Living Communities, Work Comp, Nonprofit & Human Service Organizations",
+          "config": {}
+        },
+        "hero-logo": {
+          "defaultValue": "/o/cmic-fragment-collection-contributor/images/logo/logo-medcor.png",
+          "config": {}
+        },
+        "hero-description": {
+          "defaultValue": "If a non-life-threatening injury occurs while you’re on the job, get fast and free advice by calling the 24/7 Nurse Hotline at <a href='tel:1-844-322-4662'>(844) 322-4662</a> before spending time and money at a health care facility. Nurse Hotline benefits both employees and employers providing immediate medical advice on the most appropriate form of treatment. Getting health care questions answered quickly and at no cost to employees is a win-win for everyone.",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "ministrysafe",
+    "configuration": {
+      "fieldSets": [
+        {
+          "fields": [
+            {
+              "name": "video",
+              "label": "video",
+              "dataType": "string",
+              "defaultValue": "false",
+              "type": "select",
+              "typeOptions": {
+                "validValues": [
+                  {
+                    "value": "true"
+                  },
+                  {
+                    "value": "false"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "sourceVideo",
+              "label": "source-video-embed-url",
+              "type": "text",
+              "dataType": "string",
+              "defaultValue": ""
+            },
+            {
+              "name": "imageSrc",
+              "label": "image-src",
+              "type": "text",
+              "dataType": "string",
+              "defaultValue": "/o/cmic-fragment-collection-contributor/images/hero-image/hero-image-ministrysafe.png"
+            }
+          ]
+        }
+      ]
+    },
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "hero-tags-icon": {
+          "defaultValue": "/o/cmic-insured-theme/images/cmic/categories.svg",
+          "config": {}
+        },
+        "hero-title": {
+          "defaultValue": "<h2>Addressing the risk of child sexual abuse</h2>",
+          "config": {}
+        },
+        "hero-tags": {
+          "defaultValue": "House of Worship, Schools, Camps, Senior Living Communities, Work Comp, Nonprofit & Human Service Organizations",
+          "config": {}
+        },
+        "hero-logo": {
+          "defaultValue": "/o/cmic-fragment-collection-contributor/images/logo/logo-ministrysafe.png",
+          "config": {}
+        },
+        "hero-description": {
+          "defaultValue": "Are you actively seeking information on how your organization can reduce the risk of child sexual abuse? Does your organization utilize questions meant to elicit high-risk responses when screening potential employees and volunteers? Are your leaders, staff members and volunteers equipped to recognize an offender's \"grooming process\"?<br><br>Church Mutual has partnered with MinistrySafe® | Abuse Prevention Systems® to provide you with tools and resources to help proactively prevent child sexual abuse.",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "relias",
+    "configuration": {
+      "fieldSets": [
+        {
+          "fields": [
+            {
+              "name": "video",
+              "label": "video",
+              "dataType": "string",
+              "defaultValue": "false",
+              "type": "select",
+              "typeOptions": {
+                "validValues": [
+                  {
+                    "value": "true"
+                  },
+                  {
+                    "value": "false"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "sourceVideo",
+              "label": "source-video-embed-url",
+              "type": "text",
+              "dataType": "string",
+              "defaultValue": ""
+            },
+            {
+              "name": "imageSrc",
+              "label": "image-src",
+              "type": "text",
+              "dataType": "string",
+              "defaultValue": "/o/cmic-fragment-collection-contributor/images/hero-image/hero-image-relias.png"
+            }
+          ]
+        }
+      ]
+    },
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "hero-tags-icon": {
+          "defaultValue": "/o/cmic-insured-theme/images/cmic/categories.svg",
+          "config": {}
+        },
+        "hero-title": {
+          "defaultValue": "<h2>Employee Training and Management Solutions. Conveniently Delivered.</h2>",
+          "config": {}
+        },
+        "hero-tags": {
+          "defaultValue": "Senior Living Communities",
+          "config": {}
+        },
+        "hero-logo": {
+          "defaultValue": "/o/cmic-fragment-collection-contributor/images/logo/logo-relias.png",
+          "config": {}
+        },
+        "hero-description": {
+          "defaultValue": "Church Mutual is excited to offer your senior living organization the benefits of a partnership with Relias. A leader in e-learning, Relias specializes in employee training and learning management for health care organizations. Your organization can benefit from access to resources that drive efficiency and consistency, bringing you better outcomes.",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "roadmaster",
+    "configuration": {
+      "fieldSets": [
+        {
+          "fields": [
+            {
+              "name": "video",
+              "label": "video",
+              "dataType": "string",
+              "defaultValue": "true",
+              "type": "select",
+              "typeOptions": {
+                "validValues": [
+                  {
+                    "value": "true"
+                  },
+                  {
+                    "value": "false"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "sourceVideo",
+              "label": "source-video-embed-url",
+              "type": "text",
+              "dataType": "string",
+              "defaultValue": "https://www.youtube.com/embed/A965roPX1e0"
+            },
+            {
+              "name": "imageSrc",
+              "label": "image-src",
+              "type": "text",
+              "dataType": "string",
+              "defaultValue": ""
+            }
+          ]
+        }
+      ]
+    },
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "hero-tags-icon": {
+          "defaultValue": "/o/cmic-insured-theme/images/cmic/categories.svg",
+          "config": {}
+        },
+        "hero-title": {
+          "defaultValue": "<h2>Discounted Pricing from Roadmaster Active Suspension</h2>",
+          "config": {}
+        },
+        "hero-tags": {
+          "defaultValue": "House of Worship, Schools, Camps, Senior Living Communities, Work Comp, Nonprofit & Human Service Organizations",
+          "config": {}
+        },
+        "hero-logo": {
+          "defaultValue": "/o/cmic-fragment-collection-contributor/images/logo/logo-roadmaster.png",
+          "config": {}
+        },
+        "hero-description": {
+          "defaultValue": "When fully loaded, a passenger van is three times more likely to roll over than a normal passenger vehicle, due to the van’s high center of gravity and suspension system.<br><br>The Roadmaster Active Suspension (RAS) kit is designed to reduce the chance of rollover in 10-, 12- and 15-passenger vans. It is an addition for the rear leaf springs that helps improve vehicle stability and control.<br><br>These kits have been designed specifically for the type of vans typically used by congregations, camps, colleges and universities and are referred to as the \"G\" Series.",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "safelyyou",
+    "configuration": {
+      "fieldSets": [
+        {
+          "fields": [
+            {
+              "name": "video",
+              "label": "video",
+              "dataType": "string",
+              "defaultValue": "true",
+              "type": "select",
+              "typeOptions": {
+                "validValues": [
+                  {
+                    "value": "true"
+                  },
+                  {
+                    "value": "false"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "sourceVideo",
+              "label": "source-video-embed-url",
+              "type": "text",
+              "dataType": "string",
+              "defaultValue": "https://cmgroup.widen.net/view/video/wot5a40ajp/Introducing%20SafelyYou%20September%202020.mp4?u=gy28sm&use=c5aes"
+            },
+            {
+              "name": "imageSrc",
+              "label": "image-src",
+              "type": "text",
+              "dataType": "string",
+              "defaultValue": ""
+            }
+          ]
+        }
+      ]
+    },
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "hero-tags-icon": {
+          "defaultValue": "/o/cmic-insured-theme/images/cmic/categories.svg",
+          "config": {}
+        },
+        "hero-title": {
+          "defaultValue": "<h2>Revolutionary fall prevention technology</h2>",
+          "config": {}
+        },
+        "hero-tags": {
+          "defaultValue": "Senior Living Communities",
+          "config": {}
+        },
+        "hero-logo": {
+          "defaultValue": "/o/cmic-fragment-collection-contributor/images/logo/logo-safelyyou.png",
+          "config": {}
+        },
+        "hero-description": {
+          "defaultValue": "Church Mutual is launching a preferred vendor program with SafelyYou to introduce revolutionary fall prevention technology to our memory care customers. The program is part of our ongoing commitment to deliver solutions and services that improve resident and employee safety. SafelyYou's technology will ultimately decrease fall risks, emergency room visits and the long-term cost of insurance premiums.<br><br>In addition, Senior Living Professional Liability customers<sup>1</sup> will receive a 10% discount<sup>2</sup> in the recurring operational costs for SafelyYou's technology and may also be eligible for cost sharing for the installation of this game changing technology.",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "sec",
+    "configuration": {
+      "fieldSets": [
+        {
+          "fields": [
+            {
+              "name": "video",
+              "label": "video",
+              "dataType": "string",
+              "defaultValue": "false",
+              "type": "select",
+              "typeOptions": {
+                "validValues": [
+                  {
+                    "value": "true"
+                  },
+                  {
+                    "value": "false"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "sourceVideo",
+              "label": "source-video-embed-url",
+              "type": "text",
+              "dataType": "string",
+              "defaultValue": ""
+            },
+            {
+              "name": "imageSrc",
+              "label": "image-src",
+              "type": "text",
+              "dataType": "string",
+              "defaultValue": "/o/cmic-fragment-collection-contributor/images/hero-image/hero-image-sec.png"
+            }
+          ]
+        }
+      ]
+    },
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "hero-tags-icon": {
+          "defaultValue": "/o/cmic-insured-theme/images/cmic/categories.svg",
+          "config": {}
+        },
+        "hero-title": {
+          "defaultValue": "<h2>Committed to creating the safest environment possible</h2>",
+          "config": {}
+        },
+        "hero-tags": {
+          "defaultValue": "House of Worship, Schools, Camps, Senior Living Communities, Work Comp, Nonprofit & Human Service Organizations",
+          "config": {}
+        },
+        "hero-logo": {
+          "defaultValue": "/o/cmic-fragment-collection-contributor/images/logo/logo-sec.png",
+          "config": {}
+        },
+        "hero-description": {
+          "defaultValue": "Do you know how to identify, assess and monitor those exhibiting concerning behaviors? Do you have plans in place to help you address a threat of violence and respond if action is needed?",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  },
+  {
+    "partnerName": "trusted-employees",
+    "configuration": {
+      "fieldSets": [
+        {
+          "fields": [
+            {
+              "name": "video",
+              "label": "video",
+              "dataType": "string",
+              "defaultValue": "false",
+              "type": "select",
+              "typeOptions": {
+                "validValues": [
+                  {
+                    "value": "true"
+                  },
+                  {
+                    "value": "false"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "sourceVideo",
+              "label": "source-video-embed-url",
+              "type": "text",
+              "dataType": "string",
+              "defaultValue": ""
+            },
+            {
+              "name": "imageSrc",
+              "label": "image-src",
+              "type": "text",
+              "dataType": "string",
+              "defaultValue": "/o/cmic-fragment-collection-contributor/images/hero-image/hero-image-trusted-employees.png"
+            }
+          ]
+        }
+      ]
+    },
+    "editableValues": {
+      "com.liferay.fragment.entry.processor.background.image.BackgroundImageFragmentEntryProcessor": {},
+      "com.liferay.fragment.entry.processor.editable.EditableFragmentEntryProcessor": {
+        "hero-tags-icon": {
+          "defaultValue": "/o/cmic-insured-theme/images/cmic/categories.svg",
+          "config": {}
+        },
+        "hero-title": {
+          "defaultValue": "<h2>Background Checks You Can Trust</h2>",
+          "config": {}
+        },
+        "hero-tags": {
+          "defaultValue": "House of Worship, Schools, Camps, Senior Living Communities, Work Comp, Nonprofit & Human Service Organizations",
+          "config": {}
+        },
+        "hero-logo": {
+          "defaultValue": "/o/cmic-fragment-collection-contributor/images/logo/logo-trusted-employees.png",
+          "config": {}
+        },
+        "hero-description": {
+          "defaultValue": "Church Mutual recommends that you make background checks a part of hiring new employees and managing volunteers. Background checks should be conducted prior to any job offer or volunteer service agreement for positions involving children, the elderly, vulnerable populations, money or transportation. Employee and volunteer data should then be re-examined on an annual basis to verify employment eligibility.",
+          "config": {}
+        }
+      },
+      "com.liferay.fragment.entry.processor.freemarker.FreeMarkerFragmentEntryProcessor": {}
+    }
+  }
+]

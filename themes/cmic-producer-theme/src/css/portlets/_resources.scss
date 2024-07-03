@@ -1,0 +1,165 @@
+.resources-list-portlet {
+
+	.card-body {
+		padding: .5rem 1rem 2rem 1rem;
+
+		@include media-breakpoint-up(lg) {
+			padding: 1rem 2rem 2rem 2rem;
+		}
+	}
+
+	.card-header {
+		padding: 1rem;
+
+		@include media-breakpoint-up(lg) {
+			padding: 2rem 2rem 1rem 2rem;
+		}
+	}
+
+	.document-icon-container {
+		align-content: center;
+		border-radius: 6px;
+		height: 3rem;
+		justify-content: center;
+		width: 3rem;
+
+		@include media-breakpoint-up(lg) {
+			height: 5rem;
+			width: 5rem;
+		}
+
+		&.document-type-doc {
+			background: rgba(29, 136, 237, 0.1)
+		}
+
+		&.document-type-pdf {
+			background: rgba(237, 29, 46, 0.1);
+		}
+
+		&.document-type-ppt {
+			background: rgba(240, 144, 0, 0.1);
+		}
+
+		&.document-type-xls {
+			background: rgba(40, 125, 60, 0.1);
+		}
+	}
+
+	.resource-file-asset {
+        margin-right: 1.5rem;
+        margin-bottom: 2.5rem;
+        width: calc( 20% - 1.5rem - 0.01px );
+
+        @media (max-width: 1385px) {
+            width: calc( 25% - 1.5rem - 0.01px );
+        }
+
+        @media (max-width: 1121px) {
+            width: calc( 33.3% - 1.5rem - 0.01px );
+        }
+
+        @supports (display: grid) {
+            margin: 0;
+            width: auto;
+        }
+
+        h4 {
+            font-weight: bold;
+            line-height: 1.5rem;
+            margin-bottom: .25rem;
+		}
+
+		a {
+			text-decoration: none;
+
+			.entry-title {
+				text-decoration: underline;
+			}
+
+			&:hover .entry-title {
+				text-decoration: none;
+			}
+		}
+	}
+
+	.resources-file-icon {
+		width: 1.5rem;
+
+		@include media-breakpoint-up(lg) {
+			width: 2.5rem;
+		}
+	}
+
+	.resource-file-list {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+
+		@supports (display: grid) {
+			display: grid;
+			grid-column-gap: 1.5rem;
+			grid-row-gap: 2.5rem;
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+			justify-content: space-between;
+
+			@include media-breakpoint-up(lg) {
+				grid-template-columns: repeat(auto-fill, minmax(13.5rem, .8fr));
+			}
+		}
+	}
+
+}
+
+.lfr-pagination {
+	margin-top: -5rem;
+	padding: 0 1.25rem;
+	position: relative;
+
+	.lfr-pagination-config {
+		.lfr-pagination-delta-selector {
+			display: none;
+		}
+
+		.lfr-pagination-page-selector {
+			display: none;
+
+			@include media-breakpoint-up(lg) {
+				display: block;
+			}
+
+			.current-page-menu .btn-default {
+				color: #231f20;
+				background-color: transparent;
+				border: none;
+				box-shadow: none;
+				text-decoration: none;
+			}
+		}
+	}
+
+	.lfr-pagination-buttons {
+		display: flex;
+		justify-content: center;
+
+		.first, .last {
+			display: none;
+		}
+
+		.first + li {
+			margin-right: 1rem;
+		}
+
+		> li {
+			width: auto;
+
+			> a {
+				border: none;
+
+				&:focus, &:hover, &:active {
+					background-color: transparent;
+					outline: none;
+				}
+			}
+		}
+	}
+}

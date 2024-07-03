@@ -1,0 +1,35 @@
+.custom-checkbox {
+  .custom-control-label::before {
+    @include border-radius(0.125rem);
+  }
+
+  .custom-control-input:checked ~ .custom-control-label {
+    &::before {
+      background-color: $primary;
+    }
+
+    &::after {
+      background-image: clay-icon(check, $white);
+    }
+  }
+
+  .custom-control-input:indeterminate ~ .custom-control-label {
+    &::before {
+      border-color: $primary;
+      @include gradient-bg($primary);
+      @include box-shadow($custom-checkbox-indicator-indeterminate-box-shadow);
+    }
+    &::after {
+      background-image: clay-icon(check, $white);
+    }
+  }
+
+  .custom-control-input:disabled {
+    &:checked ~ .custom-control-label::before {
+      background-color: rgba($primary, 0.3);
+    }
+    &:indeterminate ~ .custom-control-label::before {
+      background-color: rgba($primary, 0.3);
+    }
+  }
+}

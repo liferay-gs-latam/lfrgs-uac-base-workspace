@@ -1,0 +1,39 @@
+{
+	"fieldSets": [
+		{
+			"fields": [
+				{
+					"name": "video",
+					"label": "video",
+					"dataType": "string",
+					"defaultValue": "false",
+					"type": "select",
+					"typeOptions": {
+						"validValues": [
+							{
+								"value": "true"
+							},
+							{
+								"value": "false"
+							}
+						]
+					}
+				},
+				{
+					"name": "sourceVideo",
+					"label": "source-video-embed-url",
+					"type": "text",
+					"dataType": "string",
+					"defaultValue": ""
+				},
+				{
+					"name": "imageSrc",
+					"label": "image-src",
+					"type": "text",
+					"dataType": "string",
+					"defaultValue": ""
+				}
+			]
+		}
+	]
+}

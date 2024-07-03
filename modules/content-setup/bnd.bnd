@@ -1,0 +1,4 @@
+Bundle-Name: CMIC Content Setup
+Bundle-SymbolicName: com.churchmutual.content.setup
+Bundle-Version: 1.0.0
+Export-Package: com.churchmutual.content.setup.upgrade.util.common

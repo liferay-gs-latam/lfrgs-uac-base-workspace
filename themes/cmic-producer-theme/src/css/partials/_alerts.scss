@@ -1,0 +1,15 @@
+.alert {
+	border: none;
+	border-radius: 8px;
+	box-shadow: 0px 3.5px 14px rgba(0, 0, 0, 0.2);
+
+	.alert-autofit-row {
+		margin-left: -.25rem;
+		margin-right: -.25rem;
+
+		> .autofit-col {
+			padding-left: .25rem;
+			padding-right: .25rem;
+		}
+	}
+}

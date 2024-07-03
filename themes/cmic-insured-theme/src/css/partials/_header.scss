@@ -1,0 +1,169 @@
+#header {
+	display: flex;
+	height: $header-height;
+	position: relative;
+	z-index: 980;
+	align-items: center;
+	justify-content: space-between;
+	background-color: $header-bg;
+	box-shadow: $header-box-shadow;
+	@extend %content-spacing-x;
+
+	@include media-breakpoint-down(md) {
+		position: fixed;
+		left: 0px;
+		right: 0px;
+	}
+
+	.portlet {
+		margin-bottom: 0;
+	}
+
+	.header-text {
+		font-weight: 800;
+		font-size: 24px;
+		line-height: 32px;
+	}
+
+	.logo-icon {
+		width: $logo-width;
+	}
+
+	.nav-user-bar {
+		display: flex;
+		align-items: center;
+		min-width: 4.375rem;
+
+		@include media-breakpoint-up(lg) {
+			min-width: 3.5rem;
+		}
+	}
+
+	.notification-count {
+		align-items: center;
+		flex-direction: row;
+	}
+
+	.user-notification {
+		height: 100%;
+		position: relative;
+		top: calc(50% - 72px/2);
+		width: 72px;
+
+		.lexicon-icon-bell-on {
+			height: 24px;
+			left: calc(50% - 24px/2);
+			opacity: 0.6;
+			position: relative;
+			top: calc(50% - 24px/2);
+			width: 24px;
+		}
+
+		.badge-danger {
+			height: 16px;
+			left: calc(50% - 16px/2 + 12px);
+			position: absolute;
+			top: calc(50% - 16px/2 + 12px);
+			width: 16px;
+		}
+
+		.badge-item {
+			text-align: center;
+		}
+	}
+
+	.user-personal-bar .sticker-primary {
+		background-color: $header-bg;
+	}
+}
+
+.badge-danger {
+	background-color: $red;
+}
+
+.page-header-notification-panel {
+	background: $white;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	overflow: hidden;
+	position: fixed;
+	right: -416px;
+	top: 0;
+	transition: right 0.25s ease;
+	width: 416px;
+
+	@include media-breakpoint-down(xs) {
+		border-top: 1px solid $gray-300;
+		height: calc(100vh - 4.5rem);
+		right: -100vw;
+		top: 4.5rem;
+		width: 100vw;
+	}
+
+	&.open {
+		box-shadow: 0px 13px 36px rgba(0, 0, 0, 0.22);
+		right: 0;
+
+		@include media-breakpoint-down(xs) {
+			box-shadow: none;
+		}
+	}
+
+	.sidebar-header {
+		padding: 0px;
+
+		.sidebar-header-text {
+			padding: 2rem;
+		}
+
+		.badge-danger {
+			font-size: 1rem;
+			height: 24px;
+			margin-left: 10px;
+			position: relative;
+			vertical-align: middle;
+			width: 24px;
+
+			.badge-item {
+				top: 1px;
+			}
+		}
+
+		.lexicon-icon-times {
+			height: 14px;
+			width: 14px;
+		}
+
+		.page-header-notification-close {
+			padding-right: 2rem;
+			padding-top: 2.5rem;
+		}
+	}
+
+	.sidebar-body {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		padding: 0;
+
+		&::after {
+			background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, $white 100%);
+			bottom: 0rem;
+			content: '';
+			display: block;
+			height: 182px;
+			opacity: 0;
+			pointer-events: none;
+			position: absolute;
+			-webkit-transition: opacity 500ms linear;
+			transition: opacity 500ms linear;
+			width: 100%;
+		}
+
+		&.sidebar-fade::after {
+			opacity: 1;
+		}
+	}
+}

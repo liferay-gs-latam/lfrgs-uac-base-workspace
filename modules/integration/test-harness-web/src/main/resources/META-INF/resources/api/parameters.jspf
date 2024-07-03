@@ -1,0 +1,87 @@
+<c:forEach items="${parameters}" var="parameter">
+	<c:choose>
+		<c:when test="${fn:contains(parameter.type, '[]')}">
+			<div class="array-field">
+				<div class="d-none row template-row">
+					<div class="col-9">
+						<aui:input
+							disabled="true"
+							label=""
+							name="${parameter.name}"
+							required="${parameter.required}"
+							type="text"
+						/>
+					</div>
+
+					<div class="col-3">
+						<button class="btn btn-default remove-item" type="button"><liferay-ui:message key="remove" /></button>
+					</div>
+				</div>
+
+				<c:forEach items="${parameter.sampleValue}" var="sampleValue" varStatus="loop">
+					<c:set value="${parameter.name}: ${parameter.type} / ${parameter.description}" var="label" />
+
+					<c:if test="${loop.index > 0}">
+						<c:set value="" var="label" />
+					</c:if>
+
+					<div class="row">
+						<div class="col-9">
+							<aui:input
+								label="${label}"
+								name="${parameter.name}"
+								required="${parameter.required}"
+								type="text"
+								value="${sampleValue}"
+							/>
+						</div>
+
+						<div class="col-3">
+							<c:if test="${loop.index > 0}">
+								<button class="btn btn-default remove-item" type="button"><liferay-ui:message key="remove" /></button>
+							</c:if>
+						</div>
+					</div>
+				</c:forEach>
+
+				<button class="add-item btn btn-default" type="button"><liferay-ui:message key="add-item" /></button>
+			</div>
+		</c:when>
+		<c:when test="${fn:contains(parameter.type, 'String')}">
+			<aui:input
+				label="${parameter.name}: ${parameter.type} / ${parameter.description}"
+				name="${parameter.name}"
+				required="${parameter.required}"
+				type="text"
+				value="${parameter.sampleValue}"
+			/>
+		</c:when>
+		<c:when test="${fn:contains(parameter.type, 'Boolean')}">
+			<aui:select label="${parameter.name}: ${parameter.type} / ${parameter.description}" name="${parameter.name}" required="${parameter.required}">
+				<aui:option label="" value="" />
+				<aui:option label="true" selected="${parameter.sampleValue eq true}" value="true" />
+				<aui:option label="false" selected="${parameter.sampleValue eq false}" value="false" />
+			</aui:select>
+		</c:when>
+		<c:when test="${fn:contains(parameter.type, 'Long') or fn:contains(parameter.type, 'Integer')}">
+			<aui:input
+				label="${parameter.name}: ${parameter.type} / ${parameter.description}"
+				name="${parameter.name}"
+				required="${parameter.required}"
+				type="text"
+				value="${parameter.sampleValue}"
+			>
+				<aui:validator name="number" />
+			</aui:input>
+		</c:when>
+		<c:when test="${fn:contains(parameter.type, 'JSONObject')}">
+			<aui:input
+				label="${parameter.name}: ${parameter.type} / ${parameter.description}"
+				name="${parameter.name}"
+				required="${parameter.required}"
+				type="textarea"
+				value="${parameter.sampleValue}"
+			/>
+		</c:when>
+	</c:choose>
+</c:forEach>

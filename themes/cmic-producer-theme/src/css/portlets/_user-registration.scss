@@ -1,0 +1,27 @@
+.user-registration-portlet {
+	max-width: 29rem;
+	margin: 8rem auto 2rem;
+
+	@include media-breakpoint-down(md) {
+		margin: 6rem auto 2rem;
+	}
+
+	@include media-breakpoint-down(xs) {
+		margin: 6.5rem auto 2rem;
+	}
+
+	.btn {
+		letter-spacing: .08rem;
+	}
+
+	.sheet {
+		.sheet-title {
+			font-size: 2rem;
+		}
+
+		@include media-breakpoint-down(xs) {
+			padding: 0 1rem;
+			border: none;
+		}
+	}
+}

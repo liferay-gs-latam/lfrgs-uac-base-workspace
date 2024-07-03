@@ -1,0 +1,193 @@
+.payment-page {
+	margin: 0 auto;
+	padding-bottom: 2.5rem;
+
+	.container {
+		@include media-breakpoint-up(lg) {
+			max-width: 1025px;
+		}
+	}
+
+	.lexicon-icon {
+		height: 1.5rem;
+		width: 1.5rem;
+
+		&.color-red {
+			color: $red;
+		}
+	}
+
+	.payment-title {
+		margin: 6rem 0 3rem 2rem;
+
+		@include media-breakpoint-down(md) {
+			margin: 2rem 0;
+			text-align: center;
+		}
+	}
+
+	.payment-contacts {
+		grid-column: 1/4;
+		grid-row: 2;
+	}
+
+	@include media-breakpoint-between(sm, md) {
+		.first-option {
+			grid-column: 1;
+			grid-row: 1;
+		}
+
+		.second-option {
+			grid-column: 1;
+			grid-row: 2;
+		}
+
+		.third-option {
+			grid-column: 1;
+			grid-row: 3;
+		}
+
+		.payment-contacts {
+			grid-column: 2;
+			grid-row: 1/2;
+		}
+	}
+
+	.payment-options-container {
+		justify-content: center;
+
+		@supports (display: grid) {
+			display: grid;
+			grid-template-columns: repeat(3, minmax(0, 1fr));
+
+			@include media-breakpoint-up(lg) {
+				grid-template-columns: repeat(3, minmax(0, 20.625rem));
+			}
+
+			@include media-breakpoint-between(sm, md) {
+				column-gap: 3vw;
+				grid-template-columns: repeat(2, minmax(0, 1fr));
+				grid-template-rows: repeat(3, minmax(0, .61fr));
+				justify-items: end;
+
+				margin: 0 3vw;
+			}
+
+			@include media-breakpoint-down(xs) {
+				display: flex;
+				height: auto;
+				margin: 0 1rem;
+			}
+		}
+
+		.payment-option-container {
+			padding: 0 .75rem;
+
+			&.first-option, &.second-option {
+				border-right: 1px solid rgba(0, 0, 0, 0.1);
+
+				@include media-breakpoint-down(md) {
+					border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+					border-right: none;
+				}
+			}
+
+			display: flex;
+			flex-direction: row;
+			flex-flow: row;
+			flex-wrap: wrap;
+			justify-content: center;
+
+			@include media-breakpoint-up(lg) {
+				align-content: start;
+			}
+
+			@include media-breakpoint-down(md) {
+				align-self: start;
+				flex-direction: column;
+				margin-right: 2rem;
+				padding: 2.5rem 0;
+
+				max-width: 280px;
+				width: calc(100% - 3rem);
+
+				&.first-option {
+					padding-top: 2rem;
+				}
+			}
+
+			@include media-breakpoint-down(xs) {
+				margin-right: 0;
+				max-width: 400px;
+				padding: 2.5rem 0;
+				width: 100%;
+			}
+		}
+	}
+
+	.payment-contacts {
+		@include media-breakpoint-up(lg) {
+			margin-top: 3rem;
+		}
+
+		@include media-breakpoint-between(sm, md) {
+			justify-self: start;
+		}
+
+		@include media-breakpoint-down(xs) {
+			background-color: $gray-100;
+			margin: 0 -2rem;
+			padding: 0 2rem;
+			width: 100vw;
+		}
+	}
+
+	.pay-now-btn {
+		height: 44px;
+		max-width: 216px;
+
+		@include media-breakpoint-down(md) {
+			max-width: none;
+		}
+	}
+
+	table tr {
+		> th, td {
+			padding-bottom: 1.5rem;
+
+			&:first-child {
+				padding-right: 1rem;
+			}
+		}
+
+		@include media-breakpoint-up(lg) {
+			display: block;
+			float: left;
+			padding-right: 2.5rem;
+
+			> th, td {
+				display: inline;
+
+				&:first-child {
+					padding-right: 1.5rem;
+				}
+			}
+
+			&:last-child {
+				padding: 0;
+			}
+		}
+	}
+
+	.well {
+		background-color: $gray-100;
+		padding: 2rem;
+
+		@include media-breakpoint-down(xs) {
+			max-width: 400px;
+			justify-content: center;
+			padding: 2rem 0;
+			width: 100vw;
+		}
+	}
+}

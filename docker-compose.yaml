@@ -3,28 +3,28 @@ version: '3.9'
 services:
 
   database:
-    image: mysql:8.0.33
+    image: mcr.microsoft.com/mssql/server:2019-latest
     environment:
-      - MYSQL_ROOT_PASSWORD=root
-      - MYSQL_DATABASE=lportal
-    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --character-set-client-handshake=FALSE --lower-case-table-names=0
+      - MSSQL_SA_PASSWORD=Liferay123!
+      - ACCEPT_EULA=Y
     volumes:
-       - ./docker-compose/database-dump/:/docker-entrypoint-initdb.d
+       - ./docker-compose/database-dump/:/var/opt/mssql/data
     ports:
-      - "3307:3306"
+      - "1433:1433"
 
   liferay:
-    image: liferay/dxp:7.2.10-dxp-20
+    image: liferay/dxp:7.2.10-dxp-8
     environment:
       - LIFERAY_JVM_OPTS=-Xms3g -Xmx4g
-      - LIFERAY_JDBC_PERIOD_DEFAULT_PERIOD_DRIVER_UPPERCASEC_LASS_UPPERCASEN_AME=com.mysql.cj.jdbc.Driver
-      - LIFERAY_JDBC_PERIOD_DEFAULT_PERIOD_URL=jdbc:mysql://database/lportal?characterEncoding=utf8&dontTrackOpenResources=true&holdResultsOpenOverStatementClose=true&serverTimezone=GMT&useFastDateParsing=false&useUnicode=true
-      - LIFERAY_JDBC_PERIOD_DEFAULT_PERIOD_USERNAME=root
-      - LIFERAY_JDBC_PERIOD_DEFAULT_PERIOD_PASSWORD=root
+      - LIFERAY_JDBC_PERIOD_DEFAULT_PERIOD_DRIVER_UPPERCASEC_LASS_UPPERCASEN_AME=com.microsoft.sqlserver.jdbc.SQLServerDriver
+      - LIFERAY_JDBC_PERIOD_DEFAULT_PERIOD_URL=jdbc:sqlserver://database;databaseName=Liferay;encrypt=true;trustServerCertificate=true
+      - LIFERAY_JDBC_PERIOD_DEFAULT_PERIOD_USERNAME=sa
+      - LIFERAY_JDBC_PERIOD_DEFAULT_PERIOD_PASSWORD=Liferay123!
       - LIFERAY_MODULE_PERIOD_FRAMEWORK_PERIOD_PROPERTIES_PERIOD_OSGI_PERIOD_CONSOLE=0.0.0.0:11311
       - LIFERAY_RETRY_PERIOD_JDBC_PERIOD_ON_PERIOD_STARTUP_PERIOD_DELAY=20
       - LIFERAY_RETRY_PERIOD_JDBC_PERIOD_ON_PERIOD_STARTUP_PERIOD_MAX_PERIOD_RETRIES=5
       - LIFERAY_REDIRECT_PERIOD_URL_PERIOD_SECURITY_PERIOD_MODE=domain
+      - JAVA_VERSION=zulu11
     ports:
       - "8080:8080"
       - "11311:11311"

@@ -1,0 +1,85 @@
+[#assign spacingCssClass = ""]
+
+[#if configuration.calloutBox == "true"]
+	[#assign spacingCssClass = "mt-3 pt-3"]
+[/#if]
+
+[#assign colCssClass = "col-lg-2"]
+
+[#if configuration.buttons == "1"]
+	[#assign colCssClass = "col-lg-4"]
+[/#if]
+
+<div class="fragment">
+	<div class="benefits-section row">
+		<div class="col-lg-1"></div>
+		<div class="col-lg-10">
+			<div class="benefits-title-section">
+				<lfr-editable id="benefits-title" type="rich-text">
+					<h2>Benefits</h2>
+				</lfr-editable>
+			</div>
+			<div class="benefits-description-section">
+				<lfr-editable id="benefits-description" type="rich-text">
+					<p>Benefit #1 description goes here</p>
+					<ul>
+						<li>(optional) bullet point</li>
+						<li>(optional) bullet point</li>
+					</ul>
+					<p>Benefit #2 description goes here (optional)</p>
+					<p>Benefit #3 description goes here (optional)</p>
+				</lfr-editable>
+			</div>
+
+			[#if configuration.calloutBox == "true"]
+				<div class="row">
+					<div class="col-lg-1"></div>
+					<div class="col-lg-10 benefits-callout-section">
+						<div class="benefits-callout-text">
+							<lfr-editable id="benefits-callout-text" type="rich-text">
+								This box is to give some additional details on what kind of call to action users should take.
+							</lfr-editable>
+						</div>
+					</div>
+					<div class="col-lg-1"></div>
+				</div>
+			[/#if]
+			[#if configuration.buttons != "0"]
+				<div class="row ${spacingCssClass}">
+					<div class="${colCssClass}"></div>
+					<div class="col-lg-4 text-center">
+						<lfr-editable id="benefits-btn-primary-link" type="link">
+							<a class="benefits-btn btn btn-primary btn-sm link-action" href="" id="fragment-${fragmentEntryLinkNamespace}-primary-link" role="button">
+								DEFAULT
+							</a>
+						</lfr-editable>
+						<div class="benefits-btn-help-text">
+							<lfr-editable id="benefits-btn-primary-help-text" type="rich-text">
+								Button Description (optional)
+							</lfr-editable>
+						</div>
+					</div>
+					[#if configuration.buttons == "2"]
+						<div class="col-lg-4 mt-4 mt-lg-0 text-center">
+							<lfr-editable id="benefits-btn-secondary-link" type="link">
+								<a class="benefits-btn btn btn-outline-primary btn-sm link-action" href="" id="fragment-${fragmentEntryLinkNamespace}-secondary-link" role="button">
+									DEFAULT
+								</a>
+							</lfr-editable>
+							<div class="benefits-btn-help-text">
+								<lfr-editable id="benefits-btn-secondary-help-text" type="rich-text">
+									Button Description (optional)
+								</lfr-editable>
+							</div>
+						</div>
+					[/#if]
+					<div class="${colCssClass}"></div>
+				</div>
+			[/#if]
+		</div>
+		<div class="col-lg-1"></div>
+	</div>
+	[#if configuration.showSeparator == "true"]
+		<hr>
+	[/#if]
+</div>

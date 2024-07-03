@@ -1,0 +1,6 @@
+dependencies {
+	compileOnly group: "com.liferay", name: "com.liferay.portal.configuration.metatype.api"
+	compileOnly group: "org.apache.httpcomponents", name: "httpclient-osgi", version: "4.5.5"
+	compileOnly group: "org.apache.httpcomponents", name: "httpcore-osgi", version: "4.4.9"
+	compileOnly group: "org.osgi", name: "org.osgi.core"
+}

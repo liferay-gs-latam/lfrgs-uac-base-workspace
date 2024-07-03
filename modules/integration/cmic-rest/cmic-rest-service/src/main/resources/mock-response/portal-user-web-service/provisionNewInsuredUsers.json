@@ -1,0 +1,15 @@
+[
+	{
+		"id": 1393,
+		"createdAt": "2020-10-23T12:54:12.772",
+		"updatedAt": "2020-10-23T12:54:12.772",
+		"uuid": null,
+		"userType": "Insured",
+		"registrationCode": "s372W5Wx",
+		"registrationExpirationDate": "2020-11-22",
+		"registrationStatus": null,
+		"emailId": "kbaniya@churchmutual.com",
+		"valid": false,
+		"registrationExpired": false
+	}
+]

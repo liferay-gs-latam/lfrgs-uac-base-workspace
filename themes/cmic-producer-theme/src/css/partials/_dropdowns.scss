@@ -1,0 +1,45 @@
+.dropdown-menu {
+
+	.inline-scroller > .list-unstyled {
+		margin-bottom: 0;
+	}
+}
+
+.dropdown-item {
+
+	&,
+	& > li > a,
+	& .link-list > li > a {
+		text-decoration: none;
+	}
+
+	.dropdown-menu-indicator-end &:not(.active) .dropdown-item-indicator-end {
+		display: none;
+	}
+}
+
+.modal-dropdown-menu {
+	z-index: 10000;
+}
+
+.dropdown-menu {
+	max-width: 375px;
+}
+
+.dropdown-item {
+	font-size: 0.875rem;
+
+	&.disabled {
+		color: $secondary;
+		opacity: .5;
+	}
+
+	.dropdown-subitem {
+		font-size: .75rem;
+	}
+
+	.dropdown-item-indicator-end {
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}

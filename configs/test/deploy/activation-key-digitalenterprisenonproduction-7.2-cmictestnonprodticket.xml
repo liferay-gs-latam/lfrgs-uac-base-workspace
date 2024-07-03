@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<license>
+	<account-name>CMIC - Customer Portal and Websites</account-name>
+	<owner>CMIC - TEST - 7.2 - Non-Prod - Ticket 31494</owner>
+	<description>CMIC - TEST - 7.2 - Non-Prod - Ticket 31494</description>
+	<product-name>Digital Enterprise Non-Production</product-name>
+	<product-version>7.2</product-version>
+	<license-name>Digital Enterprise Non-Production</license-name>
+	<license-type>production</license-type>
+	<license-version>6</license-version>
+	<start-date>Sunday, December 29, 2019 12:00:00 AM GMT</start-date>
+	<expiration-date>Tuesday, December 5, 2119 12:00:00 AM GMT</expiration-date>
+	<max-servers>1</max-servers>
+	<instance-size>Sizing 1</instance-size>
+	<host-names>
+		<host-name>WIN-LR-T-03-129</host-name>
+	</host-names>
+	<ip-addresses>
+		<ip-address>172.16.129.19</ip-address>
+	</ip-addresses>
+	<mac-addresses/>
+	<key>62451b5d880a8fb62020c95845a413339e6db2af2ff51205ed7f7fac3d0f71332b99a6a4116d082fa297caa87bed796566875e5c2fd590154958b3f4ab95e843dfb84bf81b788d77f963c1202c56ce247e3d5e2eae7f9ff7172a338e5e5e8af81f891f59cdb6ef9c6bbe3885b619ce1e13c53209cfbb5861cfef25e5b8e701fd26756a7c</key>
+</license>

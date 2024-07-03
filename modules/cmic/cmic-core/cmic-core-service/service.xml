@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.2.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_2_0.dtd">
+
+<service-builder dependency-injector="ds" package-path="com.churchmutual.core">
+	<author>Kayleen Lim</author>
+	<namespace>cmic</namespace>
+
+	<entity local-service="true" name="CMICAccountEntry" remote-service="true" />
+
+	<entity local-service="true" name="CMICAnnouncementAndNotification" remote-service="true" />
+
+	<entity local-service="true" name="CMICCertificateOfInsurance" remote-service="true" />
+
+	<entity local-service="true" name="CMICCommissionDocument" remote-service="true" />
+
+	<entity local-service="true" name="CMICContact" remote-service="true" />
+
+	<entity local-service="true" name="CMICLossRun" remote-service="true" />
+
+	<entity local-service="true" name="CMICOrganization" remote-service="true" />
+
+	<entity local-service="true" name="CMICPermission" remote-service="true">
+		<column name="userId" primary="true" type="long" />
+		<column name="cmicBusinessKey" primary="true" type="String" />
+		<column name="actionId" primary="true" type="String" />
+
+		<finder name="U_C_A" return-type="CMICPermission">
+			<finder-column name="userId" />
+			<finder-column name="cmicBusinessKey" />
+			<finder-column name="actionId" />
+		</finder>
+		<finder name="U_C" return-type="Collection">
+			<finder-column name="userId" />
+			<finder-column name="cmicBusinessKey" />
+		</finder>
+		<finder name="U_A" return-type="Collection">
+			<finder-column name="userId" />
+			<finder-column name="actionId" />
+		</finder>
+		<finder name="UserId" return-type="Collection">
+			<finder-column name="userId" />
+		</finder>
+		<reference entity="Group" package-path="com.liferay.portal" />
+	</entity>
+
+	<entity local-service="true" name="CMICQsPolicy" remote-service="true" />
+
+	<entity local-service="true" name="CMICTransaction" remote-service="true" />
+
+	<entity local-service="true" name="CMICUser" remote-service="true">
+		<column name="cmicUserId" primary="true" type="long" />
+		<column name="userId" type="long" />
+
+		<finder name="UserId" return-type="CMICUser">
+			<finder-column name="userId" />
+		</finder>
+		<reference entity="Group" package-path="com.liferay.portal" />
+		<reference entity="Role" package-path="com.liferay.portal" />
+		<reference entity="UserGroup" package-path="com.liferay.portal" />
+		<reference entity="UserGroupRole" package-path="com.liferay.portal" />
+	</entity>
+
+	<exceptions>
+		<exception>NoSuchCMICAccountEntry</exception>
+		<exception>NoSuchCMICCommissionDocument</exception>
+		<exception>NoSuchCMICOrganization</exception>
+		<exception>NoSuchCMICPolicy</exception>
+	</exceptions>
+</service-builder>

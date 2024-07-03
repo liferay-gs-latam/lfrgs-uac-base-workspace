@@ -1,0 +1,76 @@
+.policy-list-portlet {
+
+	.card-header .input-group {
+
+		@include media-breakpoint-up(md) {
+			min-width: 23rem;
+		}
+	}
+
+	.empty-state {
+		text-align: center;
+		color: $gray-800;
+		padding: map-get($spacers, 6) map-get($spacers, 3);
+
+		h3 {
+			line-height: 1.4;
+		}
+
+		.well {
+			display: inline-block;
+			text-align: left;
+			margin-top: map-get($spacers, 3);
+
+			ul {
+				padding-left: map-get($spacers, 3);
+				margin-bottom: 0;
+				color: $body-color;
+			}
+		}
+	}
+
+	.expired-label {
+		font-weight: 500;
+		font-size: 14px;
+		color: $danger;
+		height: 100%;
+		margin-right: -3.75rem;
+		margin-left: 1rem;
+		position: absolute;
+		top: 0;
+		z-index: 1;
+	}
+
+	.expired-text {
+		color: $gray-700;
+	}
+
+	.filter, .filter-labels {
+		padding: 0 15px;
+
+		@include media-breakpoint-up(md) {
+			padding: 0 1.25rem;
+		}
+	}
+
+	.parent-expired-label {
+		height: 100%;
+		position: relative;
+	}
+
+	.subtitle-label {
+		font-size: .75rem;
+	}
+
+	.toggle-sort {
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+
+	.transactions-header {
+		padding: .75rem 0;
+	}
+}

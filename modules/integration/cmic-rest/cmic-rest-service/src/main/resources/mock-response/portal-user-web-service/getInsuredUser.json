@@ -1,0 +1,23 @@
+{
+	"id": 1132,
+	"createdAt": "2020-09-08T12:23:22.51",
+	"updatedAt": "2020-09-08T12:23:22.51",
+	"uuid": "09ab8c86-a625-4d77-ac6a-dea5b971b408",
+	"userType": "Insured",
+	"registrationCode": "67yxUZao",
+	"registrationExpirationDate": "2020-10-08",
+	"registrationStatus": "Registered",
+	"organizations": [],
+	"accounts": [
+		{
+			"id": 219,
+			"createdAt": "2020-09-08T12:23:22.563",
+			"updatedAt": "2020-09-23T23:06:28.587",
+			"companyNumber": "1",
+			"accountNumber": "0231691",
+			"role": "admin"
+		}
+	],
+	"valid": false,
+	"registrationExpired": true
+}

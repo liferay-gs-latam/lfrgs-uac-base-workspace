@@ -1,0 +1,55 @@
+# Gradle
+# Build your Java project and run tests with Gradle using a Gradle wrapper script.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/java
+
+trigger:
+- master
+
+pool:
+#  vmImage: 'ubuntu-latest'
+  name: win-lr-t-03-145
+  vmImage: win-lr-t-03-145
+
+jobs:
+- job: Build
+  timeoutInMinutes: 0 
+
+
+  steps:
+  - task: Gradle@2
+    inputs:
+      workingDirectory: ''
+      gradleWrapperFile: 'gradlew'
+      gradleOptions: '-Xmx3072m'
+      javaHomeOption: 'JDKVersion'
+      jdkVersionOption: '1.8'
+      jdkArchitectureOption: 'x64'
+      publishJUnitResults: true
+      testResultsFiles: '**/TEST-*.xml'
+      tasks: 'distBundleZip -Pliferay.workspace.environment=vanilla'
+
+  - task: CmdLine@2
+    inputs:
+      displayName: Rename s.zip to CMICPortal.zip
+      script: 'ren s.zip CMICPortal.zip'
+      workingDirectory: '$(System.DefaultWorkingDirectory)/build'
+      failOnStderr: true
+
+  - task: CopyFiles@2
+    displayName: 'Copy Files to artifact staging directory'
+    inputs:
+      SourceFolder: '$(System.DefaultWorkingDirectory)/build'
+      Contents: 'CMICPortal.zip'
+      targetFolder: '$(Build.ArtifactStagingDirectory)'
+
+  - task: CopyFiles@2
+    displayName: 'Copy Files to artifact staging directory'
+    inputs:
+      SourceFolder: '$(System.DefaultWorkingDirectory)/JMeterTests'
+      targetFolder: '$(Build.ArtifactStagingDirectory)/JMeterTest'
+
+  - task: PublishBuildArtifacts@1
+    inputs:
+     ArtifactName: 'CMICPortal.zip'
+     PathtoPublish: '$(Build.ArtifactStagingDirectory)'

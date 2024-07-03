@@ -1,0 +1,7 @@
+.sticker-xxl {
+	@include clay-sticker-size($sticker-xxl);
+}
+
+.sticker-xxxl {
+	@include clay-sticker-size($sticker-xxxl);
+}

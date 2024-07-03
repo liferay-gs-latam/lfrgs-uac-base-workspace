@@ -1,0 +1,119 @@
+.form-modal-dialog {
+	.modal-lg {
+		margin-top: 10vh;
+
+		@include media-breakpoint-down(md) {
+			max-width: none;
+		}
+
+		@include media-breakpoint-down(xs) {
+			margin: 0;
+
+			&, .modal-content {
+				height: 100%;
+			}
+
+			.modal-body {
+				height: calc(100% - 8rem);
+				max-height: calc(100% - 8rem);
+				position: absolute;
+				width: 100%;
+			}
+
+			.modal-footer {
+				bottom: 0;
+				position: absolute;
+				right: 0;
+				width: calc(100% - 3rem);
+			}
+		}
+	}
+
+	&.modal-shrink .modal-lg {
+		padding: 2rem 1rem;
+
+		&, .modal-content {
+			height: auto;
+		}
+
+		.modal-body {
+			max-height: 500px;
+
+			@include media-breakpoint-down(md) {
+				max-height: 320px;
+			}
+
+			@include media-breakpoint-down(xs) {
+				height: calc(100vh - 12.5rem);
+				position: relative;
+			}
+		}
+	}
+}
+
+.loss-run-modal {
+
+	.account-number-select {
+		margin-top: 1rem;
+		max-width: 17.5rem;
+
+		@include media-breakpoint-up(sm) {
+			margin-left: 1rem;
+		}
+	}
+
+	.custom-control-label-text {
+		color: $black;
+	}
+
+	.download-btn-manual {
+		padding-top: 10px;
+	}
+
+	.radio-with-input {
+		.custom-control-input {
+			top: 1rem;
+		}
+
+		.custom-control-label:before, .custom-control-label:after {
+			top: 1rem;
+		}
+	}
+
+	#otherReasonInput {
+		width: 20rem;
+
+		@include media-breakpoint-down(xs) {
+			width: auto;
+		}
+	}
+}
+
+.loss-run-response {
+	text-align: center;
+
+	@include media-breakpoint-down(xs) {
+		position: absolute;
+		top: 50%;
+		padding-right: 1.5rem;
+		transform: translateY(-50%);
+	}
+}
+
+.color-danger {
+	color: $danger;
+}
+
+.radio-wrap-indent {
+	padding-left: 1.5rem;
+	text-indent: -1.5rem;
+
+	&.custom-radio .custom-control-label:before {
+		transform: translateX(-1.5rem);
+	}
+}
+
+.text-wrap-indent {
+	padding-left: 1.25rem;
+	text-indent: -1.18rem;
+}

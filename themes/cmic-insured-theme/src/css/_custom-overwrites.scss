@@ -1,0 +1,36 @@
+$neutral-3: #575455;
+$neutral-4: #716E6F;
+
+body {
+	background-color: $white;
+}
+
+.bottom-0 {
+	bottom: 0
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	&, #wrapper, > .flipped {
+		height: 100%;
+	}
+}
+
+footer {
+	margin-bottom: 1.5rem;
+	margin-top: 1.5rem;
+	width: 100%;
+}
+
+.neutral-3 {
+	color: $neutral-3;
+}
+
+.neutral-4 {
+	color: $neutral-4;
+}
+
+@import 'custom-insured';

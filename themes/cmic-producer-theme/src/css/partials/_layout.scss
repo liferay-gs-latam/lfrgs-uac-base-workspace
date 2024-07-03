@@ -1,0 +1,31 @@
+#wrapper {
+	padding-top: $wrapper-padding-top;
+}
+
+#content {
+
+	@include media-breakpoint-down(md) {
+		padding-top: $header-height-sm;
+	}
+
+	@include media-breakpoint-up(lg) {
+		padding-left: $content-padding-left-lg;
+	}
+}
+
+#footer {
+
+	@include media-breakpoint-down(sm) {
+		padding-bottom: $content-padding-bottom-sm;
+	}
+
+	@include media-breakpoint-up(lg) {
+		padding-left: $content-padding-left-lg;
+	}
+}
+
+#main-content {
+	max-width: $content-max-width;
+	margin: 0 auto;
+	@extend %content-spacing-x;
+}

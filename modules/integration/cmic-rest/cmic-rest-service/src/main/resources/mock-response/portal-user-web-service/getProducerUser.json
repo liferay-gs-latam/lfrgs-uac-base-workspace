@@ -1,0 +1,78 @@
+{
+	"id": 1038,
+	"createdAt": "2020-05-19T13:36:51.041",
+	"updatedAt": "2020-08-18T00:16:56.116",
+	"uuid": "77985eaa-6dd4-4a5c-8004-17bde0a5bd73",
+	"userType": "Producer",
+	"registrationCode": "w3s7gWqy",
+	"registrationExpirationDate": "2020-11-06",
+	"registrationStatus": "Registered",
+	"organizations": [
+		{
+			"id": 355,
+			"createdAt": "2020-09-24T15:40:41.775",
+			"updatedAt": "2020-10-21T15:41:55.345",
+			"producerId": 3928,
+			"divisionNumber": "06",
+			"agentNumber": "056",
+			"role": "owner"
+		},
+		{
+			"id": 205,
+			"createdAt": "2020-08-17T16:10:42.55",
+			"updatedAt": "2020-08-17T16:10:42.55",
+			"producerId": 4003,
+			"divisionNumber": "11",
+			"agentNumber": "129",
+			"role": "admin"
+		},
+		{
+			"id": 192,
+			"createdAt": "2020-08-03T10:28:23.09",
+			"updatedAt": "2020-08-03T10:28:23.09",
+			"producerId": 4005,
+			"divisionNumber": "11",
+			"agentNumber": "140",
+			"role": "admin"
+		},
+		{
+			"id": 175,
+			"createdAt": "2020-07-27T16:37:22.45",
+			"updatedAt": "2020-10-01T16:14:52.677",
+			"producerId": 4159,
+			"divisionNumber": "35",
+			"agentNumber": "376",
+			"role": "admin"
+		},
+		{
+			"id": 204,
+			"createdAt": "2020-08-17T14:18:53.364",
+			"updatedAt": "2020-08-17T14:18:53.364",
+			"producerId": 4009,
+			"divisionNumber": "11",
+			"agentNumber": "160",
+			"role": "admin"
+		},
+		{
+			"id": 203,
+			"createdAt": "2020-08-17T14:17:00.581",
+			"updatedAt": "2020-08-17T14:17:00.581",
+			"producerId": 4008,
+			"divisionNumber": "11",
+			"agentNumber": "151",
+			"role": "admin"
+		},
+		{
+			"id": 213,
+			"createdAt": "2020-08-27T16:56:06.031",
+			"updatedAt": "2020-08-27T16:56:06.031",
+			"producerId": 4000,
+			"divisionNumber": "09",
+			"agentNumber": "998",
+			"role": "admin"
+		}
+	],
+	"accounts": [],
+	"valid": true,
+	"registrationExpired": false
+}
