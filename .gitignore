@@ -30,7 +30,7 @@ test-results
 package.json
 yarn.lock
 
-docker-compose/atabase-dump/*
+docker-compose/database-dump/*
 !database-dump/.keep
 
 bundles/data/document_library/*
