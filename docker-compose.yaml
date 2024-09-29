@@ -17,6 +17,7 @@ services:
     image: liferay/dxp:7.4.13-u102
     environment:
       - LIFERAY_JVM_OPTS=-Xms3g -Xmx4g
+      - LIFERAY_JPDA_ENABLED=true
       - LIFERAY_JDBC_PERIOD_DEFAULT_PERIOD_DRIVER_UPPERCASEC_LASS_UPPERCASEN_AME=com.mysql.cj.jdbc.Driver
       - LIFERAY_JDBC_PERIOD_DEFAULT_PERIOD_URL=jdbc:mysql://database/lportal?characterEncoding=utf8&dontTrackOpenResources=true&holdResultsOpenOverStatementClose=true&serverTimezone=GMT&useFastDateParsing=false&useUnicode=true
       - LIFERAY_JDBC_PERIOD_DEFAULT_PERIOD_USERNAME=root
