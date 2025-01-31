@@ -2,15 +2,15 @@
 
 Liferay DXP 7.2 running on docker compose.
 
-## Stack:
+### Stack:
 - Liferay 7.2
 - PostgreSQL 14
 - Elasticsearch 6
 
-## Optional
+### Optional
 - MySQL
 
-## Requirements
+### Requirements
 
 * Blade (version >=4.1.2)
 * Java JDK 8
