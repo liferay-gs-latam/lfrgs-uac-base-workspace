@@ -2,6 +2,14 @@
 
 Liferay DXP 7.2 running on docker compose.
 
+## Stack:
+- Liferay 7.2
+- PostgreSQL 14
+- Elasticsearch 6
+
+## Optional
+- MySQL
+
 ## Requirements
 
 * Blade (version >=4.1.2)
@@ -30,6 +38,12 @@ blade gw deploy
 
 ```
 docker compose up --build -d
+```
+
+If you want to use MySQL, run:
+
+```
+docker compose -f docker-compose-mysql.yaml up --build -d
 ```
 
 ## Get logs:
