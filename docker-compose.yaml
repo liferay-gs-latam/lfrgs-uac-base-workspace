@@ -50,3 +50,11 @@ services:
       - "node.name=es-node1"
     volumes:
       - ./bundles/data/elasticsearch-data:/usr/share/elasticsearch/data
+
+  webserver:
+    image: baseline/nginx
+    build: ./docker-compose/webserver/
+    ports:
+      - "80:80"
+    depends_on:
+      - liferay
