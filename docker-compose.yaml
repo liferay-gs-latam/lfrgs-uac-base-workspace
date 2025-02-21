@@ -48,6 +48,7 @@ services:
       - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
       - "discovery.type=single-node"
       - "node.name=es-node1"
+      - "xpack.security.enabled=false"
     volumes:
       - ./bundles/data/elasticsearch-data:/usr/share/elasticsearch/data
 
