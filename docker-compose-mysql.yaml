@@ -1,0 +1,61 @@
+services:
+
+  database:
+    image: mysql:8.0.33
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=lportal
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --character-set-client-handshake=FALSE --lower-case-table-names=0
+    volumes:
+       - ./docker-compose/database-dump/:/docker-entrypoint-initdb.d
+    ports:
+      - "3306:3306"
+
+  liferay:
+    image: liferay/dxp:2025.q1.0-lts
+    environment:
+      - LIFERAY_JVM_OPTS=-Xms3g -Xmx4g
+      - LIFERAY_JPDA_ENABLED=true
+      - LIFERAY_JDBC_PERIOD_DEFAULT_PERIOD_DRIVER_UPPERCASEC_LASS_UPPERCASEN_AME=com.mysql.cj.jdbc.Driver
+      - LIFERAY_JDBC_PERIOD_DEFAULT_PERIOD_URL=jdbc:mysql://database/lportal?characterEncoding=utf8&dontTrackOpenResources=true&holdResultsOpenOverStatementClose=true&serverTimezone=GMT&useFastDateParsing=false&useUnicode=true
+      - LIFERAY_JDBC_PERIOD_DEFAULT_PERIOD_USERNAME=root
+      - LIFERAY_JDBC_PERIOD_DEFAULT_PERIOD_PASSWORD=root
+      - LIFERAY_MODULE_PERIOD_FRAMEWORK_PERIOD_PROPERTIES_PERIOD_OSGI_PERIOD_CONSOLE=0.0.0.0:11311
+      - LIFERAY_RETRY_PERIOD_JDBC_PERIOD_ON_PERIOD_STARTUP_PERIOD_DELAY=20
+      - LIFERAY_RETRY_PERIOD_JDBC_PERIOD_ON_PERIOD_STARTUP_PERIOD_MAX_PERIOD_RETRIES=5
+    ports:
+      - "8080:8080"
+      - "11311:11311"
+      - "8000:8000"
+    volumes:
+      - ./docker-compose/liferay-files:/mnt/liferay/files
+      - ./docker-compose/liferay-scripts:/mnt/liferay/scripts
+      - ./bundles/deploy:/mnt/liferay/deploy
+      - ./bundles/osgi/modules:/opt/liferay/osgi/modules
+      - ./bundles/osgi/configs:/opt/liferay/osgi/configs
+      - ./bundles/osgi/war:/opt/liferay/osgi/war
+      - ./bundles/logs:/opt/liferay/logs
+      - ./bundles/data/document_library:/opt/liferay/data/document_library
+    depends_on:
+      - database
+      - search
+
+  search:
+    image: baseline/elasticsearch
+    build: ./docker-compose/elasticsearch/
+    environment:
+      - cluster.name=LiferayElasticsearchCluster
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+      - "discovery.type=single-node"
+      - "node.name=es-node1"
+      - "xpack.security.enabled=false"
+    volumes:
+      - ./bundles/data/elasticsearch-data:/usr/share/elasticsearch/data
+
+  webserver:
+    image: baseline/nginx
+    build: ./docker-compose/webserver/
+    ports:
+      - "80:80"
+    depends_on:
+      - liferay
