@@ -1,7 +1,7 @@
 services:
 
   database:
-    image: postgres:14.15
+    image: postgres:16.6
     environment:
       - POSTGRES_PASSWORD=root
       - POSTGRES_USER=root
@@ -12,7 +12,7 @@ services:
       - "5432:5432"
 
   liferay:
-    image: liferay/dxp:2025.q1.0-lts
+    image: liferay/dxp:2025.q1.2-lts
     environment:
       - LIFERAY_JVM_OPTS=-Xms3g -Xmx4g
       - LIFERAY_JPDA_ENABLED=true
