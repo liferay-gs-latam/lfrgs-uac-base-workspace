@@ -1,6 +1,6 @@
-# Liferay 7.4 DXP
+# Liferay 2026.Q1 DXP
 
-Liferay DXP 7.4 running on docker compose.
+Liferay DXP 2026.Q1 running on docker compose.
 
 ## Requirements
 
